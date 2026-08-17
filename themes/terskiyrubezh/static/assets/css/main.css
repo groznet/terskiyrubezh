@@ -1,0 +1,10 @@
+/* Apply to your main prose/article wrapper */
+.prose p, 
+article p {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+* {
+    background: red;
+}

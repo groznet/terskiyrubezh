@@ -1,7 +1,32 @@
-{{ define "main" }} {{/* Build posts from all nested news sections */}} {{ $posts := slice }} {{ range .RegularPagesRecursive.ByDate.Reverse }} {{ $gallery := dict }} {{ with .Resources.Get "gallery.json" }} {{ $gallery = .Content | transform.Unmarshal
-}} {{ end }} {{ $featuredImage := "" }} {{ with index $gallery "featured_image" }} {{ $featuredImage = . }} {{ end }} {{/* Fallback in case featured_image is missing */}} {{ if not $featuredImage }} {{ with .Params.featuredImage }} {{ $featuredImage =
-. }} {{ end }} {{ end }} {{ $category := "" }} {{ with .Params.categories }} {{ $category = index . 0 }} {{ else }} {{ with .Params.category }} {{ $category = . }} {{ end }} {{ end }} {{ $post := dict "id" .RelPermalink "dateISO" (.Date.Format "2006-01-02")
-"date" (.Date.Format "02.01.2006") "category" $category "title" .Title "excerpt" (.Summary | plainify | strings.TrimSpace) "image" $featuredImage "imageAlt" .Title "url" .RelPermalink }} {{ $posts = $posts | append $post }} {{ end }}
+{{ define "main" }} 
+{{/* Build posts from all nested news sections */}} 
+{{ $posts := slice }} 
+{{ range .RegularPagesRecursive.ByDate.Reverse }} 
+  {{ $gallery := dict }} 
+  {{ with .Resources.Get "gallery.json" }} 
+    {{ $gallery = .Content | transform.Unmarshal }} 
+  {{ end }} 
+  {{ $featuredImage := "" }} 
+  {{ with index $gallery "featured_image" }} 
+    {{ $featuredImage = . }} 
+  {{ end }} 
+  {{/* Fallback in case featured_image is missing */}} 
+  {{ if not $featuredImage }} 
+    {{ with .Params.featuredImage }} 
+      {{ $featuredImage = . }} 
+    {{ end }} 
+  {{ end }} 
+  {{ $category := "" }} 
+  {{ with .Params.categories }} 
+    {{ $category = index . 0 }} 
+  {{ else }} 
+    {{ with .Params.category }} 
+      {{ $category = . }} 
+    {{ end }} 
+  {{ end }} 
+  {{ $post := dict "id" .RelPermalink "dateISO" (.Date.Format "2006-01-02") "date" (.Date.Format "02.01.2006") "category" $category "title" .Title "excerpt" (.Summary | plainify | strings.TrimSpace) "image" $featuredImage "imageAlt" .Title "url" .RelPermalink }} 
+  {{ $posts = $posts | append $post }} 
+{{ end }}
 
 <main class="w-full md:w-3/4" x-data='newsList({{ $posts | jsonify | safeHTMLAttr }})'>
     <article class="space-y-6">
@@ -82,27 +107,10 @@
                     ? 'flex-1'
                     : ''">
 
-                        <!-- Meta -->
-                        <!-- <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-gray-500 font-body">
-                            <time :datetime="post.dateISO" class="font-mono" x-text="post.date"></time>
-
-                            <template x-if="post.category">
-                                <span>•</span>
-                            </template>
-
-                            <template x-if="post.category">
-                                <span class="text-primary font-medium" x-text="post.category"></span>
-                            </template>
-                        </div> -->
-
                         <!-- Title -->
                         <h2 class="text-xl font-bold font-heading text-gray-900 line-clamp-2">
-                    <a
-                        :href="post.url"
-                        class="hover:text-primary transition-colors"
-                        x-text="post.title"
-                    ></a>
-                </h2>
+                            <a :href="post.url" class="hover:text-primary transition-colors" x-text="post.title"></a>
+                        </h2>
 
                         <!-- Excerpt -->
                         <p class="text-gray-700 text-sm leading-relaxed line-clamp-3" x-text="post.excerpt"></p>
@@ -112,58 +120,51 @@
             </template>
         </div>
 
-<!-- Pagination -->
-<nav x-show="totalPages > 1" aria-label="Навигация по страницам"
-    class="flex items-center justify-center gap-1 pt-6">
+        <!-- Pagination -->
+        <nav x-show="totalPages > 1" aria-label="Навигация по страницам" class="flex items-center justify-center gap-1 pt-6 font-mono">
 
-    <!-- Previous -->
-    <button
-        type="button"
-        @click="previousPage()"
-        :disabled="currentPage === 1"
-        class="px-3 py-2 text-sm border border-gray-200 transition-colors"
-        :class="currentPage === 1
-            ? 'text-gray-300 cursor-not-allowed'
-            : 'text-gray-700 hover:bg-gray-50'"
-        aria-label="Предыдущая страница">
-        ←
-    </button>
+            <!-- Previous -->
+            <button type="button"
+                    @click="previousPage()"
+                    :disabled="currentPage === 1"
+                    class="px-3 py-2 text-sm border border-gray-200 transition-colors"
+                    :class="currentPage === 1 ? 'text-gray-300 cursor-not-allowed' : 'text-gray-700 hover:bg-gray-50'"
+                    aria-label="Предыдущая страница">
+                ←
+            </button>
 
-    <!-- Page numbers -->
-    <template x-for="(page, index) in visiblePages" :key="index">
-        <span
-            x-show="page === '...'"
-            class="px-2 py-2 text-sm text-gray-500"
-            x-text="'…'">
-        </span>
+            <!-- Page numbers -->
+            <template x-for="(page, index) in visiblePages" :key="index">
+                <div class="inline-flex items-center">
+                    <template x-if="page === '...'">
+                        <span class="px-2 py-2 text-sm text-gray-500 select-none">…</span>
+                    </template>
 
-        <button
-            x-show="page !== '...'"
-            type="button"
-            @click="goToPage(page)"
-            class="min-w-9 px-3 py-2 text-sm border transition-colors"
-            :class="currentPage === page
-                ? 'bg-gray-900 text-white border-gray-900'
-                : 'border-gray-200 text-gray-700 hover:bg-gray-50'"
-            :aria-current="currentPage === page ? 'page' : false"
-            x-text="page">
-        </button>
-    </template>
+                    <template x-if="page !== '...'">
+                        <button type="button"
+                                @click="goToPage(page)"
+                                class="min-w-9 px-3 py-2 text-sm border transition-colors"
+                                :class="currentPage === page
+                                    ? 'bg-gray-900 text-white border-gray-900 font-semibold'
+                                    : 'border-gray-200 text-gray-700 hover:bg-gray-50'"
+                                :aria-current="currentPage === page ? 'page' : false"
+                                x-text="page">
+                        </button>
+                    </template>
+                </div>
+            </template>
 
-    <!-- Next -->
-    <button
-        type="button"
-        @click="nextPage()"
-        :disabled="currentPage === totalPages"
-        class="px-3 py-2 text-sm border border-gray-200 transition-colors"
-        :class="currentPage === totalPages
-            ? 'text-gray-300 cursor-not-allowed'
-            : 'text-gray-700 hover:bg-gray-50'"
-        aria-label="Следующая страница">
-        →
-    </button>
+            <!-- Next -->
+            <button type="button"
+                    @click="nextPage()"
+                    :disabled="currentPage === totalPages"
+                    class="px-3 py-2 text-sm border border-gray-200 transition-colors"
+                    :class="currentPage === totalPages ? 'text-gray-300 cursor-not-allowed' : 'text-gray-700 hover:bg-gray-50'"
+                    aria-label="Следующая страница">
+                →
+            </button>
 
-</nav>
+        </nav>
 
     </article>
 </main>
