@@ -20,67 +20,25 @@
     </p>
 
     <!-- Photo Grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-4">
 
-      <!-- Item 1 -->
-      <figure class="space-y-2 border border-gray-200 p-2 bg-gray-50">
-        <div class="w-full bg-gray-200 border border-gray-300 aspect-video overflow-hidden">
-          <img src="/assets/images/gallery-1.jpg" alt="Полевые поисковые работы" class="w-full h-full object-cover block hover:scale-105 transition-transform duration-300">
-        </div>
-        <figcaption class="text-xs text-gray-600 font-body px-1">
-          Полевые работы на Терском хребте, Вахта Памяти 2026
-        </figcaption>
-      </figure>
-
-      <!-- Item 2 -->
-      <figure class="space-y-2 border border-gray-200 p-2 bg-gray-50">
-        <div class="w-full bg-gray-200 border border-gray-300 aspect-video overflow-hidden">
-          <img src="/assets/images/gallery-2.jpg" alt="Раскопки и расчистка" class="w-full h-auto object-cover block hover:scale-105 transition-transform duration-300">
-        </div>
-        <figcaption class="text-xs text-gray-600 font-body px-1">
-          Процесс расчистки раскопа на месте стрелковой ячейки
-        </figcaption>
-      </figure>
-
-      <!-- Item 3 -->
-      <figure class="space-y-2 border border-gray-200 p-2 bg-gray-50">
-        <div class="w-full bg-gray-200 border border-gray-300 aspect-video overflow-hidden">
-          <img src="/assets/images/gallery-3.jpg" alt="Найденные артефакты" class="w-full h-full object-cover block hover:scale-105 transition-transform duration-300">
-        </div>
-        <figcaption class="text-xs text-gray-600 font-body px-1">
-          Личные вещи и элементы снаряжения красноармейцев
-        </figcaption>
-      </figure>
-
-      <!-- Item 4 -->
-      <figure class="space-y-2 border border-gray-200 p-2 bg-gray-50">
-        <div class="w-full bg-gray-200 border border-gray-300 aspect-video overflow-hidden">
-          <img src="/assets/images/gallery-4.jpg" alt="Работа с архивами" class="w-full h-full object-cover block hover:scale-105 transition-transform duration-300">
-        </div>
-        <figcaption class="text-xs text-gray-600 font-body px-1">
-          Исследовательская работа со списком потерь в архиве
-        </figcaption>
-      </figure>
-
-      <!-- Item 5 -->
-      <figure class="space-y-2 border border-gray-200 p-2 bg-gray-50">
-        <div class="w-full bg-gray-200 border border-gray-300 aspect-video overflow-hidden">
-          <img src="/assets/images/gallery-5.jpg" alt="Торжественное перезахоронение" class="w-full h-full object-cover block hover:scale-105 transition-transform duration-300">
-        </div>
-        <figcaption class="text-xs text-gray-600 font-body px-1">
-          Церемония перезахоронения останков воинов с воинскими почестями
-        </figcaption>
-      </figure>
-
-      <!-- Item 6 -->
-      <figure class="space-y-2 border border-gray-200 p-2 bg-gray-50">
-        <div class="w-full bg-gray-200 border border-gray-300 aspect-video overflow-hidden">
-          <img src="/assets/images/gallery-6.jpg" alt="Уроки мужества" class="w-full h-full object-cover block hover:scale-105 transition-transform duration-300">
-        </div>
-        <figcaption class="text-xs text-gray-600 font-body px-1">
-          Интерактивная выставка и урок мужества для школьников
-        </figcaption>
-      </figure>
+      {{ range seq 50 }}
+        {{ $image := printf "assets/images/gallery/%d.jpg" . }}
+        {{ if fileExists (printf "static/%s" $image) }}
+          <figure class="space-y-2 border border-gray-200 p-2 bg-gray-50">
+            <div class="w-full bg-gray-200 border border-gray-300 aspect-video overflow-hidden">
+              <a href="/assets/images/gallery/{{ . }}.jpg" target="_blank">
+                <img src="/assets/images/gallery/{{ . }}.jpg"
+                    alt="Фотография {{ . }}"
+                    class="w-full h-full object-cover block hover:scale-105 transition-transform duration-300">
+              </a>
+            </div>
+            <figcaption class="text-xs text-gray-600 font-body px-1">
+              Фотография {{ . }}
+            </figcaption>
+          </figure>
+        {{ end }}
+      {{ end }}
 
     </div>
 

@@ -37,9 +37,9 @@
 		</button>
 	</div>
 	<!-- Nav Links -->
-	<ul id="nav-links" class="hidden md:flex flex-col md:flex-row gap-0 md:gap-6 py-2 md:py-0 text-sm px-4 sm:px-6 lg:px-8 font-heading">
+	<ul id="nav-links" class="hidden md:flex flex-col md:flex-row gap-0 md:gap-6 py-2 font-semibold md:py-0 text-sm px-4 sm:px-6 lg:px-8 font-heading">
 		{{ $currentPage := . }}
-		
+
 		{{ $navItems := slice 
 			(dict "name" "О движении" "url" "/about/")
 			(dict "name" "Направления" "url" "/activities/")
@@ -48,7 +48,7 @@
 			(dict "name" "Новости" "url" "/news/")
 			(dict "name" "Галерея" "url" "/gallery/")
 			(dict "name" "Волонтёрам" "url" "/volunteer/")
-			(dict "name" "Поддержать" "url" "/support/" "special" true)
+			(dict "name" "Поддержать" "url" "/support/")
 			(dict "name" "Контакты" "url" "/contact/")
 		}}
 
@@ -57,7 +57,7 @@
 			{{ $isActive := or (eq $currentPage.RelPermalink $url) (and (ne $url ("/" | relLangURL)) (hasPrefix $currentPage.RelPermalink $url)) }}
 			<li>
 				<a href="{{ $url }}" 
-				class="block py-3 border-b-2 transition-colors duration-150 {{ if $isActive }}text-primary font-semibold border-primary{{ else if .special }}text-accent font-semibold hover:text-red-800 border-transparent{{ else }}text-text hover:text-accent border-transparent{{ end }}">
+				class="block py-3 border-b-2 {{ if $isActive }}text-primary border-primary{{ else }}text-text hover:text-primary border-transparent{{ end }}">
 					{{ .name }}
 				</a>
 			</li>
