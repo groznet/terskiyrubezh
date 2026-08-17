@@ -1,0 +1,78 @@
+{{ define "main" }}
+<!-- RIGHT CONTENT AREA -->
+<main class="w-full md:w-3/4">
+    <article class="space-y-6">
+        <!-- Header Section -->
+        <header class="space-y-3">
+            <h1 class="text-2xl sm:text-3xl font-bold font-heading text-gray-900 tracking-tight"> Поддержать проект </h1>
+            <nav aria-label="Хлебные крошки" class="flex items-center gap-x-2 text-sm text-gray-600 font-body">
+                <a href="/" class="text-primary hover:underline transition-colors font-medium">Главная</a>
+                <span class="text-gray-300">•</span>
+                <span class="text-gray-900 font-medium">Поддержать</span>
+            </nav>
+        </header>
+        <!-- Feature Image Container -->
+        <div class="w-full bg-gray-200 border border-gray-300">
+            <img src="/assets/images/support-main.jpg" alt="Поддержка поискового движения Терский Рубеж" class="w-full h-auto object-cover block">
+        </div>
+        <!-- Body Content -->
+        <div class="text-gray-800 space-y-4">
+            <p> Поисковое движение «Терский Рубеж» — это некоммерческая общественная организация. Все полевые экспедиции, архивные изыскания и работы по увековечению памяти героев осуществляются благодаря поддержке неравнодушных граждан и партнеров. </p>
+            <h2 class="text-xl font-bold font-heading text-gray-900 pt-2"> На что направляются средства </h2>
+            <ul class="list-disc pl-5 space-y-2">
+                <li>
+                    <strong>Оснащение экспедиций:</strong> закупка и обслуживание поискового оборудования, металлодетекторов, шанцевого инструмента и экипировки.
+                </li>
+                <li>
+                    <strong>Полевая логистика:</strong> ГСМ, транспортные расходы и организация лагерей в труднодоступной горно-лесистой местности.
+                </li>
+                <li>
+                    <strong>Архивно-экспертная работа:</strong> оплата архивных справок, экспертных исследований и материально-технических средств консервации находок.
+                </li>
+                <li>
+                    <strong>Мемориальные мероприятия:</strong> установка памятных знаков, благоустройство братских могил и проведение церемоний перезахоронения.
+                </li>
+            </ul>
+        </div>
+        <!-- Financial Details / Ways to Help -->
+        <section class="space-y-4 pt-6 border-t border-gray-200">
+            <h2 class="text-xl font-bold font-heading text-gray-900"> Способы поддержки </h2>
+            <div class="space-y-4">
+                <!-- Bank Details Card -->
+                <div class="p-6 bg-gray-50 border border-gray-200 space-y-3">
+                    <h3 class="font-bold font-heading text-gray-900 text-lg">Банковские реквизиты</h3>
+                    <p class="text-sm text-gray-600">Вы можете сделать перевод по реквизитам организации:</p>
+                    <dl class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm font-mono pt-2">
+                        <div>
+                            <dt class="text-xs font-sans text-gray-500 font-bold uppercase">Получатель</dt>
+                            <dd class="text-gray-900">МОД «Терский Рубеж»</dd>
+                        </div>
+                        <div>
+                            <dt class="text-xs font-sans text-gray-500 font-bold uppercase">ИНН</dt>
+                            <dd class="text-gray-900">2014000000</dd>
+                        </div>
+                        <div>
+                            <dt class="text-xs font-sans text-gray-500 font-bold uppercase">Расчетный счет</dt>
+                            <dd class="text-gray-900">40703810000000000000</dd>
+                        </div>
+                        <div>
+                            <dt class="text-xs font-sans text-gray-500 font-bold uppercase">БИК</dt>
+                            <dd class="text-gray-900">040000000</dd>
+                        </div>
+                        <div class="sm:col-span-2">
+                            <dt class="text-xs font-sans text-gray-500 font-bold uppercase">Назначение платежа</dt>
+                            <dd class="text-gray-900 font-sans">Пожертвование на уставную деятельность движения</dd>
+                        </div>
+                    </dl>
+                </div>
+                <!-- Material Help Card -->
+                <div class="p-6 bg-gray-50 border border-gray-200 space-y-2">
+                    <h3 class="font-bold font-heading text-gray-900 text-lg">Материально-техническая помощь</h3>
+                    <p class="text-sm text-gray-700 leading-relaxed"> Мы также с благодарностью принимаем помощь в виде снаряжения, продуктов питания для полевых лагерей, строительных материалов для восстановления мемориалов и предоставления техники. </p>
+                    <p class="text-sm text-gray-600 pt-2"> Для согласования свяжитесь с нами через волонтерскую форму или по электронной почте. </p>
+                </div>
+            </div>
+        </section>
+    </article>
+</main>
+{{ end }}

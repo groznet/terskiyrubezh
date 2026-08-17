@@ -1,0 +1,145 @@
+##############################################
+# Hugo Configuration (hugo.toml)
+# Refined for Poisk-CHR / Терский Рубеж
+##############################################
+
+baseURL = "https://terskiyrubezh.ru/"
+languageCode = "ru"
+title = "Поисковое движение «Терский Рубеж»"
+theme = "terskiyrubezh"
+enableRobotsTXT = true
+canonifyURLs = true
+pluralizeListTitles = false
+ignoreLogs = ["error-remote-getjson"]
+removePathAccents = true
+
+# --- PAGINATION SETTINGS ---
+[pagination]
+  pagerSize = 8
+
+# --- LANGUAGE SETTINGS ---
+defaultContentLanguage = "ru"
+hasCJKLanguage = false
+
+summaryLength = 70
+
+# Build behavior
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+##############################################
+# CONTENT RENDERING OPTIONS
+##############################################
+
+[markup.goldmark.renderer]
+  unsafe = true                  # Allows HTML inside Markdown files
+
+##############################################
+# SITE PARAMETERS (theme variables)
+##############################################
+
+[params]
+  siteName = "Общественное движение Терский Рубеж"
+  siteSubTitle = "Чеченская региональная общественная организация Поисковый отряд"
+  siteDescription = "Официальный сайт Чеченской региональной общественной организации Поисковый отряд «Терский Рубеж»"
+  author = "Команда Терский Рубеж"
+  copyright = "© 2026"
+  cdn = "https://files.groznet.com/poiskchr"
+
+  defaultImage = "/assets/images/post-placeholder.jpg"
+  dateFormat = "02.01.2006"      # Russian date format
+
+  # Contact info
+  email = "isa-terkho@bk.ru"
+  phone = "8 (928) 744-79-77"
+  address = "Грозный, Чеченская Республика"
+
+  # Appearance
+  [params.theme]
+    layout = "default"
+    colorScheme = "light"
+    logo = "/assets/images/logo.png"
+    favicon = "/favicon.ico"
+
+  # Socials
+  [[params.social]]
+    name = "VK"
+    icon = "vk"
+    url = "https://vk.com/public162517912"
+
+  [[params.social]]
+    name = "Instagram"
+    icon = "instagram"
+    url = "https://instagram.com/isasardalov"
+
+  [[params.social]]
+    name = "YouTube"
+    icon = "youtube"
+    url = "https://www.youtube.com/@poisk-chr"
+
+##############################################
+# TAXONOMIES
+##############################################
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+##############################################
+# MENUS (main navigation matching HTML layout)
+##############################################
+
+[menu]
+
+  [[menu.main]]
+    name = "О движении"
+    url = "/about"
+    weight = 1
+
+  [[menu.main]]
+    name = "Направления"
+    url = "/activities"
+    weight = 2
+
+  [[menu.main]]
+    name = "Экспедиции"
+    url = "/expeditions"
+    weight = 3
+
+  [[menu.main]]
+    name = "Архив"
+    url = "/archive"
+    weight = 4
+
+  [[menu.main]]
+    name = "Новости"
+    url = "/news"
+    weight = 5
+
+  [[menu.main]]
+    name = "Галерея"
+    url = "/gallery"
+    weight = 6
+
+  [[menu.main]]
+    name = "Волонтёрам"
+    url = "/volunteer"
+    weight = 7
+
+  [[menu.main]]
+    name = "Поддержать"
+    url = "/support"
+    weight = 8
+
+  [[menu.main]]
+    name = "Контакты"
+    url = "/contact"
+    weight = 9
+
+##############################################
+# PERMALINKS FORMAT
+##############################################
+[permalinks]
+  news = "/news/:year/:month/:slug/"
+  activities = "/activities/:slug/"
+  tags = "/tags/:slug/"

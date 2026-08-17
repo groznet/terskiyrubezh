@@ -1,0 +1,99 @@
+{{ define "main" }}
+
+<main class="w-full md:w-3/4">
+  <article class="space-y-6">
+    
+    <!-- Header Section -->
+    <header class="space-y-3">
+      <h1 class="text-2xl sm:text-3xl font-bold font-heading text-gray-900 tracking-tight">
+        Архив публикаций
+      </h1>
+      <div class="flex items-center gap-x-2 text-sm text-gray-600 font-body">
+        <span class="font-medium text-gray-900">Лента отчетов и материалов</span>
+        <span class="text-gray-300">•</span>
+        <span>«Терский Рубеж»</span>
+      </div>
+    </header>
+
+    <!-- Intro Paragraph -->
+    <p class="text-gray-800 leading-relaxed">
+      Хронологический свод отчетов о проведенных экспедициях, архивных находках, увековечении памяти воинов и ключевых событиях движения.
+    </p>
+
+    <!-- Archive Items List -->
+    <div class="space-y-6 pt-4">
+
+      <!-- Item 1 -->
+      <section class="border-b border-gray-200 pb-6 space-y-2">
+        <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-gray-500 font-body">
+          <time datetime="2026-08-16" class="font-mono">16 августа 2026</time>
+          <span>•</span>
+          <a href="/activities/expeditions" class="text-primary hover:underline">Экспедиции</a>
+        </div>
+        <h2 class="text-xl font-bold font-heading text-gray-900">
+          <a href="/" class="hover:text-primary transition-colors">
+            Восстановление исторической справедливости
+          </a>
+        </h2>
+        <p class="text-gray-700 text-sm leading-relaxed">
+          На протяжении многих лет общественное движение «Терский Рубеж» ведет активную работу по увековечению памяти защитников Отечества, погибших в годы Великой Отечественной войны...
+        </p>
+      </section>
+
+      <!-- Item 2 -->
+      <section class="border-b border-gray-200 pb-6 space-y-2">
+        <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-gray-500 font-body">
+          <time datetime="2026-05-20" class="font-mono">20 мая 2026</time>
+          <span>•</span>
+          <a href="/activities/identification" class="text-primary hover:underline">Идентификация</a>
+        </div>
+        <h2 class="text-xl font-bold font-heading text-gray-900">
+          <a href="/archive/2026/05/medallion-found" class="hover:text-primary transition-colors">
+            Установлено имя бойца по смертельному медальону
+          </a>
+        </h2>
+        <p class="text-gray-700 text-sm leading-relaxed">
+          В ходе весенней Вахты Памяти на Терском хребте удалось прочитать вкладыш смертельного медальона. Начат поиск родственников красноармейца...
+        </p>
+      </section>
+
+      <!-- Item 3 -->
+      <section class="border-b border-gray-200 pb-6 space-y-2">
+        <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-gray-500 font-body">
+          <time datetime="2025-11-10" class="font-mono">10 ноября 2025</time>
+          <span>•</span>
+          <a href="/activities/archival-research" class="text-primary hover:underline">Архивные исследования</a>
+        </div>
+        <h2 class="text-xl font-bold font-heading text-gray-900">
+          <a href="/archive/2025/11/archival-report" class="hover:text-primary transition-colors">
+            Результаты исследовательской работы в фондах ЦАМО
+          </a>
+        </h2>
+        <p class="text-gray-700 text-sm leading-relaxed">
+          Завершен очередной этап сверки списков безвозвратных потерь стрелковых дивизий, оборонявших подступы к Грозному осенью 1942 года...
+        </p>
+      </section>
+
+      <!-- Item 4 -->
+      <section class="space-y-2">
+        <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-gray-500 font-body">
+          <time datetime="2025-06-22" class="font-mono">22 июня 2025</time>
+          <span>•</span>
+          <a href="/activities/memorials" class="text-primary hover:underline">Мемориалы</a>
+        </div>
+        <h2 class="text-xl font-bold font-heading text-gray-900">
+          <a href="/archive/2025/06/memorial-restoration" class="hover:text-primary transition-colors">
+            Открытие обновленного памятного знака на месте рубежа обороны
+          </a>
+        </h2>
+        <p class="text-gray-700 text-sm leading-relaxed">
+          В День памяти и скорби состоялось торжественное открытие отреставрированного обелиска в честь воинов-артиллеристов...
+        </p>
+      </section>
+
+    </div>
+
+  </article>
+</main>
+
+{{ end }}

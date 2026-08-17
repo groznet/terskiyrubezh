@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+    {{ $videos := site.Data.videos }}
+
+    <main class="w-full md:w-3/4">
+        <article class="space-y-6">
+
+            <!-- Header Section -->
+            <header class="space-y-3">
+                <h1 class="text-2xl sm:text-3xl font-bold font-heading text-gray-900 tracking-tight">
+                    Видео
+                </h1>
+
+                <div class="flex items-center gap-x-2 text-sm text-gray-600 font-body">
+                    <span class="font-medium text-gray-900">
+                        Видеоархив общественного движения «Терский Рубеж»
+                    </span>
+                </div>
+            </header>
+
+            <!-- Videos -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+
+                {{ range $videos }}
+
+                    <article class="space-y-3">
+
+                        <!-- Video -->
+                        <div class="w-full aspect-video bg-gray-200 border border-gray-300 overflow-hidden">
+                            <iframe
+                                src="https://www.youtube.com/embed/{{ .url }}"
+                                title="{{ .title }}"
+                                class="w-full h-full block"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+
+                        <!-- Title -->
+                        <h2 class="text-lg font-bold font-heading text-gray-900 leading-snug">
+                            {{ .title }}
+                        </h2>
+
+                    </article>
+
+                {{ end }}
+
+            </div>
+
+        </article>
+    </main>
+
+{{ end }}

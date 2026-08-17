@@ -1,0 +1,23 @@
+<!-- Floating Toggle Button (Mobile Only) -->
+<button 
+    type="button"
+    @click="sidebarOpen = !sidebarOpen"
+    class="fixed bottom-6 right-6 z-50 p-4 bg-primary text-white rounded-full shadow-lg hover:bg-opacity-90 focus:outline-none md:hidden flex items-center justify-center transition-transform active:scale-95"
+    aria-label="Переключить боковую панель">
+    
+    <!-- Filter Icon (Visible when closed) -->
+    <svg x-show="!sidebarOpen" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
+    </svg>
+    
+    <!-- Close Icon (Visible when open) -->
+    <svg x-show="sidebarOpen" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="display: none;">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+    </svg>
+</button>
+
+<footer class="border-t border-gray-200 bg-gray-50 py-6 mt-12 text-sm text-gray-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left">
+        <p>&copy; 2026 Общественное движение «Терский Рубеж». Все права защищены.</p>
+    </div>
+</footer>

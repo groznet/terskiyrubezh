@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <!-- Page Header -->
+    <header class="border-b border-gray-200 pb-4 mb-8">
+        <h1 class="font-heading text-2xl md:text-3xl font-bold text-primary uppercase tracking-wider">
+            {{ .Title }}
+        </h1>
+        {{ with .Description }}
+        <p class="text-muted text-sm mt-2">{{ . }}</p>
+        {{ end }}
+    </header>
+
+    <!-- Terms Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        {{ range .Data.Terms.ByTitle }}
+        <a href="{{ .Page.RelPermalink }}" 
+           class="flex items-center justify-between p-4 bg-surface border border-gray-200 hover:border-accent hover:shadow-sm transition-all duration-150 group">
+            <span class="font-heading font-medium text-text group-hover:text-accent transition-colors">
+                {{ .Page.Title }}
+            </span>
+            <span class="font-mono text-xs text-muted bg-gray-100 px-2 py-1 rounded">
+                {{ .Count }}
+            </span>
+        </a>
+        {{ range .Pages }}
+        {{ end }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}

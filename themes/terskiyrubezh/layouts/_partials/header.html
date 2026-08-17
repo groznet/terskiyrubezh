@@ -1,0 +1,67 @@
+<header class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-4">
+	<div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+	<!-- Left: Branding -->
+	<a href="/" class="flex items-center gap-3 group text-decoration-none">
+		<img src="/assets/images/logo.png" alt="Терский Рубеж Logo" class="h-12 sm:h-14 w-auto object-contain" />
+		<div class="border-l border-gray-300 pl-3">
+		<div class="text-xs font-heading font-bold text-primary leading-tight uppercase">Общественное движение Терский Рубеж</div>
+		<div class="text-[11px] text-muted italic">Чеченская региональная общественная организация Поисковый отряд</div>
+		</div>
+	</a>
+	<!-- Right: Search Bar -->
+	<div class="w-full md:w-auto">
+		<form action="/search" method="GET" class="flex items-center">
+		<label for="search-input" class="sr-only">Поиск</label>
+		<input type="text" id="search-input" placeholder="Поиск по архиву и новостям..." class="w-full md:w-64 border border-gray-300 bg-surface px-3 py-1.5 text-sm focus:outline-none focus:border-primary">
+		<button type="submit" aria-label="Искать" class="border border-l-0 border-gray-300 px-3 py-1.5 bg-gray-100 hover:bg-gray-200 text-primary focus:outline-none">
+			<!-- Search Icon -->
+			<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+			</svg>
+		</button>
+		</form>
+	</div>
+	</div>
+</header>
+
+<!-- 2. MAIN HORIZONTAL NAVIGATION -->
+<nav class="border-y border-gray-200 bg-surface">
+	<div class="max-w-7xl mx-auto">
+	<!-- Mobile Menu Button -->
+	<div class="flex md:hidden justify-between items-center py-3 px-4 sm:px-6 lg:px-8 bg-gray-50">
+		<span class="text-xs font-heading font-bold uppercase tracking-wider text-primary">Навигация</span>
+		<button id="mobile-menu-btn" type="button" class="text-primary hover:text-accent focus:outline-none p-1" aria-expanded="false" aria-controls="nav-links">
+		<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+		</svg>
+		</button>
+	</div>
+	<!-- Nav Links -->
+	<ul id="nav-links" class="hidden md:flex flex-col md:flex-row gap-0 md:gap-6 py-2 md:py-0 text-sm px-4 sm:px-6 lg:px-8 font-heading">
+		{{ $currentPage := . }}
+		
+		{{ $navItems := slice 
+			(dict "name" "О движении" "url" "/about/")
+			(dict "name" "Направления" "url" "/activities/")
+			(dict "name" "Экспедиции" "url" "/expeditions/")
+			(dict "name" "Архив" "url" "/archive/")
+			(dict "name" "Новости" "url" "/news/")
+			(dict "name" "Галерея" "url" "/gallery/")
+			(dict "name" "Волонтёрам" "url" "/volunteer/")
+			(dict "name" "Поддержать" "url" "/support/" "special" true)
+			(dict "name" "Контакты" "url" "/contact/")
+		}}
+
+		{{ range $navItems }}
+			{{ $url := .url | relLangURL }}
+			{{ $isActive := or (eq $currentPage.RelPermalink $url) (and (ne $url ("/" | relLangURL)) (hasPrefix $currentPage.RelPermalink $url)) }}
+			<li>
+				<a href="{{ $url }}" 
+				class="block py-3 border-b-2 transition-colors duration-150 {{ if $isActive }}text-primary font-semibold border-primary{{ else if .special }}text-accent font-semibold hover:text-red-800 border-transparent{{ else }}text-text hover:text-accent border-transparent{{ end }}">
+					{{ .name }}
+				</a>
+			</li>
+		{{ end }}
+	</ul>
+	</div>
+</nav>

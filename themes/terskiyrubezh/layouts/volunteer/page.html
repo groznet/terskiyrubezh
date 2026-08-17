@@ -1,0 +1,97 @@
+{{ define "main" }}
+
+<main class="w-full md:w-3/4">
+  <article class="space-y-6">
+    
+    <!-- Header Section -->
+    <header class="space-y-3">
+      <h1 class="text-2xl sm:text-3xl font-bold font-heading text-gray-900 tracking-tight">
+        Присоединиться к движению
+      </h1>
+      <nav aria-label="Хлебные крошки" class="flex items-center gap-x-2 text-sm text-gray-600 font-body">
+        <a href="/" class="text-primary hover:underline transition-colors font-medium">Главная</a>
+        <span class="text-gray-300">•</span>
+        <span class="text-gray-900 font-medium">Присоединиться</span>
+      </nav>
+    </header>
+
+    <!-- Feature Image Container -->
+    <div class="w-full bg-gray-200 border border-gray-300">
+      <img src="/assets/images/volunteer-main.jpg" alt="Волонтеры поискового движения Терский Рубеж" class="w-full h-auto object-cover block">
+    </div>
+
+    <!-- Body Content -->
+    <div class="text-gray-800 space-y-4">
+      <p>
+        Каждый может внести свой вклад в дело сохранения исторической памяти. Общественное движение «Терский Рубеж» приглашает добровольцев, готовых участвовать в полевых экспедициях, архивных исследованиях, просветительских и организационных проектах.
+      </p>
+
+      <h2 class="text-xl font-bold font-heading text-gray-900 pt-2">
+        Как вы можете помочь?
+      </h2>
+
+      <ul class="list-disc pl-5 space-y-2">
+        <li><strong>Участие в экспедициях:</strong> работа непосредственно на местности в составе поисковых отрядов (полевой лагерь, раскопки, логистика).</li>
+        <li><strong>Архивный поиск:</strong> обработка электронных баз данных, работу с документами ЦАМО, поиск родственников погибших воинов.</li>
+        <li><strong>Медиа и освещение:</strong> фото- и видеосъемка экспедиций, написание материалов, ведение социальных сетей и работы с прессой.</li>
+        <li><strong>Просвещение и выставки:</strong> помощь в организации уроков мужества, сопровождении мобильных музейных экспозиций.</li>
+      </ul>
+    </div>
+
+    <!-- Application Form Section -->
+      <section class="space-y-4 pt-6 border-t border-gray-200">
+      <h2 class="text-xl font-bold font-heading text-gray-900">
+          Анкета волонтера
+      </h2>
+
+      <!-- Уведомление о ФЗ-152 -->
+      <div class="max-w-2xl bg-amber-50 border-l-4 border-amber-500 p-4 text-xs text-amber-900 leading-relaxed">
+          <p class="font-bold mb-1">Прием анкет временно приостановлен</p>
+          <p>В соответствии с Федеральным законом № 152-ФЗ «О персональных данных» форма регистрации волонтеров временно отключена. Сбор и обработка персональных данных через сайт не осуществляются.</p>
+      </div>
+
+      <form action="#" method="POST" class="space-y-4 max-w-2xl bg-gray-50 border border-gray-200 p-6 opacity-60">
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="space-y-1">
+              <label for="name" class="block text-xs font-bold text-gray-700 uppercase tracking-wider">ФИО *</label>
+              <input type="text" id="name" name="name" disabled class="w-full border border-gray-300 px-3 py-2 text-sm bg-gray-100 cursor-not-allowed focus:outline-none">
+          </div>
+
+          <div class="space-y-1">
+              <label for="phone" class="block text-xs font-bold text-gray-700 uppercase tracking-wider">Телефон *</label>
+              <input type="tel" id="phone" name="phone" disabled class="w-full border border-gray-300 px-3 py-2 text-sm bg-gray-100 cursor-not-allowed focus:outline-none">
+          </div>
+          </div>
+
+          <div class="space-y-1">
+          <label for="email" class="block text-xs font-bold text-gray-700 uppercase tracking-wider">E-mail</label>
+          <input type="email" id="email" name="email" disabled class="w-full border border-gray-300 px-3 py-2 text-sm bg-gray-100 cursor-not-allowed focus:outline-none">
+          </div>
+
+          <div class="space-y-1">
+          <label for="direction" class="block text-xs font-bold text-gray-700 uppercase tracking-wider">Интересующее направление</label>
+          <select id="direction" name="direction" disabled class="w-full border border-gray-300 px-3 py-2 text-sm bg-gray-100 cursor-not-allowed focus:outline-none">
+              <option value="expeditions">Полевые экспедиции</option>
+              <option value="archive">Архивный поиск</option>
+              <option value="media">Медиа и фото/видео</option>
+              <option value="education">Просветительские проекты</option>
+          </select>
+          </div>
+
+          <div class="space-y-1">
+          <label for="message" class="block text-xs font-bold text-gray-700 uppercase tracking-wider">О себе / Опыт (необязательно)</label>
+          <textarea id="message" name="message" rows="3" disabled class="w-full border border-gray-300 px-3 py-2 text-sm bg-gray-100 cursor-not-allowed focus:outline-none"></textarea>
+          </div>
+
+          <button type="button" disabled class="bg-gray-400 text-white font-bold font-heading px-6 py-2.5 text-sm uppercase tracking-wider cursor-not-allowed">
+          Отправка недоступна
+          </button>
+
+      </form>
+      </section>
+
+  </article>
+</main>
+
+{{ end }}

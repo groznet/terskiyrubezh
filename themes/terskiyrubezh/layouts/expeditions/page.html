@@ -1,0 +1,72 @@
+{{ define "main" }}
+
+<main class="w-full md:w-3/4">
+  <article class="space-y-6">
+    
+    <!-- Header Section -->
+    <header class="space-y-3">
+      <h1 class="text-2xl sm:text-3xl font-bold font-heading text-gray-900 tracking-tight">
+        Поисковые экспедиции
+      </h1>
+      <nav aria-label="Хлебные крошки" class="flex items-center gap-x-2 text-sm text-gray-600 font-body">
+        <a href="/" class="text-primary hover:underline transition-colors font-medium">Главная</a>
+        <span class="text-gray-300">•</span>
+        <span class="text-gray-900 font-medium">Экспедиции</span>
+      </nav>
+    </header>
+
+    <!-- Feature Image Container -->
+    <div class="w-full bg-gray-200 border border-gray-300">
+      <img src="/assets/images/expeditions-main.jpg" alt="Поисковая экспедиция движении Терский Рубеж" class="w-full h-auto object-cover block">
+    </div>
+
+    <!-- Body Content -->
+    <div class="text-gray-800 space-y-4">
+      <p>
+        Полевые поисковые экспедиции — ключевое направление работы движения «Терский Рубеж». Ежегодно наша команда выезжает на места кровопролитных боев Битвы за Кавказ для локализации неучтенных захоронений, эксгумации останков погибших защитников Отечества и поиска личных вещей красноармейцев.
+      </p>
+      <p>
+        Работы ведутся в строгом соответствии с поисковыми протоколами, с привлечением экспертов, картографов и историков. Каждая полевая Вахта Памяти включает в себя полный цикл от предварительной разведки рельефа до передачи найденных реликвий и медальонов на экспертизу.
+      </p>
+
+      <h2 class="text-xl font-bold font-heading text-gray-900 pt-2">
+        Задачи полевых выездов
+      </h2>
+
+      <ul class="list-disc pl-5 space-y-2">
+        <li><strong>Разведка и мониторинг:</strong> обследование рубежей обороны, траншей, блиндажей и мест паданий боевой авиации.</li>
+        <li><strong>Эксгумация:</strong> профессиональный подъем останков бойцов с составлением протоколов и раскопочных карт.</li>
+        <li><strong>Сохранение артефактов:</strong> первичная консервация найденных личных вещей, смертельных медальонов и предметов снаряжения.</li>
+        <li><strong>Межрегиональные Вахты Памяти:</strong> совместные экспедиции с поисковыми отрядами из других регионов России.</li>
+      </ul>
+    </div>
+
+    <!-- Recent Expeditions List -->
+    <section class="space-y-4 pt-6 border-t border-gray-200">
+      <h2 class="text-xl font-bold font-heading text-gray-900">
+        Последние экспедиции
+      </h2>
+
+      <div class="space-y-4">
+        <div class="p-4 border border-gray-200 bg-gray-50 flex flex-col sm:flex-row justify-between sm:items-center gap-2">
+          <div>
+            <h3 class="font-bold font-heading text-gray-900">Вахта Памяти: Терский хребет</h3>
+            <p class="text-sm text-gray-600">Обнаружены останки 6 красноармейцев и 1 смертный медальон.</p>
+          </div>
+          <time datetime="2026-05" class="text-xs text-gray-500 font-mono flex-shrink-0">Май 2026</time>
+        </div>
+
+        <div class="p-4 border border-gray-200 bg-gray-50 flex flex-col sm:flex-row justify-between sm:items-center gap-2">
+          <div>
+            <h3 class="font-bold font-heading text-gray-900">Разведывательный выезд в Малгобекский сектор</h3>
+            <p class="text-sm text-gray-600">Локализованы позиции артиллерийской батареи и стрелковые ячейки.</p>
+          </div>
+          <time datetime="2025-10" class="text-xs text-gray-500 font-mono flex-shrink-0">Октябрь 2025</time>
+        </div>
+      </div>
+    </section>
+
+  </article>
+</main>
+
+{{ end }}

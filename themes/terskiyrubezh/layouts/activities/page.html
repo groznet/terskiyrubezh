@@ -1,0 +1,109 @@
+{{ define "main" }}
+
+<main class="w-full md:w-3/4">
+  <article class="space-y-8">
+    
+    <!-- Header Section -->
+    <header class="space-y-3">
+      <h1 class="text-2xl sm:text-3xl font-bold font-heading text-gray-900 tracking-tight">
+        Направления деятельности
+      </h1>
+      <div class="flex items-center gap-x-2 text-sm text-gray-600 font-body">
+        <span class="font-medium text-gray-900">Общественное движение «Терский Рубеж»</span>
+      </div>
+    </header>
+
+    <!-- Key Activities Grid -->
+      <div class="space-y-8">
+
+      <!-- Activity 1: Field Expeditions (Image Left) -->
+      <section class="border-b border-gray-200 pb-6">
+          <div class="flex flex-col md:flex-row gap-6 items-center">
+          <div class="w-full md:w-1/2 flex-shrink-0 bg-gray-200">
+              <img src="/assets/images/expeditions.jpg" alt="Поисковые экспедиции" class="w-full h-48 sm:h-56 object-cover block">
+          </div>
+          <div class="w-full md:w-1/2 space-y-2">
+              <h2 class="text-xl font-bold font-heading text-gray-900">
+              <a href="/activities/expeditions" class="hover:text-primary transition-colors">Поисковые экспедиции</a>
+              </h2>
+              <p class="text-gray-800 leading-relaxed text-sm sm:text-base">
+              Организация и проведение полевых вахт памяти, эксгумационные работы, обнаружение неучтенных захоронений и останков защитников Отечества на местах сражений Битвы за Кавказ.
+              </p>
+          </div>
+          </div>
+      </section>
+
+      <!-- Activity 2: Archival Research (Image Right) -->
+      <section class="border-b border-gray-200 pb-6">
+          <div class="flex flex-col md:flex-row-reverse gap-6 items-center">
+          <div class="w-full md:w-1/2 flex-shrink-0 bg-gray-200">
+              <img src="/assets/images/archival-research.jpg" alt="Архивные исследования" class="w-full h-48 sm:h-56 object-cover block">
+          </div>
+          <div class="w-full md:w-1/2 space-y-2">
+              <h2 class="text-xl font-bold font-heading text-gray-900">
+              <a href="/activities/archival-research" class="hover:text-primary transition-colors">Архивные исследования</a>
+              </h2>
+              <p class="text-gray-800 leading-relaxed text-sm sm:text-base">
+              Работа с фондами ЦАМО, государственными и региональными архивами для сверки списков потерь, установления боевого пути полков и сверки имен погибших красноармейцев.
+              </p>
+          </div>
+          </div>
+      </section>
+
+      <!-- Activity 3: Identification (Image Left) -->
+      <section class="border-b border-gray-200 pb-6">
+          <div class="flex flex-col md:flex-row gap-6 items-center">
+          <div class="w-full md:w-1/2 flex-shrink-0 bg-gray-200">
+              <img src="/assets/images/identification.jpg" alt="Идентификация и поиск родственников" class="w-full h-48 sm:h-56 object-cover block">
+          </div>
+          <div class="w-full md:w-1/2 space-y-2">
+              <h2 class="text-xl font-bold font-heading text-gray-900">
+              <a href="/activities/identification" class="hover:text-primary transition-colors">Идентификация и поиск родственников</a>
+              </h2>
+              <p class="text-gray-800 leading-relaxed text-sm sm:text-base">
+              Прочтение смертельных медальонов, именных вещей и наград. Розыск семей найденных бойцов для передач реликвий и подготовки к торжественным церемониям захоронения.
+              </p>
+          </div>
+          </div>
+      </section>
+
+      <!-- Activity 4: Memorials (Image Right) -->
+      <section class="border-b border-gray-200 pb-6">
+          <div class="flex flex-col md:flex-row-reverse gap-6 items-center">
+          <div class="w-full md:w-1/2 flex-shrink-0 bg-gray-200">
+              <img src="/assets/images/memorials.jpg" alt="Памятники и мемориалы" class="w-full h-48 sm:h-56 object-cover block">
+          </div>
+          <div class="w-full md:w-1/2 space-y-2">
+              <h2 class="text-xl font-bold font-heading text-gray-900">
+              <a href="/activities/memorials" class="hover:text-primary transition-colors">Памятники и мемориалы</a>
+              </h2>
+              <p class="text-gray-800 leading-relaxed text-sm sm:text-base">
+              Инспекция, благоустройство и установка новых мемориальных знаков и обелисков на местах братских могил и рубежах обороны в Чеченской Республике.
+              </p>
+          </div>
+          </div>
+      </section>
+
+      <!-- Activity 5: Education (Image Left) -->
+      <section>
+          <div class="flex flex-col md:flex-row gap-6 items-center">
+          <div class="w-full md:w-1/2 flex-shrink-0 bg-gray-200">
+              <img src="/assets/images/education.jpg" alt="Просветительская работа" class="w-full h-48 sm:h-56 object-cover block">
+          </div>
+          <div class="w-full md:w-1/2 space-y-2">
+              <h2 class="text-xl font-bold font-heading text-gray-900">
+              <a href="/activities/education" class="hover:text-primary transition-colors">Просветительская работа</a>
+              </h2>
+              <p class="text-gray-800 leading-relaxed text-sm sm:text-base">
+              Проведение уроков мужества в школах и ВУЗах, выездные интерактивные выставки найденных артефактов и привлечение молодежи к поисково-исследовательской деятельности.
+              </p>
+          </div>
+          </div>
+      </section>
+
+      </div>
+
+  </article>
+</main>
+
+{{ end }}
