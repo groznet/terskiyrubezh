@@ -1,4 +1,4 @@
-<aside id="sidebar" @click="if ($event.target.closest('a')) sidebarOpen = false" :class="sidebarOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'" class="fixed inset-y-0 left-0 z-50 w-80 bg-white p-6 overflow-y-auto border-r border-gray-200 shadow-xl md:shadow-none md:static md:z-auto md:w-1/4 md:p-0 md:border-r-0 md:overflow-visible flex-shrink-0">
+<aside id="sidebar" @click="if ($event.target.closest('a')) sidebarOpen = false" :class="sidebarOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'" class="fixed inset-y-0 left-0 z-50 w-80 p-6 overflow-y-auto border-r border-gray-200 shadow-xl md:shadow-none md:static md:z-auto md:w-1/4 md:p-0 md:border-r-0 md:overflow-visible flex-shrink-0" style="background-image: url('/assets/images/visuals/old-paper-pattern.jpg'); background-repeat: repeat;">
     <!-- Mobile Header inside Sidebar -->
     <div class="flex items-center justify-between pb-4 border-b border-gray-200 md:hidden">
         <span class="font-heading font-bold text-gray-900">Фильтры и архив</span>
@@ -17,7 +17,7 @@
     <div x-data="{ openYear: '{{ $latestYear }}', showOlderYears: false }">
         <h2 class="font-heading font-bold text-primary border-b border-gray-300 pb-2 uppercase tracking-wider"> Архив по годам </h2>
         <nav aria-label="Архив по годам">
-            <ul class="divide-y divide-gray-200 text-sm">
+            <ul class="text-sm">
                 {{ range $index, $yearGroup := $yearGroups }}
                 {{ $year := $yearGroup.Key }}
 
