@@ -1,174 +1,83 @@
-<aside id="sidebar" @click="if ($event.target.closest('a')) sidebarOpen = false" :class="sidebarOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'" class="fixed inset-y-0 left-0 z-50 w-80 bg-white p-6 overflow-y-auto transition-transform duration-300 ease-in-out border-r border-gray-200 shadow-xl md:shadow-none md:static md:z-auto md:w-1/4 md:p-0 md:border-r-0 md:overflow-visible flex-shrink-0">
-	<!-- Mobile Header inside Sidebar -->
-	<div class="flex items-center justify-between pb-4 border-b border-gray-200 md:hidden">
-		<span class="font-heading font-bold text-gray-900">Фильтры и архив</span>
-		<button @click="sidebarOpen = false" class="p-1 text-gray-500 hover:text-gray-900 focus:outline-none">
-			<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-			</svg>
-		</button>
-	</div>
-	<!-- Widget 1: Archive by Years -->
-	<div>
-		<h2 class="font-heading font-bold text-primary border-b border-gray-300 pb-2 uppercase tracking-wider"> Архив по годам </h2>
-		<nav aria-label="Архив по годам">
-			<ul class="divide-y divide-gray-200 text-sm">
-				<li>
-					<button type="button" class="accordion-btn w-full flex items-center justify-between py-3 text-left bg-surface font-semibold text-primary" aria-expanded="true">
-						<span>2026</span>
-						<span class="icon font-mono text-base font-normal text-accent">—</span>
-					</button>
-					<ul class="accordion-content bg-surface py-2 pl-3 pr-2 space-y-2 text-muted border-t border-gray-200">
-						<li>
-							<a href="/news/2026/12" class="block hover:text-accent hover:underline">Декабрь</a>
-						</li>
-						<li>
-							<a href="/news/2026/11" class="block hover:text-accent hover:underline">Ноябрь</a>
-						</li>
-						<li>
-							<a href="/news/2026/10" class="block hover:text-accent hover:underline">Октябрь</a>
-						</li>
-						<li>
-							<a href="/news/2026/09" class="block hover:text-accent hover:underline">Сентябрь</a>
-						</li>
-						<li>
-							<a href="/news/2026/08" class="block hover:text-accent hover:underline">Август</a>
-						</li>
-						<li>
-							<a href="/news/2026/07" class="block hover:text-accent hover:underline">Июль</a>
-						</li>
-						<li>
-							<a href="/news/2026/06" class="block hover:text-accent hover:underline">Июнь</a>
-						</li>
-						<li>
-							<a href="/news/2026/05" class="block hover:text-accent hover:underline">Май</a>
-						</li>
-						<li>
-							<a href="/news/2026/04" class="block hover:text-accent hover:underline">Апрель</a>
-						</li>
-						<li>
-							<a href="/news/2026/03" class="block hover:text-accent hover:underline">Март</a>
-						</li>
-						<li>
-							<a href="/news/2026/02" class="block hover:text-accent hover:underline">Февраль</a>
-						</li>
-						<li>
-							<a href="/news/2026/01" class="block hover:text-accent hover:underline">Январь</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<button type="button" class="accordion-btn w-full flex items-center justify-between py-3 text-left hover:bg-surface text-text font-medium" aria-expanded="false">
-						<span>2025</span>
-						<span class="icon font-mono text-base font-normal text-primary">+</span>
-					</button>
-					<ul class="accordion-content hidden bg-surface py-2 pl-3 pr-2 space-y-2 text-muted border-t border-gray-200">
-						<li>
-							<a href="/news/2025/12" class="block hover:text-accent hover:underline">Декабрь</a>
-						</li>
-						<li>
-							<a href="/news/2025/11" class="block hover:text-accent hover:underline">Ноябрь</a>
-						</li>
-						<li>
-							<a href="/news/2025/10" class="block hover:text-accent hover:underline">Октябрь</a>
-						</li>
-						<li>
-							<a href="/news/2025/09" class="block hover:text-accent hover:underline">Сентябрь</a>
-						</li>
-						<li>
-							<a href="/news/2025/08" class="block hover:text-accent hover:underline">Август</a>
-						</li>
-						<li>
-							<a href="/news/2025/07" class="block hover:text-accent hover:underline">Июль</a>
-						</li>
-						<li>
-							<a href="/news/2025/06" class="block hover:text-accent hover:underline">Июнь</a>
-						</li>
-						<li>
-							<a href="/news/2025/05" class="block hover:text-accent hover:underline">Май</a>
-						</li>
-						<li>
-							<a href="/news/2025/04" class="block hover:text-accent hover:underline">Апрель</a>
-						</li>
-						<li>
-							<a href="/news/2025/03" class="block hover:text-accent hover:underline">Март</a>
-						</li>
-						<li>
-							<a href="/news/2025/02" class="block hover:text-accent hover:underline">Февраль</a>
-						</li>
-						<li>
-							<a href="/news/2025/01" class="block hover:text-accent hover:underline">Январь</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<button type="button" class="accordion-btn w-full flex items-center justify-between py-3 text-left hover:bg-surface text-text font-medium" aria-expanded="false">
-						<span>2024</span>
-						<span class="icon font-mono text-base font-normal text-primary">+</span>
-					</button>
-					<ul class="accordion-content hidden bg-surface py-2 pl-3 pr-2 space-y-2 text-muted border-t border-gray-200">
-						<li>
-							<a href="/news/2024/12" class="block hover:text-accent hover:underline">Декабрь</a>
-						</li>
-						<li>
-							<a href="/news/2024/11" class="block hover:text-accent hover:underline">Ноябрь</a>
-						</li>
-						<li>
-							<a href="/news/2024/10" class="block hover:text-accent hover:underline">Октябрь</a>
-						</li>
-						<li>
-							<a href="/news/2024/09" class="block hover:text-accent hover:underline">Сентябрь</a>
-						</li>
-						<li>
-							<a href="/news/2024/08" class="block hover:text-accent hover:underline">Август</a>
-						</li>
-						<li>
-							<a href="/news/2024/07" class="block hover:text-accent hover:underline">Июль</a>
-						</li>
-						<li>
-							<a href="/news/2024/06" class="block hover:text-accent hover:underline">Июнь</a>
-						</li>
-						<li>
-							<a href="/news/2024/05" class="block hover:text-accent hover:underline">Май</a>
-						</li>
-						<li>
-							<a href="/news/2024/04" class="block hover:text-accent hover:underline">Апрель</a>
-						</li>
-						<li>
-							<a href="/news/2024/03" class="block hover:text-accent hover:underline">Март</a>
-						</li>
-						<li>
-							<a href="/news/2024/02" class="block hover:text-accent hover:underline">Февраль</a>
-						</li>
-						<li>
-							<a href="/news/2024/01" class="block hover:text-accent hover:underline">Январь</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<button type="button" class="accordion-btn w-full flex items-center justify-between py-3 text-left hover:bg-surface text-text font-medium" aria-expanded="false">
-						<span>Более ранние года</span>
-						<span class="icon font-mono text-base font-normal text-primary">+</span>
-					</button>
-					<ul class="accordion-content hidden bg-surface py-2 pl-3 pr-2 space-y-2 text-muted border-t border-gray-200">
-						<li>
-							<a href="/news/2023" class="block hover:text-accent hover:underline">2023 год</a>
-						</li>
-						<li>
-							<a href="/news/2022" class="block hover:text-accent hover:underline">2022 год</a>
-						</li>
-						<li>
-							<a href="/news/2021" class="block hover:text-accent hover:underline">2021 год</a>
-						</li>
-						<li>
-							<a href="/news/2020" class="block hover:text-accent hover:underline">2020 год</a>
-						</li>
-					</ul>
-				</li>
-			</ul>
-		</nav>
-	</div>
-	<!-- Widget 2: Categories -->
+<aside id="sidebar" @click="if ($event.target.closest('a')) sidebarOpen = false" :class="sidebarOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'" class="fixed inset-y-0 left-0 z-50 w-80 bg-white p-6 overflow-y-auto border-r border-gray-200 shadow-xl md:shadow-none md:static md:z-auto md:w-1/4 md:p-0 md:border-r-0 md:overflow-visible flex-shrink-0">
+    <!-- Mobile Header inside Sidebar -->
+    <div class="flex items-center justify-between pb-4 border-b border-gray-200 md:hidden">
+        <span class="font-heading font-bold text-gray-900">Фильтры и архив</span>
+        <button @click="sidebarOpen = false" class="p-1 text-gray-500 hover:text-gray-900 focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- Widget 1: Dynamic Archive by Years & Months -->
+    {{ $newsPages := where .Site.RegularPages "Section" "news" }}
+    {{ if $newsPages }}
+    {{ $yearGroups := $newsPages.GroupByDate "2006" }}
+    {{ $latestYear := (index $yearGroups 0).Key }}
+    <div x-data="{ openYear: '{{ $latestYear }}', showOlderYears: false }">
+        <h2 class="font-heading font-bold text-primary border-b border-gray-300 pb-2 uppercase tracking-wider"> Архив по годам </h2>
+        <nav aria-label="Архив по годам">
+            <ul class="divide-y divide-gray-200 text-sm">
+                {{ range $index, $yearGroup := $yearGroups }}
+                {{ $year := $yearGroup.Key }}
+
+                {{/* Recent 3 years: Show with month expansion */}}
+                {{ if lt $index 3 }}
+                <li>
+                    <button type="button" 
+                            @click="openYear = (openYear === '{{ $year }}' ? null : '{{ $year }}')"
+                            class="w-full flex items-center justify-between py-3 text-left hover:bg-surface text-text font-medium"
+                            :class="openYear === '{{ $year }}' ? 'bg-surface font-semibold text-primary' : ''">
+                        <span>{{ $year }}</span>
+                        <span class="font-mono text-base font-normal" :class="openYear === '{{ $year }}' ? 'text-accent' : 'text-primary'" x-text="openYear === '{{ $year }}' ? '—' : '+'">+</span>
+                    </button>
+
+                    <ul x-show="openYear === '{{ $year }}'" 
+                        class="bg-surface py-2 pl-3 pr-2 space-y-2 text-muted border-t border-gray-200">
+                        {{ range $yearGroup.Pages.GroupByDate "January" }}
+                        {{ $monthName := .Key }}
+                        {{ $samplePage := index .Pages 0 }}
+                        {{ $monthNum := $samplePage.Date.Format "01" }}
+                        
+                        {{ $monthsRu := dict "January" "Январь" "February" "Февраль" "March" "Март" "April" "Апрель" "May" "Май" "June" "Июнь" "July" "Июль" "August" "Август" "September" "Сентябрь" "October" "Ноябрь" "December" "Декабрь" }}
+                        {{ $ruMonth := index $monthsRu $monthName | default $monthName }}
+                        
+                        <li>
+                            <a href="/news/{{ $year }}/{{ $monthNum }}/" class="block hover:text-accent hover:underline">
+                                {{ $ruMonth }}
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+
+                {{/* Older years: Wrapped in hidden toggle list (years only) */}}
+                {{ else }}
+                <li x-show="showOlderYears">
+                    <a href="/news/{{ $year }}/" class="block py-3 text-text hover:text-accent hover:bg-surface font-medium">
+                        {{ $year }} год
+                    </a>
+                </li>
+                {{ end }}
+                {{ end }}
+
+                {{/* Toggle button if there are more than 3 years */}}
+                {{ if gt (len $yearGroups) 3 }}
+                <li>
+                    <button type="button" 
+                            @click="showOlderYears = !showOlderYears" 
+                            class="w-full flex items-center justify-between py-2.5 text-xs font-semibold text-primary hover:text-accent uppercase tracking-wider pt-3">
+                        <span x-text="showOlderYears ? 'Скрыть ранние года' : 'Более ранние года'"></span>
+                        <span :class="showOlderYears ? 'rotate-180' : ''">↓</span>
+                    </button>
+                </li>
+                {{ end }}
+            </ul>
+        </nav>
+    </div>
+    {{ end }}
+
+    <!-- Widget 2: Categories -->
     {{ with .Site.Taxonomies.categories }}
     <div class="mt-4">
         <h2 class="font-heading font-bold text-primary border-b border-gray-300 pb-2 uppercase tracking-wider"> Категории </h2>
@@ -176,7 +85,7 @@
             <ul class="divide-y divide-gray-200 text-sm">
                 {{ range $name, $taxonomy := . }}
                 <li>
-                    <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}/" class="block py-2.5 text-text hover:text-accent hover:bg-surface flex justify-between items-center transition-colors">
+                    <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}/" class="block py-2.5 text-text hover:text-accent hover:bg-surface flex justify-between items-center">
                         <span>{{ $name | title }}</span>
                         <span class="text-xs text-muted font-mono">({{ $taxonomy.Count }})</span>
                     </a>
@@ -186,17 +95,18 @@
         </nav>
     </div>
     {{ end }}
-	<!-- Widget 3: Tags -->
-	{{ with .Site.Taxonomies.tags }}
-	<div class="mt-4">
-		<h2 class="font-heading font-bold text-primary border-b border-gray-300 pb-2 mb-4 uppercase tracking-wider"> Популярные теги </h2>
-		<div class="flex flex-wrap gap-2 text-xs">
-			{{ range first 15 .ByCount }}
-			<a href="{{ .Page.RelPermalink }}" class="px-2.5 py-1 bg-surface border border-gray-300 text-text hover:border-accent hover:text-accent transition-colors">
-				#{{ .Page.Title }} <span class="text-xs text-muted font-mono">({{ .Count }})</span>
-			</a>
-			{{ end }}
-		</div>
-	</div>
-	{{ end }}
+
+    <!-- Widget 3: Tags -->
+    {{ with .Site.Taxonomies.tags }}
+    <div class="mt-4">
+        <h2 class="font-heading font-bold text-primary border-b border-gray-300 pb-2 mb-4 uppercase tracking-wider"> Популярные теги </h2>
+        <div class="flex flex-wrap gap-2 text-xs">
+            {{ range first 15 .ByCount }}
+            <a href="{{ .Page.RelPermalink }}" class="px-2.5 py-1 bg-surface border border-gray-300 text-text hover:border-accent hover:text-accent">
+                #{{ .Page.Title }} <span class="text-xs text-muted font-mono">({{ .Count }})</span>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
 </aside>
