@@ -1,0 +1,181 @@
+{{ define "main" }}
+{{/* Read and parse gallery.json */}}
+{{ $gallery := dict }}
+{{ $remoteBaseUrl := "" }}
+{{ $featuredImage := "" }}
+{{ $images := slice }}
+
+{{ with .Resources.Get "gallery.json" }}
+  {{ $gallery = .Content | transform.Unmarshal }}
+  {{ $remoteBaseUrl = index $gallery "remote_base_url" | default "" }}
+  {{ $featuredImage = index $gallery "featured_image" | default "" }}
+  {{ with index $gallery "images" }}
+    {{ $images = . }}
+  {{ end }}
+{{ end }}
+
+{{/* Fallback for featured image if gallery.json is missing or doesn't have it */}}
+{{ if not $featuredImage }}
+  {{ with .Params.featuredImage }}
+    {{ $featuredImage = . }}
+  {{ end }}
+{{ end }}
+
+{{/* Retrieve primary category */}}
+{{ $category := "" }}
+{{ with .Params.categories }}
+  {{ $category = index . 0 }}
+{{ else }}
+  {{ with .Params.category }}
+    {{ $category = . }}
+  {{ end }}
+{{ end }}
+
+<main class="w-full md:w-3/4">
+    <article class="space-y-6">
+
+        <!-- Header & Breadcrumbs -->
+        <header class="space-y-4">
+
+            <!-- Breadcrumbs -->
+            <nav aria-label="Хлебные крошки" class="flex items-center gap-x-2 text-sm text-gray-600 font-body">
+                <a href="/" class="text-primary hover:underline transition-colors font-medium">
+                    Главная
+                </a>
+
+                <span class="text-gray-300">•</span>
+
+                <a href="{{ .Parent.RelPermalink }}" class="text-primary hover:underline transition-colors font-medium">
+                    {{ .Parent.Title | default "Новости" }}
+                </a>
+
+                <span class="text-gray-300">•</span>
+
+                <span class="text-gray-900 font-medium truncate max-w-[200px] sm:max-w-xs" title="{{ .Title }}">
+                    {{ .Title }}
+                </span>
+            </nav>
+
+            <!-- Title -->
+            <h1 class="text-2xl sm:text-4xl font-bold font-heading text-gray-900 tracking-tight leading-tight">
+                {{ .Title }}
+            </h1>
+
+            <!-- Meta info bar -->
+            <div class="flex flex-wrap items-center gap-3 text-xs sm:text-sm text-gray-500 font-body border-b border-gray-100 pb-4">
+                {{ with $category }}
+                <span class="inline-block bg-gray-100 text-gray-800 font-semibold px-2.5 py-0.5 rounded-sm uppercase tracking-wider text-[11px]">
+                    {{ . }}
+                </span>
+                {{ end }}
+
+                <time datetime="{{ .Date.Format "2006-01-02" }}" class="flex items-center gap-1">
+                    <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    </svg>
+                    {{ .Date.Format "02.01.2006" }}
+                </time>
+
+                <span class="text-gray-300">•</span>
+
+                <span class="flex items-center gap-1">
+                    <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    {{ .ReadingTime }} мин. чтения
+                </span>
+            </div>
+
+        </header>
+
+        <!-- Featured Image -->
+        {{ with $featuredImage }}
+        <figure class="space-y-2">
+            <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="block overflow-hidden aspect-[16/9] w-full border border-gray-100 group">
+                <img src="{{ . }}" alt="{{ $.Title }}" class="w-full h-full object-cover block group-hover:scale-105 transition-transform duration-300">
+            </a>
+            {{ with $.Params.imageCaption }}
+            <figcaption class="text-xs text-gray-500 text-center font-body italic">
+                {{ . }}
+            </figcaption>
+            {{ end }}
+        </figure>
+        {{ end }}
+
+        <!-- Article Body -->
+        <div class="prose prose-gray max-w-none leading-relaxed text-gray-800 pt-2 space-y-4">
+            {{ .Content }}
+        </div>
+
+        <!-- Image Gallery -->
+        {{ if gt (len $images) 0 }}
+        <section class="pt-4 border-t border-gray-200 space-y-4">
+            <h2 class="text-xl font-bold font-heading text-gray-900 tracking-tight">
+                Галерея
+            </h2>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                {{ range $index, $imageFilename := $images }}
+                    {{/* Construct absolute image URL using remote_base_url */}}
+                    {{ $fullImageUrl := printf "%s%s" $remoteBaseUrl $imageFilename }}
+                    
+                    <a href="{{ $fullImageUrl }}" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="group relative overflow-hidden aspect-square border border-gray-200 bg-gray-100 block">
+                        
+                        <img src="{{ $fullImageUrl }}" 
+                             alt="{{ $.Title }} - фото {{ add $index 1 }}" 
+                             loading="lazy" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+
+                        <!-- Hover overlay with expansion icon -->
+                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"></path>
+                            </svg>
+                        </div>
+                    </a>
+                {{ end }}
+            </div>
+        </section>
+        {{ end }}
+
+        <!-- Article Tags -->
+        {{ with .Params.tags }}
+        <div class="pt-6 border-t border-gray-200">
+            <div class="flex flex-wrap items-center gap-2">
+                <span class="text-xs font-semibold text-gray-500 uppercase tracking-wider font-body">Теги:</span>
+                {{ range . }}
+                <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="text-xs font-body text-gray-700 bg-gray-100 hover:bg-gray-200 transition-colors px-2.5 py-1 rounded-sm">
+                    #{{ . }}
+                </a>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+
+        <!-- Prev / Next Pagination -->
+        <nav aria-label="Соседние новости" class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-8 border-t border-gray-200 font-body">
+            <div class="space-y-1">
+                {{ with .PrevInSection }}
+                <span class="text-xs text-gray-400 uppercase tracking-wider">← Предыдущая новость</span>
+                <a href="{{ .RelPermalink }}" class="block text-sm font-medium text-gray-900 hover:text-primary transition-colors line-clamp-2">
+                    {{ .Title }}
+                </a>
+                {{ end }}
+            </div>
+
+            <div class="space-y-1 sm:text-right">
+                {{ with .NextInSection }}
+                <span class="text-xs text-gray-400 uppercase tracking-wider">Следующая новость →</span>
+                <a href="{{ .RelPermalink }}" class="block text-sm font-medium text-gray-900 hover:text-primary transition-colors line-clamp-2">
+                    {{ .Title }}
+                </a>
+                {{ end }}
+            </div>
+        </nav>
+
+    </article>
+</main>
+{{ end }}
