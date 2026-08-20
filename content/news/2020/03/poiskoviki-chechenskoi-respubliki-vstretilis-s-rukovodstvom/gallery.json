@@ -1,9 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/03/poiskoviki-chechenskoi-respubliki-vstretilis-s-rukovodstvom/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/03/poiskoviki-chechenskoi-respubliki-vstretilis-s-rukovodstvom/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/03/poiskoviki-chechenskoi-respubliki-vstretilis-s-rukovodstvom/20200306_140203.jpg",
-    "images": [
-        "20200306_155459.jpg",
-        "20200306_155505.jpg",
-        "IMG-20200306-WA0034.jpg"
-    ]
+    "images": []
 }

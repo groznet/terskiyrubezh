@@ -1,10 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/12/lektsiia-v-allee-slavy/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/12/lektsiia-v-allee-slavy/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/12/lektsiia-v-allee-slavy/1.jpg",
-    "images": [
-        "IMG-20201215-WA0020.jpg",
-        "IMG_20201215_120425.jpg",
-        "IMG_20201215_120447.jpg",
-        "IMG_20201216_211900_987.jpg"
-    ]
+    "images": []
 }

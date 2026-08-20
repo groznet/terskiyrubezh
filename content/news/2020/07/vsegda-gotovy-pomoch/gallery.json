@@ -1,9 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/07/vsegda-gotovy-pomoch/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/07/vsegda-gotovy-pomoch/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/07/vsegda-gotovy-pomoch/1-5.jpg",
-    "images": [
-        "2-2.jpg",
-        "3-2.jpg",
-        "IMG_20200716_004727_605.jpg"
-    ]
+    "images": []
 }

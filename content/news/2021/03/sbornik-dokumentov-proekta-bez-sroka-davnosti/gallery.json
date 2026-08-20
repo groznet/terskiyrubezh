@@ -1,14 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/03/sbornik-dokumentov-proekta-bez-sroka-davnosti/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/03/sbornik-dokumentov-proekta-bez-sroka-davnosti/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2021/03/sbornik-dokumentov-proekta-bez-sroka-davnosti/IMG_4537.jpg",
-    "images": [
-        "IMG_4542.jpg",
-        "IMG_4555.jpg",
-        "IMG_4562.jpg",
-        "IMG_4567.jpg",
-        "IMG_4578.jpg",
-        "IMG_4583.jpg",
-        "IMG_4586.jpg",
-        "IMG_4587.jpg"
-    ]
+    "images": []
 }

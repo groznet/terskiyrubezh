@@ -1,7 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/pomnim-skorbim-gordimsia/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/pomnim-skorbim-gordimsia/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/08/pomnim-skorbim-gordimsia/20200802_220055.jpg",
-    "images": [
-        "20200802_220140.jpg"
-    ]
+    "images": []
 }

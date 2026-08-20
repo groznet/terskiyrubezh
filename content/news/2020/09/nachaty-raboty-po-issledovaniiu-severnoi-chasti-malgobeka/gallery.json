@@ -1,13 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/09/nachaty-raboty-po-issledovaniiu-severnoi-chasti-malgobeka/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/09/nachaty-raboty-po-issledovaniiu-severnoi-chasti-malgobeka/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/09/nachaty-raboty-po-issledovaniiu-severnoi-chasti-malgobeka/ALF08811.jpg",
-    "images": [
-        "ALF08835.jpg",
-        "ALF08846.jpg",
-        "ALF08887.jpg",
-        "ALF08895.jpg",
-        "ALF08901.jpg",
-        "ALF08907.jpg",
-        "IMG_20200921_150756.jpg"
-    ]
+    "images": []
 }

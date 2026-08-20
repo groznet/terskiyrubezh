@@ -1,10 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/sobiraemsia-v-dorogu/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/sobiraemsia-v-dorogu/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/08/sobiraemsia-v-dorogu/IMG-20200802-WA0049.jpg",
-    "images": [
-        "IMG-20200802-WA0052.jpg",
-        "IMG-20200802-WA0053.jpg",
-        "IMG-20200802-WA0058.jpg",
-        "IMG-20200802-WA0064.jpg"
-    ]
+    "images": []
 }

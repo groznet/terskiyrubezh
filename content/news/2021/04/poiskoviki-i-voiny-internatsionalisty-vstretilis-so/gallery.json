@@ -1,10 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/04/poiskoviki-i-voiny-internatsionalisty-vstretilis-so/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/04/poiskoviki-i-voiny-internatsionalisty-vstretilis-so/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2021/04/poiskoviki-i-voiny-internatsionalisty-vstretilis-so/IMG-20210402-WA0022.jpg",
-    "images": [
-        "IMG-20210402-WA0024.jpg",
-        "IMG-20210402-WA0026.jpg",
-        "IMG-20210402-WA0029.jpg",
-        "IMG-20210402-WA0034.jpg"
-    ]
+    "images": []
 }

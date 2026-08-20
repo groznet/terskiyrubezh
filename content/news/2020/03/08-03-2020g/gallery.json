@@ -1,7 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/03/08-03-2020g/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/03/08-03-2020g/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/03/08-03-2020g/20200308_205502.jpg",
-    "images": [
-        "IMG-20200308-WA0046.jpg"
-    ]
+    "images": []
 }

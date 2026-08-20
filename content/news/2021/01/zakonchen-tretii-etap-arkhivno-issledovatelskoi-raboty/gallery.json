@@ -1,9 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/01/zakonchen-tretii-etap-arkhivno-issledovatelskoi-raboty/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/01/zakonchen-tretii-etap-arkhivno-issledovatelskoi-raboty/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2021/01/zakonchen-tretii-etap-arkhivno-issledovatelskoi-raboty/IMG_20210128_143940.jpg",
-    "images": [
-        "IMG_20210128_144012.jpg",
-        "IMG_20210128_144036.jpg",
-        "IMG_20210128_144103.jpg"
-    ]
+    "images": []
 }

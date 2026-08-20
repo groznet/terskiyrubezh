@@ -1,19 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2017/01/zakrytie-vserossiiskoi-vakhty-pamiati-2017-volgograd/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2017/01/zakrytie-vserossiiskoi-vakhty-pamiati-2017-volgograd/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2017/01/zakrytie-vserossiiskoi-vakhty-pamiati-2017-volgograd/021820.jpg",
-    "images": [
-        "021993.jpg",
-        "022009.jpg",
-        "022150.jpg",
-        "022435.jpg",
-        "022563.jpg",
-        "022565.jpg",
-        "024559.jpg",
-        "DSC_0354.jpg",
-        "DSC_0399.jpg",
-        "DSC_0420.jpg",
-        "DSC_0421.jpg",
-        "DSC_0447.jpg",
-        "DSC_0625-1.jpg"
-    ]
+    "images": []
 }

@@ -1,9 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/06/volontery-dostavliaiut-produkty-pervoi-neobkhodimosti/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/06/volontery-dostavliaiut-produkty-pervoi-neobkhodimosti/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/06/volontery-dostavliaiut-produkty-pervoi-neobkhodimosti/IMG-20200604-WA0030.jpg",
-    "images": [
-        "IMG-20200604-WA0031.jpg",
-        "IMG-20200604-WA0032.jpg",
-        "IMG-20200604-WA0033.jpg"
-    ]
+    "images": []
 }

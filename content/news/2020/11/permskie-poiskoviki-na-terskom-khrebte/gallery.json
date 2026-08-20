@@ -1,10 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/11/permskie-poiskoviki-na-terskom-khrebte/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/11/permskie-poiskoviki-na-terskom-khrebte/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/11/permskie-poiskoviki-na-terskom-khrebte/ALF01061.jpg",
-    "images": [
-        "ALF01069.jpg",
-        "ALF01073.jpg",
-        "ALF01076.jpg",
-        "ALF01082.jpg"
-    ]
+    "images": []
 }

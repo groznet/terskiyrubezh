@@ -1,15 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/02/vystavka-arkhivnykh-dokumentov-proekta-bez-sroka-davnosti/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/02/vystavka-arkhivnykh-dokumentov-proekta-bez-sroka-davnosti/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2021/02/vystavka-arkhivnykh-dokumentov-proekta-bez-sroka-davnosti/1-1.jpg",
-    "images": [
-        "2-1.jpg",
-        "3-1.jpg",
-        "4-1.jpg",
-        "IMG-20210208-WA0065.jpg",
-        "IMG-20210208-WA0067.jpg",
-        "IMG_20210208_143523.jpg",
-        "IMG_20210208_143901.jpg",
-        "IMG_20210208_144053.jpg",
-        "IMG_20210208_144853.jpg"
-    ]
+    "images": []
 }

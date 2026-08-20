@@ -1,8 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/12/na-telekanale-vgtrk-vainakh/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/12/na-telekanale-vgtrk-vainakh/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/12/na-telekanale-vgtrk-vainakh/IMG_20201214_130727.jpg",
-    "images": [
-        "IMG_20201214_130735.jpg",
-        "IMG_20201214_130741.jpg"
-    ]
+    "images": []
 }

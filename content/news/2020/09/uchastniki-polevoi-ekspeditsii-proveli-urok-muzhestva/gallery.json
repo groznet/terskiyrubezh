@@ -1,13 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/09/uchastniki-polevoi-ekspeditsii-proveli-urok-muzhestva/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/09/uchastniki-polevoi-ekspeditsii-proveli-urok-muzhestva/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/09/uchastniki-polevoi-ekspeditsii-proveli-urok-muzhestva/IMG-20200926-WA0020.jpg",
-    "images": [
-        "IMG-20200926-WA0027.jpg",
-        "IMG-20200926-WA0037.jpg",
-        "IMG-20200926-WA0048.jpg",
-        "IMG-20200926-WA0060.jpg",
-        "IMG-20200926-WA0077.jpg",
-        "IMG-20200926-WA0079.jpg",
-        "IMG-20200926-WA0080.jpg"
-    ]
+    "images": []
 }

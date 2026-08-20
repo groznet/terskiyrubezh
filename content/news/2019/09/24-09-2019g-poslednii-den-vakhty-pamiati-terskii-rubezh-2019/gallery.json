@@ -1,9 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2019/09/24-09-2019g-poslednii-den-vakhty-pamiati-terskii-rubezh-2019/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2019/09/24-09-2019g-poslednii-den-vakhty-pamiati-terskii-rubezh-2019/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2019/09/24-09-2019g-poslednii-den-vakhty-pamiati-terskii-rubezh-2019/1-12.jpg",
-    "images": [
-        "2-11.jpg",
-        "3-11.jpg",
-        "4-11.jpg"
-    ]
+    "images": []
 }

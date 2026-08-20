@@ -1,9 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2024/10/bitva-za-kavkaz/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2024/10/bitva-za-kavkaz/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2024/10/bitva-za-kavkaz/EL600j0g9hU.jpg",
-    "images": [
-        "jtA6Qq7OdLA.jpg",
-        "SEoRGVvKsgk.jpg",
-        "v82enatrFc0.jpg"
-    ]
+    "images": []
 }

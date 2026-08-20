@@ -1,14 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2016/01/vakhta-pamiati-terek-2016-mart/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2016/01/vakhta-pamiati-terek-2016-mart/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2016/01/vakhta-pamiati-terek-2016-mart/DSCN3224.jpg",
-    "images": [
-        "DSCN3225.jpg",
-        "DSCN3226.jpg",
-        "DSCN3227.jpg",
-        "DSCN3228.jpg",
-        "DSCN3230.jpg",
-        "DSCN3232.jpg",
-        "DSCN3234.jpg",
-        "DSCN3236.jpg"
-    ]
+    "images": []
 }

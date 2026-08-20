@@ -1,17 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/06/sostoialsia-konstruktivnyi-dialog-professionalnykh-istorikov/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/06/sostoialsia-konstruktivnyi-dialog-professionalnykh-istorikov/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2021/06/sostoialsia-konstruktivnyi-dialog-professionalnykh-istorikov/101980042_790220981515335_5925353618734237598_n.jpg",
-    "images": [
-        "103863331_790217401515693_1659498760951675667_n.jpg",
-        "103872276_790223181515115_7453330476560167771_n.jpg",
-        "103872283_790223104848456_3176483215119207170_n.jpg",
-        "103916506_790222961515137_8861807364498789068_n.jpg",
-        "103937288_790235001513933_8694794938247777554_n.jpg",
-        "103940807_790217471515686_8580755729005547116_n.jpg",
-        "103945881_790223151515118_1455692346800226033_n.jpg",
-        "103955382_790223061515127_7604450013038412876_n.jpg",
-        "103958773_790223011515132_7266873897839406973_n.jpg",
-        "104005535_790222918181808_6046655995128497713_n.jpg",
-        "104119983_790217518182348_1211277626254227199_n.jpg"
-    ]
+    "images": []
 }

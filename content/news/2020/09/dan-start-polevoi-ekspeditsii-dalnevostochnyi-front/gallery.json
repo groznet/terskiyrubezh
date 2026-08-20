@@ -1,15 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/09/dan-start-polevoi-ekspeditsii-dalnevostochnyi-front/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/09/dan-start-polevoi-ekspeditsii-dalnevostochnyi-front/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/09/dan-start-polevoi-ekspeditsii-dalnevostochnyi-front/DSC_0310.jpg",
-    "images": [
-        "DSC_0312.jpg",
-        "DSC_0315.jpg",
-        "DSC_0324.jpg",
-        "DSC_0328.jpg",
-        "DSC_0330.jpg",
-        "DSC_0345.jpg",
-        "DSC_0367.jpg",
-        "DSC_0372.jpg",
-        "DSC_0376.jpg"
-    ]
+    "images": []
 }

@@ -1,14 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/06/regionalnoe-otdelenie-obshcherossiiskogo-obshchestvennogo-po/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/06/regionalnoe-otdelenie-obshcherossiiskogo-obshchestvennogo-po/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/06/regionalnoe-otdelenie-obshcherossiiskogo-obshchestvennogo-po/1-1.jpg",
-    "images": [
-        "2-1.jpg",
-        "11-1.jpg",
-        "22.jpg",
-        "20200605_114550.jpg",
-        "20200605_114715.jpg",
-        "20200605_114909.jpg",
-        "20200605_132041.jpg",
-        "20200605_132147.jpg"
-    ]
+    "images": []
 }

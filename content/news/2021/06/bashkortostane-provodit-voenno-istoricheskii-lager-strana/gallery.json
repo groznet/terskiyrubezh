@@ -1,11 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/06/bashkortostane-provodit-voenno-istoricheskii-lager-strana/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/06/bashkortostane-provodit-voenno-istoricheskii-lager-strana/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2021/06/bashkortostane-provodit-voenno-istoricheskii-lager-strana/195195787_4054991804548627_6266431377784667102_n.jpg",
-    "images": [
-        "196716237_4054991797881961_8468452046745854896_n.jpg",
-        "197397612_4054991811215293_3570693384484489660_n.jpg",
-        "197504491_4054991801215294_942695072641189606_n.jpg",
-        "197881045_4054991807881960_741323738285176499_n.jpg",
-        "199225600_4054991794548628_1791551551042859143_n.jpg"
-    ]
+    "images": []
 }

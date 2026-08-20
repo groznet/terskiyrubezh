@@ -1,10 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2018/13-12-2019-19-21/открытие-всероссийской-вахты-памяти-20-4/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2018/13-12-2019-19-21/открытие-всероссийской-вахты-памяти-20-4/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2018/13-12-2019-19-21/открытие-всероссийской-вахты-памяти-20-4/20190404_110024.jpg",
-    "images": [
-        "20190404_120734.jpg",
-        "20190404_152440.jpg",
-        "20190404_152445.jpg",
-        "20190404_1655360.jpg"
-    ]
+    "images": []
 }

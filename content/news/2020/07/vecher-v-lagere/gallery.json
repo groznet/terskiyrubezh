@@ -1,10 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/07/vecher-v-lagere/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/07/vecher-v-lagere/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/07/vecher-v-lagere/20200721_213701.jpg",
-    "images": [
-        "20200721_213825.jpg",
-        "20200721_214459.jpg",
-        "20200721_214644.jpg",
-        "20200721_214808.jpg"
-    ]
+    "images": []
 }

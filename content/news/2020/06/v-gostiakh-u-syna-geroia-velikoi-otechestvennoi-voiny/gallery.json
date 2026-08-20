@@ -1,10 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/06/v-gostiakh-u-syna-geroia-velikoi-otechestvennoi-voiny/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/06/v-gostiakh-u-syna-geroia-velikoi-otechestvennoi-voiny/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/06/v-gostiakh-u-syna-geroia-velikoi-otechestvennoi-voiny/20200603_103450.jpg",
-    "images": [
-        "20200603_103509.jpg",
-        "20200603_103623.jpg",
-        "20200603_104930.jpg",
-        "20200603_104942.jpg"
-    ]
+    "images": []
 }

@@ -1,12 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/12/obnaruzhen-nemetskii-blindazh/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/12/obnaruzhen-nemetskii-blindazh/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/12/obnaruzhen-nemetskii-blindazh/1-1.jpg",
-    "images": [
-        "IMG-20201015-WA0019.jpg",
-        "IMG-20201015-WA0024.jpg",
-        "IMG-20201015-WA0028.jpg",
-        "IMG-20201015-WA0035.jpg",
-        "IMG-20201015-WA0036.jpg",
-        "IMG-20201015-WA0037.jpg"
-    ]
+    "images": []
 }

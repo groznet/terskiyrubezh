@@ -1,15 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/09/vizit-gubernatora-sakhalinskoi-oblasti-v-polevoi-lager/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/09/vizit-gubernatora-sakhalinskoi-oblasti-v-polevoi-lager/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/09/vizit-gubernatora-sakhalinskoi-oblasti-v-polevoi-lager/DSC_0060.jpg",
-    "images": [
-        "DSC_0078.jpg",
-        "DSC_0136.jpg",
-        "DSC_0156.jpg",
-        "DSC_0179.jpg",
-        "DSC_0200.jpg",
-        "DSC_0204.jpg",
-        "DSC_0236.jpg",
-        "DSC_0242.jpg",
-        "DSC_0255.jpg"
-    ]
+    "images": []
 }

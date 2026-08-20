@@ -1,14 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/eksperty-proveriaiut-svedeniia-na-predmet-dostovernosti/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/eksperty-proveriaiut-svedeniia-na-predmet-dostovernosti/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/08/eksperty-proveriaiut-svedeniia-na-predmet-dostovernosti/20200811_173528.jpg",
-    "images": [
-        "20200811_173543.jpg",
-        "20200811_173553.jpg",
-        "20200811_173620.jpg",
-        "20200811_173636.jpg",
-        "20200811_173719.jpg",
-        "20200811_173844.jpg",
-        "20200811_174318.jpg",
-        "20200811_174334.jpg"
-    ]
+    "images": []
 }

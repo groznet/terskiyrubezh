@@ -1,15 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2019/12/12-dekabria-2019g/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2019/12/12-dekabria-2019g/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2019/12/12-dekabria-2019g/1.jpg",
-    "images": [
-        "2.jpg",
-        "3.jpg",
-        "4.jpg",
-        "5.jpg",
-        "6.jpg",
-        "7.jpg",
-        "8.jpg",
-        "9.jpg",
-        "10.jpg"
-    ]
+    "images": []
 }

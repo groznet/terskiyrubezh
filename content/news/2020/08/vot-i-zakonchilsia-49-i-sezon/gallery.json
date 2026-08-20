@@ -1,13 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/vot-i-zakonchilsia-49-i-sezon/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/vot-i-zakonchilsia-49-i-sezon/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/08/vot-i-zakonchilsia-49-i-sezon/20200720_094604.jpg",
-    "images": [
-        "20200722_095516.jpg",
-        "20200728_091128-1.jpg",
-        "20200729_160049.jpg",
-        "20200802_195004.jpg",
-        "20200802_195558.jpg",
-        "DSCN7782.jpg",
-        "DSCN7790.jpg"
-    ]
+    "images": []
 }

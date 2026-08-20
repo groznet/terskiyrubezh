@@ -1,14 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/03/v-neftianom-universitete-otkrylas-fotovystvka/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/03/v-neftianom-universitete-otkrylas-fotovystvka/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2021/03/v-neftianom-universitete-otkrylas-fotovystvka/IMG-20210322-WA0002.jpg",
-    "images": [
-        "IMG-20210322-WA0004.jpg",
-        "IMG-20210322-WA0006.jpg",
-        "IMG-20210322-WA0007.jpg",
-        "IMG-20210322-WA0008.jpg",
-        "IMG_1600.jpg",
-        "IMG_1601.jpg",
-        "IMG_1602.jpg",
-        "IMG_1608.jpg"
-    ]
+    "images": []
 }

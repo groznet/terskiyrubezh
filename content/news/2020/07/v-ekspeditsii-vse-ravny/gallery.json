@@ -1,10 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/07/v-ekspeditsii-vse-ravny/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/07/v-ekspeditsii-vse-ravny/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/07/v-ekspeditsii-vse-ravny/20200722_092839.jpg",
-    "images": [
-        "20200722_093831.jpg",
-        "20200722_094004.jpg",
-        "20200722_100258.jpg",
-        "20200722_100330.jpg"
-    ]
+    "images": []
 }

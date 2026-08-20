@@ -1,14 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2019/08/lebiazhe-leningradskaia-oblast-avgust-2019/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2019/08/lebiazhe-leningradskaia-oblast-avgust-2019/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2019/08/lebiazhe-leningradskaia-oblast-avgust-2019/20190816_124821.jpg",
-    "images": [
-        "20190816_134027.jpg",
-        "DSCN8264.jpg",
-        "DSCN8272.jpg",
-        "DSCN8273.jpg",
-        "DSCN8304.jpg",
-        "DSCN8305.jpg",
-        "DSCN8308.jpg",
-        "DSCN8313-1.jpg"
-    ]
+    "images": []
 }

@@ -1,11 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/04/vstrecha-v-groznenskom-suvorovskom-uchilishche/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/04/vstrecha-v-groznenskom-suvorovskom-uchilishche/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2021/04/vstrecha-v-groznenskom-suvorovskom-uchilishche/IMG_1518.jpg",
-    "images": [
-        "IMG_1520.jpg",
-        "IMG_1523.jpg",
-        "IMG_1524.jpg",
-        "IMG_1527.jpg",
-        "IMG_1539.jpg"
-    ]
+    "images": []
 }

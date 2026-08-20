@@ -1,11 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/03/ekspozitsiia-vystavki-bez-sroka-davnosti-v-chgpu/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/03/ekspozitsiia-vystavki-bez-sroka-davnosti-v-chgpu/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2021/03/ekspozitsiia-vystavki-bez-sroka-davnosti-v-chgpu/image1.jpg",
-    "images": [
-        "image4.jpg",
-        "image6.jpg",
-        "IMG_20210331_113627.jpg",
-        "IMG_20210331_113714.jpg",
-        "IMG_20210331_113738.jpg"
-    ]
+    "images": []
 }

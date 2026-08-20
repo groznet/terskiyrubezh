@@ -1,12 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/07/rezultat-raboty-s-arkhivnymi-dokumentami-prevzoshel-vse/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/07/rezultat-raboty-s-arkhivnymi-dokumentami-prevzoshel-vse/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/07/rezultat-raboty-s-arkhivnymi-dokumentami-prevzoshel-vse/20200716_114903.jpg",
-    "images": [
-        "20200716_114909_001.jpg",
-        "20200716_115012.jpg",
-        "20200716_115035.jpg",
-        "IMG_20200716_004811_528-—-копия.jpg",
-        "IMG_20200717_203250_701.jpg",
-        "IMG_20200717_203303_420.jpg"
-    ]
+    "images": []
 }

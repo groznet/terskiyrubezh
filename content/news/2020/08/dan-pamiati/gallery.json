@@ -1,15 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/dan-pamiati/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/dan-pamiati/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/08/dan-pamiati/20200731_071708.jpg",
-    "images": [
-        "20200731_071731.jpg",
-        "20200731_071756.jpg",
-        "20200731_120801.jpg",
-        "20200731_120810.jpg",
-        "P7310602.jpg",
-        "P7310603.jpg",
-        "P7310605.jpg",
-        "P7310611.jpg",
-        "P7310619.jpg"
-    ]
+    "images": []
 }

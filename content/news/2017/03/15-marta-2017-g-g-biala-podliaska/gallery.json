@@ -1,29 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2017/03/15-marta-2017-g-g-biala-podliaska/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2017/03/15-marta-2017-g-g-biala-podliaska/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2017/03/15-marta-2017-g-g-biala-podliaska/DSCN5904.jpg",
-    "images": [
-        "DSCN5906.jpg",
-        "DSCN5907.jpg",
-        "DSCN5908.jpg",
-        "DSCN5910.jpg",
-        "DSCN5911.jpg",
-        "DSCN5914.jpg",
-        "DSCN5916.jpg",
-        "DSCN5917.jpg",
-        "DSCN5918.jpg",
-        "DSCN5919.jpg",
-        "DSCN5920.jpg",
-        "DSCN5921.jpg",
-        "DSCN5923.jpg",
-        "DSCN5924.jpg",
-        "DSCN5925.jpg",
-        "DSCN5927.jpg",
-        "DSCN5928.jpg",
-        "DSCN5929.jpg",
-        "DSCN5932.jpg",
-        "DSCN5934.jpg",
-        "DSCN5935.jpg",
-        "DSCN5936.jpg",
-        "DSCN5938.jpg"
-    ]
+    "images": []
 }

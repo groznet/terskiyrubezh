@@ -1,15 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2023/02/chlen-obshchestvennoi-palaty-rossii-i-chechenskoi-respubliki/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2023/02/chlen-obshchestvennoi-palaty-rossii-i-chechenskoi-respubliki/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2023/02/chlen-obshchestvennoi-palaty-rossii-i-chechenskoi-respubliki/7_z18rA925A.jpg",
-    "images": [
-        "bIUVDaKwXIk.jpg",
-        "GSIpDtjS-6Q.jpg",
-        "H_oZiTPLvtc.jpg",
-        "hJgszeshjV8.jpg",
-        "HPXMdx_IDqI.jpg",
-        "IpWhKbg5w6M.jpg",
-        "LGgLRPIYVM8.jpg",
-        "mhIKDBDtsQI.jpg",
-        "wJP5WMr9S7U.jpg"
-    ]
+    "images": []
 }

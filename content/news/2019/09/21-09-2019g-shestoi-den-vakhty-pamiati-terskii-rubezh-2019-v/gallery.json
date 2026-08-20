@@ -1,13 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2019/09/21-09-2019g-shestoi-den-vakhty-pamiati-terskii-rubezh-2019-v/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2019/09/21-09-2019g-shestoi-den-vakhty-pamiati-terskii-rubezh-2019-v/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2019/09/21-09-2019g-shestoi-den-vakhty-pamiati-terskii-rubezh-2019-v/1-11.jpg",
-    "images": [
-        "2-10.jpg",
-        "3-10.jpg",
-        "4-10.jpg",
-        "5-10.jpg",
-        "6-10.jpg",
-        "7-8.jpg",
-        "8-6.jpg"
-    ]
+    "images": []
 }

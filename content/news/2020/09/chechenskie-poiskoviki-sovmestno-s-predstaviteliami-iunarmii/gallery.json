@@ -1,11 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/09/chechenskie-poiskoviki-sovmestno-s-predstaviteliami-iunarmii/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/09/chechenskie-poiskoviki-sovmestno-s-predstaviteliami-iunarmii/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/09/chechenskie-poiskoviki-sovmestno-s-predstaviteliami-iunarmii/2000691.jpg",
-    "images": [
-        "2000701.jpg",
-        "2000951.jpg",
-        "2001091.jpg",
-        "2020091.jpg",
-        "IMG-201.jpg"
-    ]
+    "images": []
 }

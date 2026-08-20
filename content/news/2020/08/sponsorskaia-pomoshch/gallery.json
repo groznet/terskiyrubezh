@@ -1,10 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/sponsorskaia-pomoshch/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/sponsorskaia-pomoshch/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/08/sponsorskaia-pomoshch/20200823_123046.jpg",
-    "images": [
-        "20200823_123221.jpg",
-        "20200823_123245.jpg",
-        "20200823_123439.jpg",
-        "20200823_124118.jpg"
-    ]
+    "images": []
 }

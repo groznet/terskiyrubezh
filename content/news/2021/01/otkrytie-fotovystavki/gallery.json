@@ -1,15 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/01/otkrytie-fotovystavki/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/01/otkrytie-fotovystavki/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2021/01/otkrytie-fotovystavki/IMG_20210114_210147_433.jpg",
-    "images": [
-        "IMG_20210114_210250_232.jpg",
-        "IMG_20210114_210301_636.jpg",
-        "IMG_20210114_210311_247.jpg",
-        "IMG_20210114_210333_964.jpg",
-        "IMG_20210114_210401_472.jpg",
-        "IMG_20210114_210414_559.jpg",
-        "IMG_20210114_210428_299.jpg",
-        "IMG_20210114_210444_923.jpg",
-        "IMG_20210114_210509_522.jpg"
-    ]
+    "images": []
 }

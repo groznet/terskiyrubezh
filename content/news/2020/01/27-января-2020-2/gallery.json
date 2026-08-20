@@ -1,14 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/01/27-января-2020-2/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/01/27-января-2020-2/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/01/27-января-2020-2/0tpKkzVT4C4.jpg",
-    "images": [
-        "4gov5PQnhIw.jpg",
-        "9kyB4tCF21Y.jpg",
-        "AJjVwLbj6PI.jpg",
-        "D5Ur7c-WO7c.jpg",
-        "fwJpIIKB1x0.jpg",
-        "iLLvEAG32HA.jpg",
-        "KvSCPnQ56io.jpg",
-        "kvujSyH6jcM.jpg"
-    ]
+    "images": []
 }

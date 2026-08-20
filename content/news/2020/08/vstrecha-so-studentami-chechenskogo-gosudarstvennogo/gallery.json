@@ -1,12 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/vstrecha-so-studentami-chechenskogo-gosudarstvennogo/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/vstrecha-so-studentami-chechenskogo-gosudarstvennogo/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/08/vstrecha-so-studentami-chechenskogo-gosudarstvennogo/IMG-20200823-WA0101.jpg",
-    "images": [
-        "IMG-20200823-WA0102.jpg",
-        "IMG-20200823-WA0103.jpg",
-        "IMG-20200823-WA0105.jpg",
-        "IMG-20200823-WA0108.jpg",
-        "IMG-20200823-WA0109.jpg",
-        "Screenshot_20200823-202304_Instagram.jpg"
-    ]
+    "images": []
 }

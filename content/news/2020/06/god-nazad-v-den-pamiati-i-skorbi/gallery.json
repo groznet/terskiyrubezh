@@ -1,12 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/06/god-nazad-v-den-pamiati-i-skorbi/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/06/god-nazad-v-den-pamiati-i-skorbi/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/06/god-nazad-v-den-pamiati-i-skorbi/1-5.jpg",
-    "images": [
-        "2-3.jpg",
-        "20190622_041106.jpg",
-        "20190622_041143.jpg",
-        "IMG_0100.jpg",
-        "IMG_8843.jpg",
-        "IMG_8862.jpg"
-    ]
+    "images": []
 }

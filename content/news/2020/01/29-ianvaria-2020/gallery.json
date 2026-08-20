@@ -1,10 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/01/29-ianvaria-2020/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/01/29-ianvaria-2020/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/01/29-ianvaria-2020/4KwGWFdMvKw.jpg",
-    "images": [
-        "BOsRdvJYur0.jpg",
-        "j1iMuvkrbDA.jpg",
-        "tMFwSMMXTSc.jpg",
-        "WeOOM-dXksA.jpg"
-    ]
+    "images": []
 }

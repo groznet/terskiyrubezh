@@ -1,8 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/06/medal-dunaevu-m/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/06/medal-dunaevu-m/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/06/medal-dunaevu-m/20200625_105603.jpg",
-    "images": [
-        "20200625_105632.jpg",
-        "20200625_105659.jpg"
-    ]
+    "images": []
 }

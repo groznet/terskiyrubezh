@@ -1,8 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/07/chechenskie-poiskoviki-i-issledovateli-issleduiut-dokumenty/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/07/chechenskie-poiskoviki-i-issledovateli-issleduiut-dokumenty/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/07/chechenskie-poiskoviki-i-issledovateli-issleduiut-dokumenty/1-2.jpg",
-    "images": [
-        "20200713_125900.jpg",
-        "DSCN7778.jpg"
-    ]
+    "images": []
 }

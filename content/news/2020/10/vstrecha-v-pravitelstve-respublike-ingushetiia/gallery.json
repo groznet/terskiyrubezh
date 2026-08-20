@@ -1,8 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/10/vstrecha-v-pravitelstve-respublike-ingushetiia/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/10/vstrecha-v-pravitelstve-respublike-ingushetiia/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/10/vstrecha-v-pravitelstve-respublike-ingushetiia/IMG_20200930_225227_697.jpg",
-    "images": [
-        "IMG_20200930_225233_790.jpg",
-        "IMG_20200930_225239_939.jpg"
-    ]
+    "images": []
 }

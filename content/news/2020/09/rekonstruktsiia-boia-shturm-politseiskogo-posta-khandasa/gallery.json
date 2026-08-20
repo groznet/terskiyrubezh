@@ -1,15 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/09/rekonstruktsiia-boia-shturm-politseiskogo-posta-khandasa/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/09/rekonstruktsiia-boia-shturm-politseiskogo-posta-khandasa/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/09/rekonstruktsiia-boia-shturm-politseiskogo-posta-khandasa/DSCN8069.jpg",
-    "images": [
-        "DSCN8077.jpg",
-        "DSCN8100.jpg",
-        "IMG_20200830_110857.jpg",
-        "IMG_20200830_111133.jpg",
-        "IMG_20200830_114735.jpg",
-        "IMG_20200830_114808.jpg",
-        "IMG_20200830_123711.jpg",
-        "IMG_20200830_124719.jpg",
-        "IMG_20200830_143331.jpg"
-    ]
+    "images": []
 }

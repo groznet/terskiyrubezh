@@ -1,9 +1,5 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/07/rabota-po-realizatsii-proekta-vakhta-pamiati-terskii-rubezh/images/",
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/07/rabota-po-realizatsii-proekta-vakhta-pamiati-terskii-rubezh/",
     "featured_image": "https://files.groznet.com/poiskchr/news/2020/07/rabota-po-realizatsii-proekta-vakhta-pamiati-terskii-rubezh/20200708_154034.jpg",
-    "images": [
-        "20200708_154040.jpg",
-        "IMG_20200708_223512_347.jpg",
-        "IMG_20200708_223518_888.jpg"
-    ]
+    "images": []
 }
