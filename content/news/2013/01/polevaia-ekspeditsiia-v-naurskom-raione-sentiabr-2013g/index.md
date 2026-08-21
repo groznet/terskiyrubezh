@@ -1,10 +1,14 @@
 ---
-title: "Полевая экспедиция в Наурском районе сентябрь 2013г"
-slug: 'polevaia-ekspeditsiia-v-naurskom-raione-sentiabr-2013g'
+categories:
+- Экспедиции
+coverImage: DSC_0109.jpg
 date: 2013-01-21
-categories: 
-  - "главная-рубрика"
-coverImage: "DSC_0109.jpg"
+slug: polevaia-ekspeditsiia-v-naurskom-raione-sentiabr-2013g
+tags:
+- Наурский район
+- поисковая работа
+- поисковая экспедиция
+- Великая Отечественная война
+- Терский Рубеж
+title: Полевая экспедиция в Наурском районе сентябрь 2013г
 ---
-
-

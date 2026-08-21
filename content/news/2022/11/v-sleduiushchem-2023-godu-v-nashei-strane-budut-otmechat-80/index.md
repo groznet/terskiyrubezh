@@ -1,10 +1,18 @@
 ---
-title: "В следующем 2023 году в нашей стране будут отмечать юбилей – 80-летие Победы в битве за Кавказ"
-slug: 'v-sleduiushchem-2023-godu-v-nashei-strane-budut-otmechat-80'
+categories:
+- Историческая память
+coverImage: Sq8PuHzuxWP0w8QkAOjKomHLlFYOGsEUJRtnn2YFlOzhNCVKC-LwcNsDNNlcbBpARPDAupnEXdiRJNNzt-2d0qDr.jpg
 date: 2022-11-15
-categories: 
-  - "главная-рубрика"
-coverImage: "Sq8PuHzuxWP0w8QkAOjKomHLlFYOGsEUJRtnn2YFlOzhNCVKC-LwcNsDNNlcbBpARPDAupnEXdiRJNNzt-2d0qDr.jpg"
+slug: v-sleduiushchem-2023-godu-v-nashei-strane-budut-otmechat-80
+tags:
+- Великая Отечественная война
+- Битва за Кавказ
+- Северо-Кавказский фронт
+- Архивные исследования
+- Поисковики
+- Чеченская Республика
+title: В следующем 2023 году в нашей стране будут отмечать юбилей – 80-летие Победы
+  в битве за Кавказ
 ---
 
 В следующем 2023 году в нашей стране будут отмечать юбилей – 80-летие Победы в битве за Кавказ.

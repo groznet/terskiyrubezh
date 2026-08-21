@@ -1,10 +1,17 @@
 ---
-title: "Примите мои поздравления с Великим Днем Победы"
-slug: 'primite-moi-pozdravleniia-s-velikim-dnem-pobedy'
+categories:
+- Историческая память
+coverImage: ASmj-3uJ4VM.jpg
 date: 2024-05-09
-categories: 
-  - "общие"
-coverImage: "ASmj-3uJ4VM.jpg"
+slug: primite-moi-pozdravleniia-s-velikim-dnem-pobedy
+tags:
+- Великая Отечественная война
+- День Победы
+- Грозный
+- Поисковое движение России
+- память
+- подвиг
+title: Примите мои поздравления с Великим Днем Победы
 ---
 
 Дорогие друзья!  

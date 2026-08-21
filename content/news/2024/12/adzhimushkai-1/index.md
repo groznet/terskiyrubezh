@@ -1,9 +1,12 @@
 ---
-title: "Аджимушкай - 1"
-slug: 'adzhimushkai-1'
+categories:
+- Поисковая работа
+coverImage: Поисковое-Движение-России.jpg
 date: 2024-12-14
-categories: 
-  - "главная-рубрика"
-coverImage: "Поисковое-Движение-России.jpg"
+slug: adzhimushkai-1
+tags:
+- Аджимушкай
+- поисковая работа
+- историческая память
+title: Аджимушкай - 1
 ---
-

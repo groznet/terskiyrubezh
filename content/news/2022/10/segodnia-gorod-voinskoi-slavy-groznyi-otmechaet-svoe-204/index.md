@@ -1,10 +1,17 @@
 ---
-title: "Сегодня город воинской славы Грозный отмечает своё 204-летие."
-slug: 'segodnia-gorod-voinskoi-slavy-groznyi-otmechaet-svoe-204'
+categories:
+- Историческая память
+coverImage: sybLQknay5IB07vg0AikCmpfVyrlR6-yS6K62sdfwRINFLT5HNH3V0CPxXhcrBCiMWtLV_qD_8bbuxsNMHycF_n.jpg
 date: 2022-10-05
-categories: 
-  - "главная-рубрика"
-coverImage: "sybLQknay5IB07vg0AikCmpfVyrlR6-yS6K62sdfwRINFLT5HNH3V0CPxXhcrBCiMWtLV_qD_8bbuxsNMHycF_n.jpg"
+slug: segodnia-gorod-voinskoi-slavy-groznyi-otmechaet-svoe-204
+tags:
+- Грозный
+- Город воинской славы
+- Великая Отечественная война
+- Поисковое движение
+- Ингушетия
+- Военные захоронения
+title: Сегодня город воинской славы Грозный отмечает своё 204-летие.
 ---
 
 Сегодня город воинской славы Грозный отмечает своё 204-летие.

@@ -1,10 +1,17 @@
 ---
-title: "В МБОУ СОШ №47 г. Грозный Урок мужества"
-slug: 'v-mbou-sosh-no47-g-groznyi-urok-muzhestva'
+categories:
+- Историческая память
+coverImage: QctY3VqBw60-1.jpg
 date: 2023-11-21
-categories: 
-  - "главная-рубрика"
-coverImage: "QctY3VqBw60-1.jpg"
+slug: v-mbou-sosh-no47-g-groznyi-urok-muzhestva
+tags:
+- Великая Отечественная война
+- Грозный
+- Урок мужества
+- Поисковое движение России
+- Чечня
+- 1942 год
+title: В МБОУ СОШ №47 г. Грозный Урок мужества
 ---
 
 Вахта Памяти «Терский Рубеж»

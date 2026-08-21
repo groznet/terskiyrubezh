@@ -1,10 +1,16 @@
 ---
-title: "Уважаемые жители Чеченской Республики!"
-slug: 'uvazhaemye-zhiteli-chechenskoi-respubliki'
+categories:
+- Новости движения
+coverImage: IW-0E1b4T9d_xfkkZhyb7Bluv2tZ8weVDHBJxbf6H4zntrU7RBPrxewMoya71KDQKWoSEKPgFgTZ6P70Jn1AALJB.jpg
 date: 2026-05-21
-categories: 
-  - "главная-рубрика"
-coverImage: "IW-0E1b4T9d_xfkkZhyb7Bluv2tZ8weVDHBJxbf6H4zntrU7RBPrxewMoya71KDQKWoSEKPgFgTZ6P70Jn1AALJB.jpg"
+slug: uvazhaemye-zhiteli-chechenskoi-respubliki
+tags:
+- Чеченская Республика
+- Единая Россия
+- выборы
+- политическая жизнь
+- общественные организации
+title: Уважаемые жители Чеченской Республики!
 ---
 
 С 25 по 31 мая 2026 года в регионе пройдёт электронное предварительное голосование Партии «Единая Россия». Это важный этап, когда вместе мы формируем сильную команду для развития наших городов и сёл.  

@@ -1,10 +1,18 @@
 ---
-title: "29 августа 2022 года в г.Луганск (ЛНР) прошла рабочая встреча"
-slug: '29-avgusta-2022-goda-v-g-lugansk-lnr-proshla-rabochaia'
+categories:
+- Поисковая работа
+coverImage: 1BNLTqS_vmDUGNSOZ1KY38jgudQ0dolsHsOGdZoZwCSlX_r0favE6gdqwWB-3lp_eDxkbFF1XzJ_VIr1vvLlao7W.jpg
 date: 2022-08-31
-categories: 
-  - "главная-рубрика"
-coverImage: "1BNLTqS_vmDUGNSOZ1KY38jgudQ0dolsHsOGdZoZwCSlX_r0favE6gdqwWB-3lp_eDxkbFF1XzJ_VIr1vvLlao7W.jpg"
+slug: 29-avgusta-2022-goda-v-g-lugansk-lnr-proshla-rabochaia
+tags:
+- Луганск
+- ЛНР
+- Поисковое движение России
+- Общественная палата
+- Военно-исторические исследования
+- Патриотическое воспитание
+- Донбасс
+title: 29 августа 2022 года в г.Луганск (ЛНР) прошла рабочая встреча
 ---
 
 29 августа 2022 года в г.Луганск (ЛНР) прошла рабочая встреча Председателя Общественной палаты Луганской Народной Республики Алексея Вячеславовича Карякина и Члена Общественной палаты РФ и ЧР – Руководителя РО ООД «Поисковое движение России» в ЧР Иса Сардалова.  

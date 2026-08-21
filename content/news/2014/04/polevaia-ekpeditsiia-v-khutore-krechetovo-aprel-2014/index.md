@@ -1,10 +1,18 @@
 ---
-title: "Полевая экпедиция в хуторе Кречетово Апрель - 2014"
-slug: 'polevaia-ekpeditsiia-v-khutore-krechetovo-aprel-2014'
+categories:
+- Поисковая работа
+coverImage: 20140508_162027.jpg
 date: 2014-04-29
-categories: 
-  - "главная-рубрика"
-coverImage: "20140508_162027.jpg"
+slug: polevaia-ekpeditsiia-v-khutore-krechetovo-aprel-2014
+tags:
+- Чеченская Республика
+- Великая Отечественная война
+- поисковая экспедиция
+- Наурский район
+- поисковики
+- станица Ищерская
+- боевые действия
+title: Полевая экпедиция в хуторе Кречетово Апрель - 2014
 ---
 
 Первая официальная поисковая экспедиция в Чеченской Республике
@@ -28,5 +36,3 @@ coverImage: "20140508_162027.jpg"
 Захоронение найденных бойцов запланировано на 23 февраля на воинском мемориале в районе станицы Ищерской.
 
 http://www.dosaaf.ru/region40/news/pervaya-ofitcialnaya-poiskovaya-ekspeditciya-v-chechenskoj/
-
-

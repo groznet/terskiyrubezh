@@ -1,10 +1,17 @@
 ---
-title: "Рабочая встреча Председателя Общественной палаты ЧР и Руководителя ПДР в ЧР"
-slug: 'rabochaia-vstrecha-predsedatelia-obshchestvennoi-palaty-chr'
+categories:
+- Поисковая работа
+coverImage: IMG-20210520-WA0009.jpg
 date: 2021-06-08
-categories: 
-  - "главная-рубрика"
-coverImage: "IMG-20210520-WA0009.jpg"
+slug: rabochaia-vstrecha-predsedatelia-obshchestvennoi-palaty-chr
+tags:
+- Чечня
+- Великая Отечественная война
+- Поисковое движение России
+- Общественная палата ЧР
+- Судьба солдата
+- Военные захоронения
+title: Рабочая встреча Председателя Общественной палаты ЧР и Руководителя ПДР в ЧР
 ---
 
 Уважаемые Друзья!

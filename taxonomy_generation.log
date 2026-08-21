@@ -1,0 +1,796 @@
+2026-08-21 18:11:41,972 [ERROR] Validation failed for content/news/2018/13-12-2019-19-21/открытие-всероссийской-вахты-памяти-20-3/index.md: Duplicate tags present. Raw response: {'category': 'Историческая память', 'tags': ['Всероссийская вахта памяти', 'Белгородская область', 'Великая Отечественная война', 'Память', 'Всероссийская вахта памяти', 'Победа']}
+2026-08-21 18:17:16,063 [ERROR] Validation failed for content/news/2019/10/17-10-2019-22-44/index.md: 'tags' must be a list of 3 to 7 items (got 8). Raw response: {'category': 'Поисковая работа', 'tags': ['Ингушетия', 'Чечня', 'Центральный архив Министерства обороны Российской Федерации', 'Великая Отечественная война', 'поисковая работа', 'поисковая экспедиция', 'Грозный', 'Малгобек']}
+2026-08-21 18:41:40,191 [ERROR] Validation failed for content/news/2020/12/na-telekanale-vgtrk-vainakh/index.md: Contains blacklisted generic tag. Raw response: {'category': 'Новости движения', 'tags': ['ВГТРК', 'Вайнах', 'Телевидение', 'Новости']}
+2026-08-21 18:48:42,208 [ERROR] Validation failed for content/news/2021/06/dala-dekal-voila-kho-vinchu-dantsa-sharip/index.md: 'tags' must be a list of 3 to 7 items (got 2). Raw response: {'category': 'Новости движения', 'tags': ['Терский Рубеж', 'Волонтёрство']}
+2026-08-21 18:48:53,275 [ERROR] Validation failed for content/news/2021/06/khochu-pozdravit-s-pereizbraniem-na-dolzhnost-predsedatelia/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['ПоисковикиЧР', 'КомандаКРА', 'ПоискРФ', 'ПоискЧР', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'ОфицерыРоссии', 'Регион95', 'ГГНТУ', 'ТерскийРубеж']}
+2026-08-21 18:49:37,687 [ERROR] Validation failed for content/news/2021/06/prinimaem-uchastie-vo-vsemirnom-sezde-narodov-chechenskoi/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['#ПоискРФ', '#ПоискЧР', '#Фондпрезидентскихгрантов', '#ОбщественнаяпалатаЧР', '#ОфицерыРоссии', '#Регион95', '#ГГНТУ', '#ТерскийРубеж', '#Чечня', '#ЧГУ', '#ЧГПУ', '#ПатриотЧР']}
+2026-08-21 18:50:37,694 [ERROR] Unhandled error processing content/news/2021/06/proshel-pervyi-etap-vaktsinatsii/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 185, in query_ollama
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+2026-08-21 18:51:56,845 [ERROR] Unhandled error processing content/news/2021/06/vsemirnyi-sezd-narodov-chechenskoi-respubliki/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 185, in query_ollama
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+2026-08-21 18:53:11,530 [ERROR] Unhandled error processing content/news/2021/07/07-marta-2018-goda/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 185, in query_ollama
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+2026-08-21 18:53:28,827 [ERROR] Validation failed for content/news/2021/07/na-semochnoi-ploshchadke-gde-snimalsia-film/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['ПоискРФ', 'ПоискЧР', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'ОфицерыРоссии', 'Регион95', 'ГГНТУ', 'ТерскийРубеж', 'Чечня', 'ЧГУ', 'ЧГПУ', 'ПатриотЧР']}
+2026-08-21 18:53:43,594 [ERROR] Validation failed for content/news/2021/07/priem-grazhdan-po-okazaniiu-pomoshchi/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['ПоискЧР', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'ОфицерыРоссии', 'Регион95', 'ГГНТУ', 'ТерскийРубеж', 'Чечня', 'ЧГУ', 'ЧГПУ', 'ПатриотЧР']}
+2026-08-21 18:53:52,892 [ERROR] Validation failed for content/news/2021/07/progulka-na-katere-s-evgeniem-kukoverovym/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['КомандаКРА', 'ПоискРФ', 'ПоискЧР', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'ОфицерыРоссии', 'Регион95', 'ГГНТУ', 'ТерскийРубеж', 'Чечня', 'ЧГУ', 'ЧГПУ']}
+2026-08-21 18:54:09,663 [ERROR] Validation failed for content/news/2021/07/s-dnem-rozhdeniia-imant/index.md: 'tags' must be a list of 3 to 7 items (got 2). Raw response: {'category': 'Новости движения', 'tags': ['День рождения', 'Волонтёрство']}
+2026-08-21 18:54:11,333 [ERROR] Validation failed for content/news/2021/07/sasha-s-dnem-tvoego-rozhdeniia/index.md: 'tags' must be a list of 3 to 7 items (got 2). Raw response: {'category': 'Новости движения', 'tags': ['Поздравление', 'День рождения']}
+2026-08-21 18:54:27,852 [ERROR] Validation failed for content/news/2021/07/vstretilsia-s-predsedatelem-soveta-regionalnogo-otdeleniia/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['ПоисковикиРФ', 'ПоисковикиЧР', 'КомандаКРА', 'ПоискРФ', 'ПоискЧР', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'ОфицерыРоссии', 'Регион95', 'ГГНТУ', 'ТерскийРубеж']}
+2026-08-21 18:54:33,172 [ERROR] Validation failed for content/news/2021/08/ibragim-dala-dekal-kho-vinchu-dantsa/index.md: 'tags' must be a list of 3 to 7 items (got 2). Raw response: {'category': 'Историческая память', 'tags': ['Дала декъал', 'Ибрагим']}
+2026-08-21 18:55:03,949 [ERROR] Validation failed for content/news/2021/09/01-iiunia-2009-god/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['ПоискРФ', 'ПоискЧР', 'ПатриотыРоссии', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'ОфицерыРоссии', 'Регион95', 'ГГНТУ', 'ТерскийРубеж', 'Чечня']}
+2026-08-21 18:55:12,956 [ERROR] Validation failed for content/news/2021/09/12-sentiabria-2021-goda/index.md: Invalid or missing 'category'. Raw response: {'text': 'Поиск РФ\nПоиск ЧР\nПатриоты России\nФонд президентских грантов\nОбщественная палата ЧР\nОфицеры России\nРегион 95\nГГНТУ\nТерский Рубеж\nЧечня'}
+2026-08-21 18:55:28,272 [ERROR] Unhandled error processing content/news/2021/09/23-sentiabria-2021-goda/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 187, in query_ollama
+    return json.loads(res.get("response", "{}"))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 682 (char 681)
+2026-08-21 18:55:36,685 [ERROR] Validation failed for content/news/2021/09/23-сентября-2021-года-2/index.md: Invalid or missing 'category'. Raw response: {'text': 'Поиск РФ, Поиск ЧР, Патриоты России, Ростов, Фонд президентских грантов, Общественная палата ЧР, Офицеры России, Регион 95, ГГНТУ, Терский Рубеж'}
+2026-08-21 18:55:45,962 [ERROR] Validation failed for content/news/2021/09/23-сентября-2021-года-3/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['#КомандаКРА', '#ПоискРФ', '#ПоискЧР', '#ПатриотыРоссии', '#Ростов', '#Фондпрезидентскихгрантов', '#ОбщественнаяпалатаЧР', '#ОфицерыРоссии', '#Регион95', '#ГГНТУ', '#ТерскийРубеж']}
+2026-08-21 18:56:45,967 [ERROR] Unhandled error processing content/news/2021/09/24-sentiabria-2021-goda/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 185, in query_ollama
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+2026-08-21 18:57:45,976 [ERROR] Unhandled error processing content/news/2021/09/26-sentiabria-2021-goda/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 185, in query_ollama
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+2026-08-21 18:58:09,519 [ERROR] Validation failed for content/news/2021/09/28-sentiabria-2021-goda/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['ПоискРФ', 'ПоискЧР', 'ПатриотыРоссии', 'Грузия', 'Тбилиси', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'ОфицерыРоссии', 'Регион95', 'ГГНТУ', 'ТерскийРубеж']}
+2026-08-21 18:59:09,523 [ERROR] Unhandled error processing content/news/2021/09/8-aprelia-2021-goda/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 185, in query_ollama
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+2026-08-21 19:00:09,529 [ERROR] Unhandled error processing content/news/2021/09/adzhimushkaiskie-kamenolomni-gorod-kerch-respublika-krym/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 185, in query_ollama
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+2026-08-21 19:00:27,347 [ERROR] Validation failed for content/news/2021/09/aktsiia-vakhta-pamiati/index.md: Invalid or missing 'category'. Raw response: {'text': 'This appears to be a collection of hashtags from a social media platform (likely Facebook, given the structure and links). These hashtags are in Russian and relate to various themes, including: \n\n* **#ПоисковикиЧР** (PoiskovikiChR) - Likely related to a search/investigation group in ChR (possibly a location abbreviation).\n* **#КомандаКРА** (KomandaKRA) - A team or group related to KRA.\n* **#ПоискРФ** (PoiskRF) - Search/Investigation of the Russian Federation.\n* **#ПоискЧР** (PoiskChR) - Search/Investigation in ChR.\n* **#ПатриотыРоссии** (PatriotyRossii) - Patriots of Russia.\n* **#Фондпрезидентскихгрантов** (Fondprezidentskikhgrantov) - Presidential Grants Foundation.\n* **#ОбщественнаяпалатаЧР** (ObshchestvennayaPalataChR) - Public Chamber of ChR.\n* **#ОфицерыРоссии** (OfitseryRossii) - Officers of Russia.\n* **#Регион95** (Region95) - Region 95.\n\n**In summary, the content is a list of links and hashtags pointing to community, patriotic, and search/investigation groups focused on Russian themes and specific regions.**'}
+2026-08-21 19:00:35,852 [ERROR] Validation failed for content/news/2021/09/avgust-2021-goda/index.md: Invalid or missing 'category'. Raw response: {'text': 'Поиск РФ, Поиск ЧР, Патриоты России, Фонд президентских грантов, Общественная палата ЧР, Офицеры России, Регион 95, ГГНТУ, Терский Рубеж, Чечня'}
+2026-08-21 19:00:50,969 [ERROR] Validation failed for content/news/2021/09/gorod-geroi-sevastopol/index.md: Invalid or missing 'category'. Raw response: {'text': 'КомандаКРА\n#ПоискРФ\n#ПоискЧР\n#ПатриотыРоссии\n#Фондпрезидентскихгрантов\n#ОбщественнаяпалатаЧР\n#ОфицерыРоссии\n#Регион95\n#ГГНТУ\n#ТерскийРубеж\n#Чечня'}
+2026-08-21 19:01:50,976 [ERROR] Unhandled error processing content/news/2021/09/ianvar-2021-goda/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 185, in query_ollama
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+2026-08-21 19:02:50,985 [ERROR] Unhandled error processing content/news/2021/09/iiul-2016-goda/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 185, in query_ollama
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+2026-08-21 19:02:57,476 [ERROR] Validation failed for content/news/2021/09/iiul-2021-goda/index.md: Invalid or missing 'category'. Raw response: {}
+2026-08-21 19:03:06,341 [ERROR] Validation failed for content/news/2021/09/izuchaem-karty-boevykh-deistvii-krasnoi-armii-oseni-1942/index.md: Invalid or missing 'category'. Raw response: {'text': 'ПоисковикиЧР #КомандаКРА #ПоискРФ #ПоискЧР #ПатриотыРоссии #Фондпрезидентскихгрантов #ОбщественнаяпалатаЧР #ОфицерыРоссии #Регион95 #ГГНТУ'}
+2026-08-21 19:03:14,820 [ERROR] Validation failed for content/news/2021/09/mai-2019-god/index.md: Invalid or missing 'category'. Raw response: {'text': 'Поиск РФ, Поиск ЧР, Патриоты России, Фонд президентских грантов, Общественная палата ЧР, Офицеры России, Регион 95, ГГНТУ, Терский Рубеж, Чечня'}
+2026-08-21 19:03:23,712 [ERROR] Validation failed for content/news/2021/09/mairbek-shokaev-zamestitel-komandira-poiskovogo-otriada/index.md: Invalid or missing 'category'. Raw response: {'text': 'ПоисковикиЧР #КомандаКРА #ПоискРФ #ПоискЧР #ПатриотыРоссии #Фондпрезидентскихгрантов #ОбщественнаяпалатаЧР #ОфицерыРоссии #Регион95 #ГГНТУ'}
+2026-08-21 19:04:23,717 [ERROR] Unhandled error processing content/news/2021/09/mart-2019-goda/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 185, in query_ollama
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+2026-08-21 19:04:36,693 [ERROR] Validation failed for content/news/2021/09/pamiatnoe-foto-s-pobeditelem-pervenstva-sredi-boitsov/index.md: Invalid or missing 'category'. Raw response: {'text': 'КомандаКРА', 'url': 'https://www.facebook.com/hashtag/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0%D0%BA%D1%80%D0%B0?__eep__=6&__cft__[0]=AZX_Kkxr_KOoav7rvEzNzwkcm0gKjf84rBjuGVUwtPAj6pjkW9cc-PeuB6RLxIJYaEiSYtYMvnatceMI-qemOR0Zfc1kJunGhdhLV7i9ZUtWS-fFesqpI-gNi5_vJtmktsY&__tn__=*NK-R'}
+2026-08-21 19:05:36,696 [ERROR] Unhandled error processing content/news/2021/09/rovno-god-nazad-v-gostiakh-na-odnom-iz-telekanalov/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 185, in query_ollama
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+2026-08-21 19:05:53,804 [ERROR] Validation failed for content/news/2021/09/rovno-god-nazad/index.md: Invalid or missing 'category'. Raw response: {'query': 'https://www.facebook.com/hashtag/%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D1%80%D1%84?__eep__=6&__cft__[0]=AZW7kRIXWAUGp3lDqH_xr0JqqKEQbawn7rnQOmJBx9PLiT82Gns4GqjEp9KNBdnR13CJC9qX9prjwDlm0FniDzTzb0TasLWCbvarFRZXfmsG2AUMYit8WOXCIJrko7OrKR4&__tn__=*NK-R', 'query_type': 'hashtag', 'platform': 'facebook', 'language': 'Russian', 'keywords': ['ПоискРФ', 'ПоискЧР', 'ПатриотыРоссии', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'ОфицерыРоссии', 'Регион95', 'ГГНТУ', 'ТерскийРубеж', 'Чечня', 'ЧГУ']}
+2026-08-21 19:06:08,888 [ERROR] Validation failed for content/news/2021/09/sentiabr-2020-goda/index.md: Invalid or missing 'category'. Raw response: {'text': 'Поиск РФ, Поиск ЧР, Патриоты России, Фонд президентских грантов, Общественная палата ЧР, Офицеры России, Регион 95, ГГНТУ, Терский Рубеж, Чечня'}
+2026-08-21 19:06:17,751 [ERROR] Validation failed for content/news/2021/09/sentiabr-2021-goda-2/index.md: Invalid or missing 'category'. Raw response: {'text': 'ПоисковикиЧР #КомандаКРА #ПоискРФ #ПоискЧР #ПатриотыРоссии #Фондпрезидентскихгрантов #ОбщественнаяпалатаЧР #ОфицерыРоссии #Регион95 #ГГНТУ'}
+2026-08-21 19:06:26,790 [ERROR] Validation failed for content/news/2021/09/sentiabr-2021-goda/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['ПоискЧР', 'ПатриотыРоссии', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'ОфицерыРоссии', 'Регион95', 'ГГНТУ', 'ТерскийРубеж', 'Чечня', 'ЧГУ']}
+2026-08-21 19:06:43,254 [ERROR] Validation failed for content/news/2021/09/zakrytie-vakhty-pamiati-malgobekskii-rubezh-2021/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['ПоисковикиЧР', 'КомандаКРА', 'ПоискРФ', 'ПоискЧР', 'ПатриотыРоссии', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'ОфицерыРоссии', 'Регион95', 'ГГНТУ']}
+2026-08-21 19:06:55,722 [ERROR] Unhandled error processing content/news/2021/09/zdravstvuite-dorogie-druzia/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 187, in query_ollama
+    return json.loads(res.get("response", "{}"))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 4 column 5 (char 48)
+2026-08-21 19:07:55,727 [ERROR] Unhandled error processing content/news/2021/09/август-2021-года-2/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 185, in query_ollama
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+2026-08-21 19:08:08,279 [ERROR] Unhandled error processing content/news/2021/10/01-oktiabria-2021-goda/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 187, in query_ollama
+    return json.loads(res.get("response", "{}"))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 5 column 1 (char 76)
+2026-08-21 19:08:45,160 [ERROR] Validation failed for content/news/2021/10/30-oktiabria-2021g-v-d-tsemena/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['#ПоисковикиРФ', '#ПоисковикиЧР', '#КомандаКРА', '#ПоискРФ', '#ПоискЧР', '#ПатриотыРоссии', '#Новгород', '#Фондпрезидентскихгрантов', '#ОбщественнаяпалатаЧР', '#ОфицерыРоссии']}
+2026-08-21 19:09:12,750 [ERROR] Unhandled error processing content/news/2021/10/aprel-2017-goda/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 187, in query_ollama
+    return json.loads(res.get("response", "{}"))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 4 column 35 (char 87)
+2026-08-21 19:10:12,754 [ERROR] Unhandled error processing content/news/2021/10/avgust-2020-goda/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 185, in query_ollama
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+2026-08-21 19:10:21,728 [ERROR] Validation failed for content/news/2021/10/brestskaia-krepost-geroi/index.md: Invalid or missing 'category'. Raw response: {'text': 'ПоискРФ #ПоискЧР #ПатриотыРоссии #Брестскаякрепость #Фондпрезидентскихгрантов #ОбщественнаяпалатаЧР #Беларусь #ОфицерыРоссии #Регион95 #ГГНТУ'}
+2026-08-21 19:10:45,802 [ERROR] Validation failed for content/news/2021/10/g-smolensk/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['#ПоискЧР', '#ПатриотыРоссии', '#Смоленск', '#Фондпрезидентскихгрантов', '#ОбщественнаяпалатаЧР', '#ОфицерыРоссии', '#Регион95', '#ГГНТУ', '#ТерскийРубеж', '#Чечня']}
+2026-08-21 19:11:45,807 [ERROR] Unhandled error processing content/news/2021/10/gorod-voinskoi-slavy-groznyi/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 185, in query_ollama
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+2026-08-21 19:11:55,005 [ERROR] Validation failed for content/news/2021/10/gorod-voinskoi-slavy-malgobek/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['ПоисковикиЧР', 'КомандаКРА', 'ПоискРФ', 'ПоискЧР', 'ПатриотыРоссии', 'Дон', 'Кавказ', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'ОфицерыРоссии']}
+2026-08-21 19:12:04,252 [ERROR] Validation failed for content/news/2021/10/ilias-iashchurkaev-komandir-poiskovogo-otriada-patriot/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['КомандаКРА', 'ПоискРФ', 'ПоискЧР', 'ПатриотыРоссии', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'ОфицерыРоссии', 'Регион95', 'ГГНТУ', 'ТерскийРубеж']}
+2026-08-21 19:12:30,326 [ERROR] Unhandled error processing content/news/2021/10/nikhloevskie-vodopady/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 187, in query_ollama
+    return json.loads(res.get("response", "{}"))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 7 column 5 (char 169)
+2026-08-21 19:12:39,622 [ERROR] Validation failed for content/news/2021/10/oktiabr-2020-goda/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['ПоискРФ', 'ПоискЧР', 'ПатриотыРоссии', 'Даугавпилс', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'ОфицерыРоссии', 'Регион95', 'ГГНТУ', 'ТерскийРубеж']}
+2026-08-21 19:12:48,329 [ERROR] Validation failed for content/news/2021/10/pamiatnoe-foto-posle-vstrechi-s-glavoi-chechenskoi/index.md: Invalid or missing 'category'. Raw response: {'text': 'Поиск РФ, Поиск ЧР, Патриоты России, Фонд президентских грантов, Общественная палата ЧР, Офицеры России, Регион 95, ГГНТУ, Терский Рубеж, Чечня, ЧГУ'}
+2026-08-21 19:12:58,180 [ERROR] Unhandled error processing content/news/2021/10/priiatnye-vospominaniia/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 187, in query_ollama
+    return json.loads(res.get("response", "{}"))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 17 column 1 (char 265)
+2026-08-21 19:13:10,181 [ERROR] Unhandled error processing content/news/2021/10/prodolzhaiutsia-raboty-2-go-etapa-polevoi-ekspeditsii/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 187, in query_ollama
+    return json.loads(res.get("response", "{}"))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 2 column 15 (char 16)
+2026-08-21 19:13:19,577 [ERROR] Validation failed for content/news/2021/10/respublika-krym/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['ПоисковикиЧР', 'КомандаКРА', 'ПоискРФ', 'ПоискЧР', 'ПатриотыРоссии', 'Аджимушкай', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'ОфицерыРоссии', 'Регион95']}
+2026-08-21 19:13:37,455 [ERROR] Validation failed for content/news/2021/10/sambekskie-vysoty/index.md: Invalid or missing 'category'. Raw response: {'text': 'Поисковики ЧР, Команда КРА, Поиск РФ, Поиск ЧР, Патриоты России, Калмыкия, Фонд президентских грантов, Общественная палата ЧР, Офицеры России, Регион 95'}
+2026-08-21 19:13:46,869 [ERROR] Validation failed for content/news/2021/10/sentiabr-2020-goda/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['#ПоискРФ', '#ПоискЧР', '#ПатриотыРоссии', '#Смирных', '#Фондпрезидентскихгрантов', '#ОбщественнаяпалатаЧР', '#ОфицерыРоссии', '#Регион95', '#ГГНТУ', '#ТерскийРубеж', '#Чечня']}
+2026-08-21 19:14:07,100 [ERROR] Validation failed for content/news/2021/10/sentiabr-2021-goda/index.md: Invalid or missing 'category'. Raw response: {'text': 'This appears to be a list of hashtags from Facebook, likely related to Russian patriotic, civic, and regional topics. The hashtags are in Russian Cyrillic script and are followed by links to their respective search results on Facebook. \n\nHere is a breakdown of the visible hashtags and their likely meanings:\n\n* **#ПоискРФ** (Poisk RF): Search RF (Russian Federation)\n* **#ПоискЧР** (Poisk ChR): Search ChR (Chechnya)\n* **#ПатриотыРоссии** (Patrioty Rossii): Patriots of Russia\n* **#Фондпрезидентскихгрантов** (Fond Prezidentskikh Grantov): Presidential Grants Fund\n* **#ОбщественнаяпалатаЧР** (Obshchestvennaya Palata ChR): Public Chamber of ChR (Chechnya)\n* **#ОфицерыРоссии** (Ofitsery Rossii): Officers of Russia\n* **#Регион95** (Region 95): Region 95 (Likely a specific region or event)\n* **#ГГНТУ** (GGNTU): Abbreviation for an educational institution (likely a technical university)\n* **#ТерскийРубеж** (Terskiy Rubezh): Tersky Frontier/Border\n* **#Чечня** (Chechnya): Chechnya\n* **#ЧГУ** (ChGU): Abbreviation (context needed, but likely related to Chechnya or a specific institution)\n\n**In summary, the content is a collection of links and hashtags used for community building, information sharing, and promoting civic/patriotic engagement within specific regions and institutions in Russia.**'}
+2026-08-21 19:14:20,054 [ERROR] Unhandled error processing content/news/2021/10/viskhan-ismailov-zamestitel-komandira-studencheskogo-otriada/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 187, in query_ollama
+    return json.loads(res.get("response", "{}"))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 6 column 5 (char 113)
+2026-08-21 19:14:28,580 [ERROR] Validation failed for content/news/2021/10/vysokogornoe-ozero-kazenoi-am/index.md: Invalid or missing 'category'. Raw response: {'text': 'Поиск РФ, Поиск ЧР, Патриоты России, Фонд президентских грантов, Общественная палата ЧР, Офицеры России, Регион 95, ГГНТУ, Терский Рубеж, Чечня'}
+2026-08-21 19:14:43,681 [ERROR] Validation failed for content/news/2021/10/август-2020-года-2/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['#ПоисковикиЧР', '#КомандаКРА', '#ПоискРФ', '#ПоискЧР', '#ПатриотыРоссии', '#Смирных', '#Фондпрезидентскихгрантов', '#ОбщественнаяпалатаЧР', '#ОфицерыРоссии', '#Регион95']}
+2026-08-21 19:14:52,780 [ERROR] Validation failed for content/news/2021/10/республика-крым-2/index.md: Invalid or missing 'category'. Raw response: {'text': 'КомандаКРА #КомандаКРА #ПоискРФ #ПоискЧР #ПатриотыРоссии #Керчь #Кавказ #Фондпрезидентскихгрантов #ОбщественнаяпалатаЧР #ОфицерыРоссии #Регион95 #ГГНТУ'}
+2026-08-21 19:15:02,081 [ERROR] Validation failed for content/news/2021/10/сентябрь-2020-года-3/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['ПоискРФ', 'ПоискЧР', 'ПатриотыРоссии', 'Дон', 'Ростов', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'ОфицерыРоссии', 'Регион95', 'ГГНТУ', 'ТерскийРубеж']}
+2026-08-21 19:15:16,965 [ERROR] Validation failed for content/news/2021/10/сентябрь-2020-года-4/index.md: Invalid or missing 'category'. Raw response: {'text': 'и много всего разного. Но наш вездеход, творение Игоря на основе Nissan Patrol ни разу нас не подвёл. Игорь, огромное тебе спасибо за твоё гостеприимство и уделённое нам внимание. Мы с Русланом часто вспоминаем те дни, которые мы провели в Победино. Особенно дом с печкой. В этом доме, на отдаленности 10130 км от родного дома, мы почувствовали земной Рай. Именно это расстояние отделяло нас от дома. И, конечно же, отдельное спасибо Руководителю Сахалинского РО ООД "Поисковое движение России" Артёме Бандура, за предоставленную возможность посетить эти края. #ПоисковикиРФ #ПоисковикиЧР #КомандаКРА #ПоискРФ #ПоискЧР #ПатриотыРоссии #Смирных #Фондпрезидентскихгрантов #ОбщественнаяпалатаЧР #ОфицерыРоссии'}
+2026-08-21 19:15:35,661 [ERROR] Unhandled error processing content/news/2021/10/сентябрь-2021-года-4/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 187, in query_ollama
+    return json.loads(res.get("response", "{}"))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 933 (char 932)
+2026-08-21 19:15:44,693 [ERROR] Validation failed for content/news/2021/11/04-noiabria-2020-goda/index.md: Invalid or missing 'category'. Raw response: {'text': 'ПоискЧР\nПатриотыРоссии\nПаланга\nФондпрезидентскихгрантов\nОбщественнаяпалатаЧР\nОфицерыРоссии\nРегион95\nГГНТУ\nТерскийРубеж\nЧечня'}
+2026-08-21 19:15:57,178 [ERROR] Unhandled error processing content/news/2021/11/19-noiabria-2021-goda/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 187, in query_ollama
+    return json.loads(res.get("response", "{}"))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 4 column 14 (char 61)
+2026-08-21 19:16:06,116 [ERROR] Validation failed for content/news/2021/11/27-noiabria-2021-goda-v-moskve-na-baze-obshchestvennoi/index.md: Invalid or missing 'category'. Raw response: {'text': 'КомандаКРА #ПоискРФ #ПоискЧР #ПатриотыРоссии #Москва #Фондпрезидентскихгрантов #ОбщественнаяпалатаЧР #ОфицерыРоссии #Регион95 #ГГНТУ'}
+2026-08-21 19:17:06,118 [ERROR] Unhandled error processing content/news/2021/11/28-noiabria-2021-goda/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 185, in query_ollama
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+2026-08-21 19:17:29,258 [ERROR] Validation failed for content/news/2021/11/aprel-2014-goda/index.md: Invalid or missing 'category'. Raw response: {'text': 'Поисковики ЧР\nКоманда КРА\nПоиск РФ\nПоиск ЧР\nПатриоты России\nПобеда\nФонд президентских грантов\nОбщественная палата ЧР\nНаур\nОфицеры России'}
+2026-08-21 19:17:38,616 [ERROR] Validation failed for content/news/2021/11/brestskaia-krepost-geroi/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['ПоисковикиЧР', 'КомандаКРА', 'ПоискРФ', 'ПоискЧР', 'ПатриотыРоссии', 'Брестскаякрепость', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'Беларусь', 'ОфицерыРоссии']}
+2026-08-21 19:17:47,893 [ERROR] Validation failed for content/news/2021/11/ia-pisal-ranee-chto/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['ПоисковикиЧР', 'КомандаКРА', 'ПоискРФ', 'ПоискЧР', 'ПатриотыРоссии', 'Выборг', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'Вологда', 'ОфицерыРоссии']}
+2026-08-21 19:18:01,657 [ERROR] Unhandled error processing content/news/2021/11/kitskany-pridnestrovskaia-moldavskaia-respublika/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 187, in query_ollama
+    return json.loads(res.get("response", "{}"))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 8 column 5 (char 167)
+2026-08-21 19:18:10,541 [ERROR] Validation failed for content/news/2021/11/mai-2010-goda/index.md: Invalid or missing 'category'. Raw response: {'text': 'ПоисковикиЧР #КомандаКРА #ПоискРФ #ПоискЧР #ПатриотыРоссии #Брест #Фондпрезидентскихгрантов #ОбщественнаяпалатаЧР #ОфицерыРоссии #Регион'}
+2026-08-21 19:18:32,202 [ERROR] Validation failed for content/news/2021/11/nedavniaia-poezdka-ne-oboshlas-neozhidannoi-priiatnostiu/index.md: Invalid or missing 'category'. Raw response: {'text': 'Приветствую! Я готов помочь вам с вашими запросами. Пожалуйста, уточните, что именно вы хотели бы сделать или какую информацию ищете. 😊'}
+2026-08-21 19:18:47,297 [ERROR] Validation failed for content/news/2021/11/podvedenie-itogov-deiatelnosti-regionalnogo-otdeleniia/index.md: Invalid or missing 'category'. Raw response: {'text': 'ПоисковикиЧР #КомандаКРА #ПоискРФ #ПоискЧР #ПатриотыРоссии #Фондпрезидентскихгрантов #ОбщественнаяпалатаЧР #ОфицерыРоссии #Регион95 #ГГНТУ'}
+2026-08-21 19:19:34,385 [ERROR] Validation failed for content/news/2021/11/selo-lgov-chernigovskii-raion-chernigovskaia-oblast-ukraina/index.md: Invalid or missing 'category'. Raw response: {'text': 'ПоисковикиЧР #КомандаКРА #ПоискРФ #ПоискЧР #ПатриотыРоссии #Украина #Фондпрезидентскихгрантов #ОбщественнаяпалатаЧР #ОфицерыРоссии #Регион95'}
+2026-08-21 19:19:46,286 [ERROR] Unhandled error processing content/news/2021/11/sentiabr-2013-goda/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 187, in query_ollama
+    return json.loads(res.get("response", "{}"))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 14 (char 15)
+2026-08-21 19:20:27,200 [ERROR] Validation failed for content/news/2021/11/v-gorode-voinskoi-slavy-vyborg-leningradskoi-oblasti/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['#ПоискРФ', '#ПоискЧР', '#ПатриотыРоссии', '#Выборг', '#Фондпрезидентскихгрантов', '#ОбщественнаяпалатаЧР', '#Наур', '#ОфицерыРоссии', '#Регион95', '#ГГНТУ', '#ТерскийРубеж']}
+2026-08-21 19:20:40,192 [ERROR] Unhandled error processing content/news/2021/11/v-obshchestvennoi-palate-rf-s-25-28-noiabria-2021/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 187, in query_ollama
+    return json.loads(res.get("response", "{}"))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 6 column 5 (char 120)
+2026-08-21 19:20:48,973 [ERROR] Validation failed for content/news/2021/11/vot-i-zakonchil-svoiu-rabotu-v-gorode-voinskoi-slavy/index.md: Invalid or missing 'category'. Raw response: {'text': 'КомандаКРА #ПоискРФ #ПоискЧР #ПатриотыРоссии #[Выборг] #[Фондпрезидентскихгрантов] #[ОбщественнаяпалатаЧР] #[Наур] #[ОфицерыРоссии] #[Регион95]'}
+2026-08-21 19:20:58,063 [ERROR] Validation failed for content/news/2021/11/vot-takie-nadpisi-ostavili-na-stenakh-poverzhennogo-logovo/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['ПоискРФ', 'ПоискЧР', 'ПатриотыРоссии', 'Москва', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'Наур', 'ОфицерыРоссии', 'Регион95', 'ГГНТУ', 'ТерскийРубеж']}
+2026-08-21 19:21:07,078 [ERROR] Validation failed for content/news/2021/12/23-fevralia-2014-goda/index.md: Invalid or missing 'category'. Raw response: {'text': 'КомандаКРА\nПоискРФ\nПоискЧР\nПатриотыРоссии\nМосква\nФондпрезидентскихгрантов\nОбщественнаяпалатаЧР\nОфицерыРоссии\nРегион95\nГГНТУ\nТерски'}
+2026-08-21 19:21:18,868 [ERROR] Unhandled error processing content/news/2021/12/27-noiabria-2021-goda-v-moskve-na-baze-obshchestvennoi/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 187, in query_ollama
+    return json.loads(res.get("response", "{}"))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 2 column 15 (char 16)
+2026-08-21 19:21:53,535 [ERROR] Validation failed for content/news/2021/12/chechenskie-poiskoviki-vsegda-zhelannye-gosti-v-shkolakh/index.md: Invalid or missing 'category'. Raw response: {'text': 'ПоискРФ\nПоискЧР\nПатриотыРоссии\nМосква\nФондпрезидентскихгрантов\nОбщественнаяпалатаЧР\nОфицерыРоссии\nРегион95\nГГНТУ\nТерскийРубеж\nЧечня'}
+2026-08-21 19:22:07,080 [ERROR] Unhandled error processing content/news/2021/12/istoricheskaia-i-kulturnaia-tsennost-litvy/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 187, in query_ollama
+    return json.loads(res.get("response", "{}"))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 9 column 5 (char 144)
+2026-08-21 19:22:15,599 [ERROR] Validation failed for content/news/2021/12/kogda-prosmatrivaesh-arkhiv-fotografii-vsegda-priiatno-fotki/index.md: Invalid or missing 'category'. Raw response: {'text': 'КомандаКРА #КомандаКРА #ПоискРФ #ПоискЧР #ПатриотыРоссии #Москва #Фондпрезидентскихгрантов #ОбщественнаяпалатаЧР #ОфицерыРоссии #Регион95'}
+2026-08-21 19:22:38,180 [ERROR] Validation failed for content/news/2021/12/mezhregionalnaia-polevaia-ekspeditsiia-dalnevostochnyi-front/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['ПоисковикиЧР', 'КомандаКРА', 'ПоискРФ', 'ПоискЧР', 'ПатриотыРоссии', 'Москва', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'ОфицерыРоссии', 'Регион95']}
+2026-08-21 19:22:47,287 [ERROR] Validation failed for content/news/2021/12/moskva-kafe-zandukeli/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['КомандаКРА', 'ПоискРФ', 'ПоискЧР', 'ПатриотыРоссии', 'Москва', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаЧР', 'ОфицерыРоссии', 'Регион95', 'ГГНТУ', 'ТерскийРубеж']}
+2026-08-21 19:23:06,432 [ERROR] Validation failed for content/news/2021/12/podrastaiushchee-pokolenie/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['#ПоисковикиЧР', '#КомандаКРА', '#ПоискРФ', '#ПоискЧР', '#ПатриотыРоссии', '#Москва', '#Фондпрезидентскихгрантов', '#ОбщественнаяпалатаЧР', '#ОфицерыРоссии', '#Регион95']}
+2026-08-21 19:24:06,437 [ERROR] Unhandled error processing content/news/2021/12/poiskoviki-tverskoi-oblasti-chechenskoi-respubliki/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 185, in query_ollama
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+2026-08-21 19:24:26,162 [ERROR] Validation failed for content/news/2021/12/rezultat-odnoi-iz-polevoi-ekspeditsii-na-territorii-raiona/index.md: Invalid or missing 'category'. Raw response: {'text': 'КомандаКРА #КомандаКРА #ПоискРФ #ПоискЧР #ПатриотыРоссии #Москва #Фондпрезидентскихгрантов #ОбщественнаяпалатаЧР #ОфицерыРоссии #Регион95 #ГГНТУ'}
+2026-08-21 19:24:34,915 [ERROR] Validation failed for content/news/2021/12/rovno-55-let-nazad-3-dekabria-1966-goda/index.md: Invalid or missing 'category'. Raw response: {'text': 'Поиск РФ #ПоискЧР #ПатриотыРоссии #Москва #Фондпрезидентскихгрантов #ОбщественнаяпалатаЧР #ОфицерыРоссии #Регион95 #ГГНТУ #ТерскийРубеж'}
+2026-08-21 19:24:50,623 [ERROR] Validation failed for content/news/2021/12/severnaia-okraina-goroda-voinskoi-slavy-malgobek/index.md: Invalid or missing 'category'. Raw response: {'text': 'Надеюсь, что вы нашли то, что искали! 😊\n\nЕсли у вас есть другие вопросы или вам нужна помощь с чем-то еще, не стесняйтесь спрашивать! Я здесь, чтобы помочь! ✨'}
+2026-08-21 19:25:37,488 [ERROR] Validation failed for content/news/2021/12/vot-uzhe-shestoi-god-podriad-chechenskie-poiskoviki-uchastie/index.md: Invalid or missing 'category'. Raw response: {'text': 'Поисковики ЧР, Команда КРА, Поиск РФ, Поиск ЧР, Патриоты России, Москва, Фонд президентских грантов, Общественная палата ЧР, Офицеры России, Регион 95, ГГНТУ'}
+2026-08-21 19:26:59,710 [ERROR] Unhandled error processing content/news/2022/01/mezhdunarodnaia-poiskovaia-ekspeditsiia-volkhovskii-front/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 185, in query_ollama
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+2026-08-21 19:27:07,423 [ERROR] Validation failed for content/news/2022/01/mvd-po-chechenskoi-respublike-oprovergaet-dannye-ob-ugonakh/index.md: Contains blacklisted generic tag. Raw response: {'category': 'Новости движения', 'tags': ['Чеченская Республика', 'МВД по Чеченской Республике', 'угоны автомобилей', 'информация', 'безопасность']}
+2026-08-21 19:27:12,662 [ERROR] Validation failed for content/news/2022/01/zalina-dala-dekal-ioila-kho-iinchu-dantsa/index.md: 'tags' must be a list of 3 to 7 items (got 2). Raw response: {'category': 'Историческая память', 'tags': ['Дала декъал', 'Чечня']}
+2026-08-21 19:28:16,609 [ERROR] Validation failed for content/news/2022/02/07-02-22g-v-obshchestvennoi-palate-chr-obsudili-voprosy/index.md: Invalid or missing 'category'. Raw response: {'text': 'ПоисковикиЧР #КомандаКРА #ПоискРФ #ПоискЧР #ПатриотыРоссии #Ингушетия #Фондпрезидентскихгрантов #ОбщественнаяпалатаРФ #ОбщественнаяпалатаЧР #ОфицерыРоссии'}
+2026-08-21 19:29:31,244 [ERROR] Unhandled error processing content/news/2022/02/10-02-2022g-g-moskva-ofis-postoiannogo-predstavitelstva/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 185, in query_ollama
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1349, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+2026-08-21 19:30:22,811 [ERROR] Validation failed for content/news/2022/02/a-vot-i-pervye-rezultaty-issledovanii/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['#КомандаКРА', '#ПоискРФ', '#ПоискЧР', '#ПатриотыРоссии', '#Ингушетия', '#Фондпрезидентскихгрантов', '#ОбщественнаяпалатаРФ', '#ОбщественнаяпалатаЧР', '#ОфицерыРоссии', '#Регион95']}
+2026-08-21 19:30:37,780 [ERROR] Unhandled error processing content/news/2022/02/chechenskie-poiskoviki-i-issledovateli-imeiut-mnogoletnii/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 187, in query_ollama
+    return json.loads(res.get("response", "{}"))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 6 column 5 (char 129)
+2026-08-21 19:30:49,935 [ERROR] Validation failed for content/news/2022/02/chechenskie-poiskoviki-prodolzhaiut-rabotu-po-poisku/index.md: Invalid or missing 'category'. Raw response: {'text': 'Пожалуйста, уточните ваш запрос. Вы предоставили список ссылок на хэштеги в социальных сетях. Что именно вы хотели бы сделать с этой информацией? Например, вы хотите, чтобы я:\n\n1. **Проанализировал** эти хэштеги (по тематике, популярности и т.д.)?\n2. **Сгенерировал** текст, используя эти хэштеги?\n3. **Нашел** информацию по какому-то конкретному хэштегу?\n4. **Сделал** что-то другое?\n\nКак только вы уточните задачу, я с радостью помогу!'}
+2026-08-21 19:30:59,722 [ERROR] Validation failed for content/news/2022/02/chechenskie-poiskoviki-v-ekspozitsionnom-zale-natsionalnogo/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['ПоискЧР', 'ПатриотыРоссии', 'Ингушетия', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаРФ', 'ОбщественнаяпалатаЧР', 'ОфицерыРоссии', 'Регион95', 'ГГНТУ', 'ТерскийРубеж']}
+2026-08-21 19:31:07,116 [ERROR] Validation failed for content/news/2022/02/g-podolsk-moskovskaia-oblast/index.md: Invalid or missing 'category'. Raw response: {'text': 'Привет! 👋 Как я могу тебе помочь сегодня? 😊'}
+2026-08-21 19:31:22,663 [ERROR] Unhandled error processing content/news/2022/02/i-snova-v-put-i-snova-raznye-rabochie-vstrechi/index.md
+Traceback (most recent call last):
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 296, in main
+    llm_res = query_ollama(prompt)
+  File "/Users/kerim/Desktop/Hugo_Projects/terskiyrubezh/generate_taxonomies.py", line 187, in query_ollama
+    return json.loads(res.get("response", "{}"))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 9 column 5 (char 198)
+2026-08-21 19:31:54,659 [ERROR] Validation failed for content/news/2022/02/poiskovyi-otriad/index.md: Invalid or missing 'category'. Raw response: {'text': 'На этой странице собраны посты, связанные с темой #увековечениепамяти. Также здесь можно найти информацию по тегам #минобороны, #роспатриотцентр, #выборг, #ленинградскаяобласть, #КавказПоиск, #ПоисковикиДагестан, #ХасавюртПоиск. \n\nВ постах упоминаются аккаунты: @e_tsunaeva, @ibragimov_official_1, @rfpoisk, @ppk_has, @go.hasavyurt, @hasgormol, @minmolru, @ppk.has, @molpravrd, @kamilsaidov1, @pravitelstvo_rd, @rgvktv.rv, @gtrk_dagestan.'}
+2026-08-21 19:33:32,377 [ERROR] Validation failed for content/news/2022/02/tsentralnyi-arkhiv-ministerstva-oborony-rf-2/index.md: Invalid or missing 'category'. Raw response: {'hashtag': 'ОфицерыРоссии', 'url': 'https://www.facebook.com/hashtag/%D0%BE%D1%84%D0%B8%D1%86%D1%80%D1%81%D0%B8%D0%B9%D1%81%D1%81%D0%B8%D0%B9?__eep__=6&__cft__[0]=AZU0LbrgG8KBwzZeLokpLQ4ug8uTDoYgFHcYmoE9mvYLj1bebphPL1i3fZDXkIdq2nejsCvPaZCvBrNrILrSCLXvwp70zVsScl8RSxdf_Aydr6y56e20arWjw86wgvpEqadkmNXlE-HlA0iLI5736tYR&__tn__=*NK-R'}
+2026-08-21 19:33:42,198 [ERROR] Validation failed for content/news/2022/02/tsentralnyi-arkhiv-ministerstva-oborony-rf/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['#ПоисковикиЧР', '#КомандаКРА', '#ПоискРФ', '#ПоискЧР', '#ПатриотыРоссии', '#Ингушетия', '#Фондпрезидентскихгрантов', '#ОбщественнаяпалатаРФ', '#ОбщественнаяпалатаЧР', '#ОфицерыРоссии']}
+2026-08-21 19:34:19,208 [ERROR] Validation failed for content/news/2022/02/uvazhaemyi-ildar-zinurovich/index.md: 'tags' must be a list of 3 to 7 items (got 2). Raw response: {'category': 'Помощь семьям', 'tags': ['Поздравление', 'День рождения']}
+2026-08-21 19:35:04,388 [ERROR] Validation failed for content/news/2022/02/vse-puti-vedut-v-moskvu-libo-cherez-moskvu/index.md: Invalid or missing 'category'. Raw response: {'hashtags': ['ПоискЧР', 'ПатриотыРоссии', 'Ингушетия', 'Фондпрезидентскихгрантов', 'ОбщественнаяпалатаРФ', 'ОбщественнаяпалатаЧР', 'ОфицерыРоссии', 'Регион95', 'ГГНТУ']}
+2026-08-21 20:32:38,095 [ERROR] Validation failed for content/news/2023/03/s-1-go-fevralia-2023-goda-dan-start-realizatsii-fondom-v/index.md: 'tags' must be a list of 3 to 7 items (got 8). Raw response: {'category': 'Архивные исследования', 'tags': ['Великая Отечественная война', 'Брестская крепость', 'Аджимушкайские каменоломни', 'Центральный архив Министерства обороны РФ', 'Красная Армия', 'Поисковое движение России', 'Чечня', 'Беларусь']}
+2026-08-21 21:42:00,493 [ERROR] Validation failed for content/news/2024/08/piatyi-ugol/index.md: 'tags' must be a list of 3 to 7 items (got 2). Raw response: {'category': 'Поисковая работа', 'tags': ['Пятый угол', 'поисковая работа']}
+2026-08-21 21:42:10,488 [ERROR] Validation failed for content/news/2024/08/terskii-rubezh-14/index.md: 'tags' must be a list of 3 to 7 items (got 1). Raw response: {'category': 'Новости движения', 'tags': ['Терский Рубеж']}
+2026-08-21 21:50:13,636 [ERROR] Validation failed for content/news/2025/01/iz-arkhiva-otkrytie-vakhty-pamiati-terskii-rubezh-2020/index.md: 'tags' must be a list of 3 to 7 items (got 8). Raw response: {'category': 'Историческая память', 'tags': ['Вахта Памяти', 'Малгобек', 'Чечня', 'Ингушетия', 'РСО-Алания', 'Ставропольский край', 'Астраханская область', 'Ростовская область']}
+2026-08-21 21:57:29,348 [ERROR] Validation failed for content/news/2025/03/v-natsionalnoi-biblioteke-chechenskoi-respubliki-im-a-a-v-na/index.md: Duplicate tags present. Raw response: {'category': 'Историческая память', 'tags': ['Крым', 'Россия', 'Великая Отечественная война', 'Чечня', 'Крым', 'Общественная палата ЧР', 'Национальная библиотека ЧР']}
+2026-08-21 22:16:38,085 [ERROR] Validation failed for content/news/2025/10/вахта-памяти-терский-рубеж-81/index.md: 'tags' must be a list of 3 to 7 items (got 8). Raw response: {'category': 'Поисковая работа', 'tags': ['Поисковое движение России', 'Красная Армия', 'Северо-Кавказский фронт', 'Чечня', 'Адыгея', 'Ставропольский край', 'поисковики', 'Вахта Памяти']}
+2026-08-21 22:29:44,727 [ERROR] Validation failed for content/news/2026/05/dorogie-druzia-soratniki-podpischiki/index.md: 'tags' must be a list of 3 to 7 items (got 2). Raw response: {'category': 'Новости движения', 'tags': ['День рождения', 'Курбан-Байрам']}
+2026-08-21 22:30:40,749 [ERROR] Validation failed for content/news/2026/05/prodolzhaiutsia-poiskovye-raboty-na-severnom-sklone-terskogo/index.md: 'tags' must be a list of 3 to 7 items (got 8). Raw response: {'category': 'Поисковая работа', 'tags': ['Терский хребет', 'Малгобек', 'Алханчуртская долина', 'Чечня', 'Ингушетия', 'Ставропольский край', 'Красная Армия', 'Вахта Памяти']}

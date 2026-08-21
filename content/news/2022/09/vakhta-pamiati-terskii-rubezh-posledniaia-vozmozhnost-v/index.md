@@ -1,10 +1,17 @@
 ---
-title: "Вахта Памяти «Терский Рубеж»: последняя возможность принять участие в экспедициях"
-slug: 'vakhta-pamiati-terskii-rubezh-posledniaia-vozmozhnost-v'
+categories:
+- Экспедиции
+coverImage: JmGyLrc_Vy4SBkocEeW0Zd7VsIW1TGz23-VRsbhcSZ3X_iZXRhYCCA8-osINmgbTNtSWze_3e4AICfVv5TSBWz_P.jpg
 date: 2022-09-05
-categories: 
-  - "главная-рубрика"
-coverImage: "JmGyLrc_Vy4SBkocEeW0Zd7VsIW1TGz23-VRsbhcSZ3X_iZXRhYCCA8-osINmgbTNtSWze_3e4AICfVv5TSBWz_P.jpg"
+slug: vakhta-pamiati-terskii-rubezh-posledniaia-vozmozhnost-v
+tags:
+- Вахта Памяти
+- Северо-Кавказский фронт
+- Чеченская Республика
+- Республика Ингушетия
+- Поисковая работа
+- Военно-исторические экспедиции
+title: 'Вахта Памяти «Терский Рубеж»: последняя возможность принять участие в экспедициях'
 ---
 
 📌

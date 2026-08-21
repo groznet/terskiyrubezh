@@ -1,10 +1,18 @@
 ---
-title: "Хочу поздравить свою команду - команду проекта «Ушедшие в бессмертие» с очередной победой в конкурсе Фонда президентских грантов!"
-slug: 'khochu-pozdravit-svoiu-komandu-komandu-proekta-ushedshie-v-s'
+categories:
+- Архивные исследования
+coverImage: HZLU6t34GiKW2GfgAxWXY2qRQhhOpKSWrUsj5SUoMbkMfxhSZPMW-VcGktsR.jpg
 date: 2023-01-13
-categories: 
-  - "главная-рубрика"
-coverImage: "HZLU6t34GiKW2GfgAxWXY2qRQhhOpKSWrUsj5SUoMbkMfxhSZPMW-VcGktsR.jpg"
+slug: khochu-pozdravit-svoiu-komandu-komandu-proekta-ushedshie-v-s
+tags:
+- Великая Отечественная война
+- Брестская крепость
+- Аджимушкайские каменоломни
+- Архивные документы
+- Российская Федерация
+- Республика Беларусь
+title: Хочу поздравить свою команду - команду проекта «Ушедшие в бессмертие» с очередной
+  победой в конкурсе Фонда президентских грантов!
 ---
 
 Хочу поздравить свою команду - команду проекта «Ушедшие в бессмертие» с очередной победой в конкурсе Фонда президентских грантов!

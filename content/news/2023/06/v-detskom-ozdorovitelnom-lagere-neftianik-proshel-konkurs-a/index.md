@@ -1,10 +1,18 @@
 ---
-title: "В Детском оздоровительном лагере «Нефтяник» прошел конкурс «А ну-ка, мальчики!»."
-slug: 'v-detskom-ozdorovitelnom-lagere-neftianik-proshel-konkurs-a'
+categories:
+- Волонтёрство
+coverImage: ytSK5WoFbkg.jpg
 date: 2023-06-28
-categories: 
-  - "главная-рубрика"
-coverImage: "ytSK5WoFbkg.jpg"
+slug: v-detskom-ozdorovitelnom-lagere-neftianik-proshel-konkurs-a
+tags:
+- Поисковое движение
+- Поисковики
+- Команда КРА
+- Автомат Калашникова
+- Ингушетия
+- Чечня
+- Юнармия
+title: В Детском оздоровительном лагере «Нефтяник» прошел конкурс «А ну-ка, мальчики!».
 ---
 
 Конкурсом были предусмотрены состязания по приготовлению обеда, различные спортивные мероприятия, в том числе и разборка, и сборка автомата Калашникова.  
@@ -23,5 +31,3 @@ coverImage: "ytSK5WoFbkg.jpg"
 #ПоисковикиРФ #ПоисковикиЧР #КомандаКРА #ПоискРФ #ПоискЧР #ПатриотыРоссии #Ингушетия #Фондпрезидентскихгрантов #ОбщественнаяпалатаРФ #ОбщественнаяпалатаЧР #ОфицерыРоссии #Регион95 #ГГНТУ #ТерскийРубеж #Чечня #ЧГУ #ЧГПУ #ПатриотЧР #Аджимушкай #ПоисковоедвижениевЧеченскойРеспублике #Судьбасолдата #СтуденческийдесантЧГУ #Терроризм #Грозный #ПатриотыЧечни #Малгобек #маоонацсовет #ЮнармияРИ #Дагестан
 
 Webuyhouses-7.com offers a transaction with minimal hassle. Experts assist. Selling your property? Request us! Sincerity sells. Visit [https://www.webuyhouses-7.com/new-york/we-buy-homes-rhinebeck-ny/](https://www.webuyhouses-7.com/new-york/we-buy-homes-rhinebeck-ny/).
-
-

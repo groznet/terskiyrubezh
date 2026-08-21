@@ -1,10 +1,16 @@
 ---
-title: "В пятницу 02 сентября 2022 года состоялась рабочая встреча"
-slug: 'v-piatnitsu-02-sentiabria-2022-goda-sostoialas-rabochaia'
+categories:
+- Новости движения
+coverImage: ssqm1ZpX4ze2_1M8p_D0s-IwypdbNsHaJH9dJCPe0JgWngz_ts7uRSuDYMHzIR4FlV_YQF8FlqPXgt06SarxODcp.jpg
 date: 2022-09-04
-categories: 
-  - "главная-рубрика"
-coverImage: "ssqm1ZpX4ze2_1M8p_D0s-IwypdbNsHaJH9dJCPe0JgWngz_ts7uRSuDYMHzIR4FlV_YQF8FlqPXgt06SarxODcp.jpg"
+slug: v-piatnitsu-02-sentiabria-2022-goda-sostoialas-rabochaia
+tags:
+- Чеченская Республика
+- Общественные организации
+- Патриотическое воспитание
+- Диалог
+- Волонтёрство
+title: В пятницу 02 сентября 2022 года состоялась рабочая встреча
 ---
 
 В пятницу 02 сентября 2022 года состоялась рабочая встреча Директора департамента Администрации Главы и Правительства Чеченской Республики по связям с религиозными и общественными организациями Аслана Абдулаева и Председателя Общественной палаты ЧР Исмаила Денильханова.

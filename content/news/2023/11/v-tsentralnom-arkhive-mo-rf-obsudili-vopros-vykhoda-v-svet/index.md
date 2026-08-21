@@ -1,10 +1,18 @@
 ---
-title: "В Центральном архиве МО РФ обсудили вопрос выхода в свет научного издания «Битва за Кавказ»"
-slug: 'v-tsentralnom-arkhive-mo-rf-obsudili-vopros-vykhoda-v-svet'
+categories:
+- Архивные исследования
+coverImage: l7kh8AtceOU-1.jpg
 date: 2023-11-19
-categories: 
-  - "главная-рубрика"
-coverImage: "l7kh8AtceOU-1.jpg"
+slug: v-tsentralnom-arkhive-mo-rf-obsudili-vopros-vykhoda-v-svet
+tags:
+- Великая Отечественная война
+- Битва за Кавказ
+- Центральный архив МО РФ
+- Поисковое движение России
+- Чечня
+- Кавказ
+title: В Центральном архиве МО РФ обсудили вопрос выхода в свет научного издания «Битва
+  за Кавказ»
 ---
 
 Вахта Памяти «Терский Рубеж»

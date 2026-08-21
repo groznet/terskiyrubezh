@@ -1,10 +1,18 @@
 ---
-title: "10 января 2022 года в Общественной палате Чеченской Республики прошла рабочая встреча"
-slug: '10-ianvaria-2022-goda-v-obshchestvennoi-palate-chechenskoi'
+categories:
+- Новости движения
+coverImage: 3_znol3Wpy4CLM0mOezvaCOYPtmXxxgqVdtfNlIok0LKRuwlPjE9ot5T2cnJTCldRY4gc5GJI4vn5Do_3WSXQ0WN.jpg
 date: 2023-01-11
-categories: 
-  - "главная-рубрика"
-coverImage: "3_znol3Wpy4CLM0mOezvaCOYPtmXxxgqVdtfNlIok0LKRuwlPjE9ot5T2cnJTCldRY4gc5GJI4vn5Do_3WSXQ0WN.jpg"
+slug: 10-ianvaria-2022-goda-v-obshchestvennoi-palate-chechenskoi
+tags:
+- Общественная палата Чеченской Республики
+- Поисковое движение России
+- Великая Отечественная война
+- Патриотическое воспитание
+- Чечня
+- Поисковики
+title: 10 января 2022 года в Общественной палате Чеченской Республики прошла рабочая
+  встреча
 ---
 
 10 января 2022 года в Общественной палате Чеченской Республики прошла рабочая встреча Председателя ОП ЧР Исмаила Денильханова и члена Общественной палаты РФ и ЧР - Руководителя Регионального отделения «Поисковое движение России» в ЧР Иса Сардалова.

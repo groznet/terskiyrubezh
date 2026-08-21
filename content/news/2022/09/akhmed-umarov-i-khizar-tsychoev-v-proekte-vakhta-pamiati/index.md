@@ -1,10 +1,17 @@
 ---
-title: "Ахмед Умаров и Хизар Цычоев в проекте «Вахта Памяти «Терский Рубеж»"
-slug: 'akhmed-umarov-i-khizar-tsychoev-v-proekte-vakhta-pamiati'
+categories:
+- Поисковая работа
+coverImage: WO2OTlxQjbe6mpqfewysgMFWNZ4dM7ayIHapwfEL9t3jUXNACuvvp7hZMKJGLArkkHXZxud69XFHSrlashTQ1OAj.jpg
 date: 2022-09-20
-categories: 
-  - "главная-рубрика"
-coverImage: "WO2OTlxQjbe6mpqfewysgMFWNZ4dM7ayIHapwfEL9t3jUXNACuvvp7hZMKJGLArkkHXZxud69XFHSrlashTQ1OAj.jpg"
+slug: akhmed-umarov-i-khizar-tsychoev-v-proekte-vakhta-pamiati
+tags:
+- Вахта Памяти
+- Терский Рубеж
+- Поисковики
+- Чечня
+- Ингушетия
+- Грозный
+title: Ахмед Умаров и Хизар Цычоев в проекте «Вахта Памяти «Терский Рубеж»
 ---
 
 Ахмед Умаров и Хизар Цычоев в проекте «Вахта Памяти «Терский Рубеж» отвечает за фотовидеосъемку.  
@@ -16,5 +23,3 @@ coverImage: "WO2OTlxQjbe6mpqfewysgMFWNZ4dM7ayIHapwfEL9t3jUXNACuvvp7hZMKJGLArkkHX
 Надеемся, что ролик получится удачный, и мы обязательно выложим его на различных ресурсах наших соцсетей.
 
 #ПоисковикиРФ#ПоисковикиЧР#КомандаКРА#ПоискРФ#ПоискЧР#ПатриотыРоссии#Ингушетия#Фондпрезидентскихгрантов#ОбщественнаяпалатаРФ#ОбщественнаяпалатаЧР#ОфицерыРоссии#Регион95#ГГНТУ#ТерскийРубеж#Чечня#ЧГУ#ЧГПУ#ПатриотЧР#Аджимушкай#ПоисковоедвижениевЧеченскойРеспублике#Судьбасолдата#СтуденческийдесантЧГУ#Терроризм#Грозный#ПатриотыЧечни#Малгобек#маоонацсовет#ЮнармияРИ#Дагестан
-
-

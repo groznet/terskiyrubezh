@@ -1,10 +1,17 @@
 ---
-title: "В Чеченской Республике проходит сбор предложений для обновления Народной программы в сфере АПК"
-slug: 'v-chechenskoi-respublike-prokhodit-sbor-predlozhenii-dlia-v'
+categories:
+- Новости движения
+coverImage: 81WFPUjVglmZiwoNJ2Tk2ZObIFx8DMm5-JuD4keaRER7sGvJX9qCOeAXmECziPlUrHyQuYUERoMq0d-wOqWvQcfy.jpg
 date: 2026-07-21
-categories: 
-  - "главная-рубрика"
-coverImage: "81WFPUjVglmZiwoNJ2Tk2ZObIFx8DMm5-JuD4keaRER7sGvJX9qCOeAXmECziPlUrHyQuYUERoMq0d-wOqWvQcfy.jpg"
+slug: v-chechenskoi-respublike-prokhodit-sbor-predlozhenii-dlia-v
+tags:
+- Чеченская Республика
+- АПК
+- сельское хозяйство
+- Грозный
+- Народная программа
+title: В Чеченской Республике проходит сбор предложений для обновления Народной программы
+  в сфере АПК
 ---
 
 Депутаты и активисты провели серию выездных встреч в Грозненском, Надтеречном, Гудермесском и Шалинском районах, чтобы оценить условия труда и собрать инициативы.

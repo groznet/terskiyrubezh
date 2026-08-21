@@ -1,10 +1,17 @@
 ---
-title: "В СОШ №16 провели Урок мужества"
-slug: 'v-sosh-no16-proveli-urok-muzhestva'
+categories:
+- Просветительская деятельность
+coverImage: i2PAhV5Br_4-1.jpg
 date: 2023-11-23
-categories: 
-  - "главная-рубрика"
-coverImage: "i2PAhV5Br_4-1.jpg"
+slug: v-sosh-no16-proveli-urok-muzhestva
+tags:
+- Великая Отечественная война
+- Автомат Калашникова
+- Малгобек
+- Терский хребет
+- Алханчуртская долина
+- Военная история России
+title: В СОШ №16 провели Урок мужества
 ---
 
 Вахта Памяти «Терский Рубеж»

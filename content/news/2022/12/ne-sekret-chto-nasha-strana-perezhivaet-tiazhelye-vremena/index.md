@@ -1,14 +1,18 @@
 ---
-title: "Не секрет, что наша страна переживает тяжелые времена"
-slug: 'ne-sekret-chto-nasha-strana-perezhivaet-tiazhelye-vremena'
+categories:
+- Просветительская деятельность
+coverImage: cHxjO78Z-OOK5-ka1gimf9pIpNpSjnOBSQLDMOWMmn2dNCedo25Pylky1CVEcNUjDDm_WvVI7AshsOGdTvA3360Z.jpg
 date: 2022-12-06
-categories: 
-  - "главная-рубрика"
-coverImage: "cHxjO78Z-OOK5-ka1gimf9pIpNpSjnOBSQLDMOWMmn2dNCedo25Pylky1CVEcNUjDDm_WvVI7AshsOGdTvA3360Z.jpg"
+slug: ne-sekret-chto-nasha-strana-perezhivaet-tiazhelye-vremena
+tags:
+- Чечня
+- Грозный
+- Патриотическое воспитание
+- Поисковое движение России
+- Вахта памяти
+- Образование
+title: Не секрет, что наша страна переживает тяжелые времена
 ---
-
-
-
 
 Однако, несмотря на все сложности, руководство нашего региона в лице Главы Чеченской Республики Героя России Рамзана Кадырова делает все, чтобы жители республики не чувствовали никакие тяготы.  
 Республика живет в обычном штатном режиме, функционируют все ведомства обеспечивающие жизнедеятельность населения.

@@ -1,10 +1,15 @@
 ---
-title: "Полевая экспедиция в Ленинградской области"
-slug: 'polevaia-ekspeditsiia-v-leningradskoi-oblasti'
+categories:
+- Поисковая работа
+coverImage: DSCN8414-1.jpg
 date: 2019-08-13
-categories: 
-  - "главная-рубрика"
-coverImage: "DSCN8414-1.jpg"
+slug: polevaia-ekspeditsiia-v-leningradskoi-oblasti
+tags:
+- Ленинградская область
+- поисковая экспедиция
+- поисковая работа
+- Великая Отечественная война
+- поисковое движение России
+- память
+title: Полевая экспедиция в Ленинградской области
 ---
-
-

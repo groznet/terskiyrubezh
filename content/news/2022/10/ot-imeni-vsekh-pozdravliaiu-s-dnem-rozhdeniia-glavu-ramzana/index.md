@@ -1,10 +1,18 @@
 ---
-title: "От имени всех поздравляю с Днем рождения Главу Чеченской Республики Рамзана Ахматовича Кадырова!"
-slug: 'ot-imeni-vsekh-pozdravliaiu-s-dnem-rozhdeniia-glavu-ramzana'
+categories:
+- Новости движения
+coverImage: Y9XBSp7TYcsky8DPiRXqt8NdnZiuz3NpCssYVqUQxHi75c9kNiUoMbrDuo-vajxjKe8w2CW-Y1BBjPGXK41fDBeg.jpg
 date: 2022-10-05
-categories: 
-  - "главная-рубрика"
-coverImage: "Y9XBSp7TYcsky8DPiRXqt8NdnZiuz3NpCssYVqUQxHi75c9kNiUoMbrDuo-vajxjKe8w2CW-Y1BBjPGXK41fDBeg.jpg"
+slug: ot-imeni-vsekh-pozdravliaiu-s-dnem-rozhdeniia-glavu-ramzana
+tags:
+- Чечня
+- Рамзан Кадыров
+- Поисковое движение России
+- Общественная палата РФ
+- Поисковики ЧР
+- Поисковики РФ
+title: От имени всех поздравляю с Днем рождения Главу Чеченской Республики Рамзана
+  Ахматовича Кадырова!
 ---
 
 От имени членов Общественной палаты РФ, Общественной палаты ЧР, Регионального отделения «Поисковое движение России» в ЧР и от себя лично искренне поздравляю с Днем рождения Главу Чеченской Республики Героя России Рамзана Ахматовича Кадырова!

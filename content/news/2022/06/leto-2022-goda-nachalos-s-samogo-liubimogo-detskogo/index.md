@@ -1,10 +1,17 @@
 ---
-title: "Лето 2022 года началось с самого любимого детского праздника"
-slug: 'leto-2022-goda-nachalos-s-samogo-liubimogo-detskogo'
+categories:
+- Поисковая работа
+coverImage: bOdlwMsJ2rGYCEUkyPlfwfnOTGdWHa1rQbVK2VitKTBzEonucu82tYI5OAmcpMfoY0gdTNrZpNkRD8AQ41pEfJwy.jpg
 date: 2022-06-02
-categories: 
-  - "главная-рубрика"
-coverImage: "bOdlwMsJ2rGYCEUkyPlfwfnOTGdWHa1rQbVK2VitKTBzEonucu82tYI5OAmcpMfoY0gdTNrZpNkRD8AQ41pEfJwy.jpg"
+slug: leto-2022-goda-nachalos-s-samogo-liubimogo-detskogo
+tags:
+- Поисковое движение России
+- Чечня
+- Грозный
+- Волонтерство
+- Поисковики
+- Общественная палата ЧР
+title: Лето 2022 года началось с самого любимого детского праздника
 ---
 
 Лето 2022 года началось с самого любимого детского праздника - День защиты детей.
@@ -26,5 +33,3 @@ coverImage: "bOdlwMsJ2rGYCEUkyPlfwfnOTGdWHa1rQbVK2VitKTBzEonucu82tYI5OAmcpMfoY0g
 В мероприятии приняло участие более 200 спортсменов из различных районов Чеченской Республики.
 
 #ПоисковикиРФ#ПоисковикиЧР#КомандаКРА#ПоискРФ#ПоискЧР#ПатриотыРоссии#Ингушетия#Фондпрезидентскихгрантов#ОбщественнаяпалатаРФ#ОбщественнаяпалатаЧР#ОфицерыРоссии#Регион95#ГГНТУ#ТерскийРубеж#Чечня#ЧГУ#ЧГПУ#ПатриотЧР#ПоисковоедвижениевЧеченскойРеспублике#СтуденческийдесантЧГУ#Судьбасолдата#Грозный#ЦАМО#ПатриотыЧечни#Малгобек#маоонацсовет#ЮнармияРИ#Дагестан#Турнир
-
-

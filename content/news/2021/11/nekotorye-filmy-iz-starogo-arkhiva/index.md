@@ -1,10 +1,13 @@
 ---
-title: "Некоторые фильмы из старого архива"
-slug: 'nekotorye-filmy-iz-starogo-arkhiva'
+categories:
+- Архивные исследования
+coverImage: safe_image.jpg
 date: 2021-11-04
-categories: 
-  - "главная-рубрика"
-coverImage: "safe_image.jpg"
+slug: nekotorye-filmy-iz-starogo-arkhiva
+tags:
+- Архивные документы
+- Военно-исторические исследования
+- Военные находки
+- Историческая память
+title: Некоторые фильмы из старого архива
 ---
-
-

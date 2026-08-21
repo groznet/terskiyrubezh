@@ -1,10 +1,18 @@
 ---
-title: "Сентябрь 2021 года."
-slug: 'sentiabr-2021-goda'
+categories:
+- Поисковая работа
+coverImage: yBD2QPkKdMo.jpg
 date: 2022-03-07
-categories: 
-  - "главная-рубрика"
-coverImage: "yBD2QPkKdMo.jpg"
+slug: sentiabr-2021-goda
+tags:
+- Ингушетия
+- Малгобек
+- Вахта Памяти
+- Поисковые отряды
+- Поисковики
+- Чечня
+- Великая Отечественная война
+title: Сентябрь 2021 года.
 ---
 
 Сентябрь 2021 года.  

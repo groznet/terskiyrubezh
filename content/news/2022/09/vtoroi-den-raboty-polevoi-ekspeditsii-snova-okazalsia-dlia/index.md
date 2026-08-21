@@ -1,10 +1,17 @@
 ---
-title: "Второй день работы полевой экспедиции снова оказался удачным для ставропольцев."
-slug: 'vtoroi-den-raboty-polevoi-ekspeditsii-snova-okazalsia-dlia'
+categories:
+- Поисковая работа
+coverImage: jse_SLUhGu_BPFXwXlUUBRwj-g9kIQ1N2s0mWDIQkgYCD2dbBfNsbFdZsgvkW1ebBbCcQX9NoIaFsnsQj3Eb0cdx.jpg
 date: 2022-09-09
-categories: 
-  - "главная-рубрика"
-coverImage: "jse_SLUhGu_BPFXwXlUUBRwj-g9kIQ1N2s0mWDIQkgYCD2dbBfNsbFdZsgvkW1ebBbCcQX9NoIaFsnsQj3Eb0cdx.jpg"
+slug: vtoroi-den-raboty-polevoi-ekspeditsii-snova-okazalsia-dlia
+tags:
+- Терский хребет
+- Великая Отечественная война
+- Поисковики
+- Красная Армия
+- Военные захоронения
+- Ставропольский край
+title: Второй день работы полевой экспедиции снова оказался удачным для ставропольцев.
 ---
 
 Второй день работы полевой экспедиции снова оказался удачным для ставропольцев.
@@ -18,5 +25,3 @@ coverImage: "jse_SLUhGu_BPFXwXlUUBRwj-g9kIQ1N2s0mWDIQkgYCD2dbBfNsbFdZsgvkW1ebBbC
 Поисковые работы продолжаются.
 
 #ПоисковикиРФ#ПоисковикиЧР#КомандаКРА#ПоискРФ#ПоискЧР#ПатриотыРоссии#Ингушетия#Фондпрезидентскихгрантов#ОбщественнаяпалатаРФ#ОбщественнаяпалатаЧР#ОфицерыРоссии#Регион95#ГГНТУ#ТерскийРубеж#Чечня#ЧГУ#ЧГПУ#ПатриотЧР#Аджимушкай#ПоисковоедвижениевЧеченскойРеспублике#Судьбасолдата#СтуденческийдесантЧГУ#Терроризм#Грозный#ПатриотыЧечни#Малгобек#маоонацсовет#ЮнармияРИ#Дагестан
-
-

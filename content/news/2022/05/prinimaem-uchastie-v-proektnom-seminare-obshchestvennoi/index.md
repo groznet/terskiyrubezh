@@ -1,10 +1,17 @@
 ---
-title: "Принимаем участие в Проектном семинаре Общественной палаты Российской Федерации."
-slug: 'prinimaem-uchastie-v-proektnom-seminare-obshchestvennoi'
+categories:
+- Партнёрство и мероприятия
+coverImage: 4jCm6t7lYIK7wvj7N-PQgjdy4FwaJogzV77BxIX67tBMWn6ajCjwc5LBpHP01RWccqzJDBWXb3Qiem8cLeQsF1uB.jpg
 date: 2022-05-29
-categories: 
-  - "главная-рубрика"
-coverImage: "4jCm6t7lYIK7wvj7N-PQgjdy4FwaJogzV77BxIX67tBMWn6ajCjwc5LBpHP01RWccqzJDBWXb3Qiem8cLeQsF1uB.jpg"
+slug: prinimaem-uchastie-v-proektnom-seminare-obshchestvennoi
+tags:
+- Общественная палата Российской Федерации
+- Общественная палата ЧР
+- Поисковое движение
+- Россия – страна возможностей
+- Поисковики
+- Чечня
+title: Принимаем участие в Проектном семинаре Общественной палаты Российской Федерации.
 ---
 
 Участники семинара: представители Администрации Президента России, Совета Федерации РФ; Государственной думы федерального собрания РФ; члены Общественных палат всех регионов Российской Федерации; Руководители Общественных палат ДНР и ЛНР; Уполномоченные по правам человека и ребенка Российской Федерации, Донецкой и Луганской Народных Республик.

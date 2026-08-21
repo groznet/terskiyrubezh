@@ -1,10 +1,17 @@
 ---
-title: "Идут к завершению поисковые работы на Терском Рубеже"
-slug: 'idut-k-zaversheniiu-poiskovye-raboty-na-terskom-rubezhe'
+categories:
+- Поисковая работа
+coverImage: 1SWFheybYww.jpg
 date: 2024-05-06
-categories: 
-  - "общие"
-coverImage: "1SWFheybYww.jpg"
+slug: idut-k-zaversheniiu-poiskovye-raboty-na-terskom-rubezhe
+tags:
+- Терский Рубеж
+- Аджимушкайские каменоломни
+- поисковики
+- Чечня
+- Грозный
+- Военно-археологическая экспедиция
+title: Идут к завершению поисковые работы на Терском Рубеже
 ---
 
 Лагерь поисковиков посетили друзья-соратники из Астрахани.

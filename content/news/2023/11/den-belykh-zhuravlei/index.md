@@ -1,10 +1,17 @@
 ---
-title: "День Белых Журавлей"
-slug: 'den-belykh-zhuravlei'
+categories:
+- Историческая память
+coverImage: VBxmPV9n5X4-1.jpg
 date: 2023-11-21
-categories: 
-  - "главная-рубрика"
-coverImage: "VBxmPV9n5X4-1.jpg"
+slug: den-belykh-zhuravlei
+tags:
+- Хиросима
+- Ядерная бомбардировка
+- Садако Сасаки
+- Великая Отечественная война
+- Память жертв войны
+- Поисковое движение
+title: День Белых Журавлей
 ---
 
 Вахта Памяти «Терский Рубеж»

@@ -1,10 +1,16 @@
 ---
-title: "29 июля 1936 года — Постановление ЦИК о Положении звания Героя Советского Союза"
-slug: '29-iiulia-1936-goda-postanovlenie-tsik-o-polozhenii-zvaniia'
+categories:
+- Историческая память
+coverImage: bZT21q0cId9DN4XjC-5ZIitNMkLSOYzmqutJA0JVMmsjEWFbbViku_y08jXyiSauJ0wen-A970wdEmwzH8exJCN6.jpg
 date: 2025-08-01
-categories: 
-  - "главная-рубрика"
-coverImage: "bZT21q0cId9DN4XjC-5ZIitNMkLSOYzmqutJA0JVMmsjEWFbbViku_y08jXyiSauJ0wen-A970wdEmwzH8exJCN6.jpg"
+slug: 29-iiulia-1936-goda-postanovlenie-tsik-o-polozhenii-zvaniia
+tags:
+- Герой Советского Союза
+- Постановление ЦИК СССР
+- 1936 год
+- Красная Армия
+- награды
+title: 29 июля 1936 года — Постановление ЦИК о Положении звания Героя Советского Союза
 ---
 
 16 апреля 1934 года постановлением ЦИК СССР было учреждено звание Героя Советского Союза в редакции: «Установить высшую степень отличия — присвоение за личные или коллективные заслуги перед государством, связанные с совершением геройского подвига, звания Героя Советского Союза». Никакие знаки отличия не предусматривались, выдавалась только грамота от ЦИК СССР.

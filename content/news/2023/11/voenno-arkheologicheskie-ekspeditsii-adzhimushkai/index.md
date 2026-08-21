@@ -1,10 +1,18 @@
 ---
-title: "Военно-археологические экспедиции Аджимушкай."
-slug: 'voenno-arkheologicheskie-ekspeditsii-adzhimushkai'
+categories:
+- Поисковая работа
+coverImage: 5m6zgerC5a0-1.jpg
 date: 2023-11-18
-categories: 
-  - "главная-рубрика"
-coverImage: "5m6zgerC5a0-1.jpg"
+slug: voenno-arkheologicheskie-ekspeditsii-adzhimushkai
+tags:
+- Аджимушкай
+- Великая Отечественная война
+- Керченский полуостров
+- Военно-археологические экспедиции
+- Мемориал
+- 510-й отдельный зенитно-артиллерийский дивизион
+- 1942 год
+title: Военно-археологические экспедиции Аджимушкай.
 ---
 
 АДЖИМУШКАЙ-2023

@@ -1,10 +1,17 @@
 ---
-title: "В Гимназии №1 говорили о Битве за Кавказ"
-slug: 'v-gimnazii-no1-govorili-o-bitve-za-kavkaz'
+categories:
+- Просветительская деятельность
+coverImage: hJTEPozMvr0.jpg
 date: 2023-11-28
-categories: 
-  - "главная-рубрика"
-coverImage: "hJTEPozMvr0.jpg"
+slug: v-gimnazii-no1-govorili-o-bitve-za-kavkaz
+tags:
+- Великая Отечественная война
+- Битва за Кавказ
+- Грозный
+- Чеченская Республика
+- патриотическое воспитание
+- поисковое движение
+title: В Гимназии №1 говорили о Битве за Кавказ
 ---
 
 Вахта Памяти «Терский Рубеж»

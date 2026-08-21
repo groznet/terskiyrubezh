@@ -1,10 +1,17 @@
 ---
-title: "В Калуге состоялось закрытие Всероссийской «Вахты памяти-2023»"
-slug: 'v-kaluge-sostoialos-zakrytie-vserossiiskoi-vakhty-pamiati'
+categories:
+- Поисковая работа
+coverImage: z09Ln2-YfzM.jpg
 date: 2023-11-23
-categories: 
-  - "главная-рубрика"
-coverImage: "z09Ln2-YfzM.jpg"
+slug: v-kaluge-sostoialos-zakrytie-vserossiiskoi-vakhty-pamiati
+tags:
+- Вахта Памяти
+- Поисковое движение России
+- Калуга
+- Великая Отечественная война
+- Ильинский рубеж
+- Поисковики
+title: В Калуге состоялось закрытие Всероссийской «Вахты памяти-2023»
 ---
 
 Вахта Памяти «Терский Рубеж»

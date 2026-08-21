@@ -1,10 +1,18 @@
 ---
-title: "Поисковики немножко в отчаянии"
-slug: 'poiskoviki-nemnozhko-v-otchaianii'
+categories:
+- Поисковая работа
+coverImage: IXjdNO5Tp0N8rtDntIn9x6lKgcIib2bnr3iBCSdIdCM2g7lnGNKY1COwnsdQy9ViAbK6zNT5qwoeaBYBdcGOu4kK.jpg
 date: 2022-09-23
-categories: 
-  - "главная-рубрика"
-coverImage: "IXjdNO5Tp0N8rtDntIn9x6lKgcIib2bnr3iBCSdIdCM2g7lnGNKY1COwnsdQy9ViAbK6zNT5qwoeaBYBdcGOu4kK.jpg"
+slug: poiskoviki-nemnozhko-v-otchaianii
+tags:
+- Полевая экспедиция
+- Вахта Памяти
+- Северо-Кавказский фронт
+- Поисковики
+- Чечня
+- Ингушетия
+- Грозный
+title: Поисковики немножко в отчаянии
 ---
 
 Поисковики немножко в отчаянии...  
@@ -14,5 +22,3 @@ coverImage: "IXjdNO5Tp0N8rtDntIn9x6lKgcIib2bnr3iBCSdIdCM2g7lnGNKY1COwnsdQy9ViAbK
 Будем ждать результатов.
 
 #ПоисковикиРФ#ПоисковикиЧР#КомандаКРА#ПоискРФ#ПоискЧР#ПатриотыРоссии#Ингушетия#Фондпрезидентскихгрантов#ОбщественнаяпалатаРФ#ОбщественнаяпалатаЧР#ОфицерыРоссии#Регион95#ГГНТУ#ТерскийРубеж#Чечня#ЧГУ#ЧГПУ#ПатриотЧР#Аджимушкай#ПоисковоедвижениевЧеченскойРеспублике#Судьбасолдата#СтуденческийдесантЧГУ#Терроризм#Грозный#ПатриотыЧечни#Малгобек#маоонацсовет#ЮнармияРИ#Дагестан
-
-

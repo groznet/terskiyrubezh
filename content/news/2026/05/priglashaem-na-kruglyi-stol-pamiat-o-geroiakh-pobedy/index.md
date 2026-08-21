@@ -1,10 +1,17 @@
 ---
-title: "Приглашаем на круглый стол «Память о героях Победы»!"
-slug: 'priglashaem-na-kruglyi-stol-pamiat-o-geroiakh-pobedy'
+categories:
+- Историческая память
+coverImage: nwpZmf7NoLnfmbQ8PBJqvjdgGMWQdAiXZfZkj-dzdTu2-x2vi1Es-eJuKDF51BZhNVkXt_4N4uDAtfqGd2xTFVhV.jpg
 date: 2026-05-03
-categories: 
-  - "главная-рубрика"
-coverImage: "nwpZmf7NoLnfmbQ8PBJqvjdgGMWQdAiXZfZkj-dzdTu2-x2vi1Es-eJuKDF51BZhNVkXt_4N4uDAtfqGd2xTFVhV.jpg"
+slug: priglashaem-na-kruglyi-stol-pamiat-o-geroiakh-pobedy
+tags:
+- Великая Отечественная война
+- Патриотизм
+- Общественная палата Российской Федерации
+- Память народа
+- Молодёжь
+- Волонтёрство
+title: Приглашаем на круглый стол «Память о героях Победы»!
 ---
 
 🗓 Дата: 4 мая 2026 года

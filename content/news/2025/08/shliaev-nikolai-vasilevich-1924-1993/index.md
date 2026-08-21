@@ -1,10 +1,17 @@
 ---
-title: "Шляев Николай Васильевич (1924–1993)"
-slug: 'shliaev-nikolai-vasilevich-1924-1993'
+categories:
+- Историческая память
+coverImage: P6YMrhlnf8-eD_9bSvpyHijfdSUAmt6d9jECmZYL3B5vX5y8UwibGk7tTf9NfnfOFp4iGy1TRt5QhrEwbKyaBesn.jpg
 date: 2025-08-01
-categories: 
-  - "главная-рубрика"
-coverImage: "P6YMrhlnf8-eD_9bSvpyHijfdSUAmt6d9jECmZYL3B5vX5y8UwibGk7tTf9NfnfOFp4iGy1TRt5QhrEwbKyaBesn.jpg"
+slug: shliaev-nikolai-vasilevich-1924-1993
+tags:
+- Великая Отечественная война
+- 1-й Белорусский фронт
+- 1944 год
+- Герой Советского Союза
+- Н.В. Шляев
+- Польша
+title: Шляев Николай Васильевич (1924–1993)
 ---
 
 Наводчик орудия 275-го гвардейского истребительно-противотанкового артиллерийского полка 4-й гвардейской истребительно-противотанковой артиллерийской Речицкой бригады 69-й армии 1-го Белорусского фронта, Герой Советского Союза(1945).  

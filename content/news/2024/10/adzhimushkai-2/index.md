@@ -1,9 +1,13 @@
 ---
-title: "Аджимушкай - 2"
-slug: 'adzhimushkai-2'
+categories:
+- Поисковая работа
+coverImage: Поисковое-Движение-России.jpg
 date: 2024-10-12
-categories: 
-  - "общие"
-coverImage: "Поисковое-Движение-России.jpg"
+slug: adzhimushkai-2
+tags:
+- Аджимушкай
+- поисковая работа
+- поисковики
+- Крым
+title: Аджимушкай - 2
 ---
-

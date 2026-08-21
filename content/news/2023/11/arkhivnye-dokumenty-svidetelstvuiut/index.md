@@ -1,10 +1,18 @@
 ---
-title: "Архивные документы свидетельствуют"
-slug: 'arkhivnye-dokumenty-svidetelstvuiut'
+categories:
+- Архивные исследования
+coverImage: 2SBDKmoO1Gs-1.jpg
 date: 2023-11-22
-categories: 
-  - "главная-рубрика"
-coverImage: "2SBDKmoO1Gs-1.jpg"
+slug: arkhivnye-dokumenty-svidetelstvuiut
+tags:
+- Архивные документы
+- Великая Отечественная война
+- Кавказ
+- Грозный
+- Малгобек
+- Поисковое движение России
+- РККА
+title: Архивные документы свидетельствуют
 ---
 
 Вахта Памяти «Терский Рубеж»

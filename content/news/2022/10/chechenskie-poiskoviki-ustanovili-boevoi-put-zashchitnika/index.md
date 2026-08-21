@@ -1,10 +1,18 @@
 ---
-title: "Чеченские поисковики установили боевой путь защитника Отечества."
-slug: 'chechenskie-poiskoviki-ustanovili-boevoi-put-zashchitnika'
+categories:
+- Поисковая работа
+coverImage: E2pPeSPBS9p1Mt_HFSIuls8gmUJYsnp7coNT362A-MknZXZtwiN6nFrlvXh0gcY_Lyz6nHEPyWg4yD4T7btPYlAL-resized.jpg
 date: 2022-10-26
-categories: 
-  - "главная-рубрика"
-coverImage: "E2pPeSPBS9p1Mt_HFSIuls8gmUJYsnp7coNT362A-MknZXZtwiN6nFrlvXh0gcY_Lyz6nHEPyWg4yD4T7btPYlAL-resized.jpg"
+slug: chechenskie-poiskoviki-ustanovili-boevoi-put-zashchitnika
+tags:
+- Великая Отечественная война
+- Чечня
+- Поисковое движение России
+- Архивные документы
+- Военные захоронения
+- Соккаев Ката
+- Горячеисточненское
+title: Чеченские поисковики установили боевой путь защитника Отечества.
 ---
 
 Чеченские поисковики установили боевой путь защитника Отечества.
@@ -40,5 +48,3 @@ coverImage: "E2pPeSPBS9p1Mt_HFSIuls8gmUJYsnp7coNT362A-MknZXZtwiN6nFrlvXh0gcY_Lyz
 Вечная память защитникам Отечества, павшим за свободу и независимость нашей Родины!
 
 #ПоисковикиРФ#ПоисковикиЧР#КомандаКРА#ПоискРФ#ПоискЧР#ПатриотыРоссии#Ингушетия#Фондпрезидентскихгрантов#ОбщественнаяпалатаРФ#ОбщественнаяпалатаЧР#ОфицерыРоссии#Регион95#ГГНТУ#ТерскийРубеж#Чечня#ЧГУ#ЧГПУ#ПатриотЧР#Аджимушкай#ПоисковоедвижениевЧеченскойРеспублике#Судьбасолдата#СтуденческийдесантЧГУ#Грозный#ПатриотыЧечни#Малгобек#маоонацсовет#ЮнармияРИ#Дагестан
-
-

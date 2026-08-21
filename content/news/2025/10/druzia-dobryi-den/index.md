@@ -1,10 +1,17 @@
 ---
-title: "Друзья, добрый день!"
-slug: 'druzia-dobryi-den'
+categories:
+- Просветительская деятельность
+coverImage: zrA9ZUUl9wEfmbPW1p-wOkHI1qHQOjlk1RU7NVYUruoJyctqWptRMWaix67C7U8GKYZC4quIhA34aV9VHVA4yolg.jpg
 date: 2025-10-31
-categories: 
-  - "главная-рубрика"
-coverImage: "zrA9ZUUl9wEfmbPW1p-wOkHI1qHQOjlk1RU7NVYUruoJyctqWptRMWaix67C7U8GKYZC4quIhA34aV9VHVA4yolg.jpg"
+slug: druzia-dobryi-den
+tags:
+- Ленинградская область
+- Муниципальная власть
+- Социальные инициативы
+- Сельское хозяйство
+- Демография
+- Общественные обсуждения
+title: Друзья, добрый день!
 ---
 
 В Ленинградской области, в Тосно, прошли региональные дни форума «МАЛАЯ РОДИНА – СИЛА РОССИИ».  

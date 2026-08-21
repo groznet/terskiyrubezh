@@ -1,10 +1,17 @@
 ---
-title: "19 июня 2022 года член Общественной палаты Российской Федерации"
-slug: '19-iiunia-2022-goda-chlen-obshchestvennoi-palaty-rossiiskoi'
+categories:
+- Поисковая работа
+coverImage: wS-bZEIVrribKc1W_Mxz3DAnW1jL86KQ1EDl8TcR8I09OkWyrCaY8N1jiHuILKFkPSXo1zxB6mx-DTGfdW81wKIm.jpg
 date: 2022-06-21
-categories: 
-  - "главная-рубрика"
-coverImage: "wS-bZEIVrribKc1W_Mxz3DAnW1jL86KQ1EDl8TcR8I09OkWyrCaY8N1jiHuILKFkPSXo1zxB6mx-DTGfdW81wKIm.jpg"
+slug: 19-iiunia-2022-goda-chlen-obshchestvennoi-palaty-rossiiskoi
+tags:
+- Великая Отечественная война
+- Борис Галушкин
+- НКГБ СССР
+- Минская область
+- Военные захоронения
+- Поисковое движение России
+title: 19 июня 2022 года член Общественной палаты Российской Федерации
 ---
 
 19 июня 2022 года член Общественной палаты Российской Федерации – Председатель Совета РО ООД «Поисковое движение России» побывал на месте захоронения Героя Советского Союза Галушкина Бориса Лаврентьевича.

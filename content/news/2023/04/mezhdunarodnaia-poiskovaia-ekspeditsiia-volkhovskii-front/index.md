@@ -1,8 +1,14 @@
 ---
-title: "Международная Поисковая экспедиция «Волховский фронт. Апраксин - 2019»"
-slug: 'mezhdunarodnaia-poiskovaia-ekspeditsiia-volkhovskii-front'
+categories:
+- Экспедиции
 date: 2023-04-07
-categories: 
-  - "главная-рубрика"
+slug: mezhdunarodnaia-poiskovaia-ekspeditsiia-volkhovskii-front
+tags:
+- Военно-историческая экспедиция
+- Волховский фронт
+- Апраксин
+- Поисковая работа
+- 2019 год
+- Международная экспедиция
+title: Международная Поисковая экспедиция «Волховский фронт. Апраксин - 2019»
 ---
-

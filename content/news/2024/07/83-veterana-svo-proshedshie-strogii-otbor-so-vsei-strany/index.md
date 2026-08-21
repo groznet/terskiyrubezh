@@ -1,10 +1,17 @@
 ---
-title: "83 ветерана СВО, прошедшие строгий отбор со всей страны, завершили первый этап президентской программы \"Время Героев\""
-slug: '83-veterana-svo-proshedshie-strogii-otbor-so-vsei-strany'
+categories:
+- Новости движения
+coverImage: Ub677imSyek.jpg
 date: 2024-07-23
-categories: 
-  - "общие"
-coverImage: "Ub677imSyek.jpg"
+slug: 83-veterana-svo-proshedshie-strogii-otbor-so-vsei-strany
+tags:
+- СВО
+- волонтёрство
+- обучение
+- управленческий опыт
+- добровольцы
+title: 83 ветерана СВО, прошедшие строгий отбор со всей страны, завершили первый этап
+  президентской программы "Время Героев"
 ---
 
 📚

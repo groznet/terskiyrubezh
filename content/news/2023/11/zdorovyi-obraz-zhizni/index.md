@@ -1,10 +1,17 @@
 ---
-title: "Здоровый образ жизни"
-slug: 'zdorovyi-obraz-zhizni'
+categories:
+- Просветительская деятельность
+coverImage: 9WRIGFjTzFA-1.jpg
 date: 2023-11-19
-categories: 
-  - "главная-рубрика"
-coverImage: "9WRIGFjTzFA-1.jpg"
+slug: zdorovyi-obraz-zhizni
+tags:
+- Грозный
+- Чечня
+- Поисковое движение России
+- Молодежь
+- Здоровый образ жизни
+- Воспитание
+title: Здоровый образ жизни
 ---
 
 Вахта Памяти «Терский Рубеж»

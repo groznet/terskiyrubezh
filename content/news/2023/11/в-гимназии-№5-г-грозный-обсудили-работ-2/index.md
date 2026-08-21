@@ -1,10 +1,19 @@
 ---
-title: "В Гимназии №5 г.Грозный обсудили работу по увековечению памяти погибших при защите Отечества"
-slug: 'v-gimnazii-no5-g-groznyi-obsudili-rabotu-po-uvekovecheniiu'
+categories:
+- Поисковая работа
+coverImage: HvfK5ETmVxo.jpg
 date: 2023-11-30
-categories: 
-  - "главная-рубрика"
-coverImage: "HvfK5ETmVxo.jpg"
+slug: v-gimnazii-no5-g-groznyi-obsudili-rabotu-po-uvekovecheniiu
+tags:
+- Брестская крепость
+- Великая Отечественная война
+- Поисковое движение России
+- Увековечение памяти
+- Грозный
+- Офицеры России
+- Чечня
+title: В Гимназии №5 г.Грозный обсудили работу по увековечению памяти погибших при
+  защите Отечества
 ---
 
 Ушедшие в бессмертие

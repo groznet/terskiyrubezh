@@ -1,10 +1,17 @@
 ---
-title: "Полевая экспедиция в с.Предгорное РСО-Алания"
-slug: 'polevaia-ekspeditsiia-v-s-predgornoe-rso-alaniia'
+categories:
+- Поисковая работа
+coverImage: P1100034.jpg
 date: 2021-05-07
-categories: 
-  - "главная-рубрика"
-coverImage: "P1100034.jpg"
+slug: polevaia-ekspeditsiia-v-s-predgornoe-rso-alaniia
+tags:
+- Предгорное
+- РСО-Алания
+- Красная Армия
+- Вахта Памяти
+- Поисковики
+- Военные захоронения
+title: Полевая экспедиция в с.Предгорное РСО-Алания
 ---
 
 Привал. Дед Серафим, он же Александр Бесков, подбадривает ребят.

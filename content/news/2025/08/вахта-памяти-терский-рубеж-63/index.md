@@ -1,10 +1,17 @@
 ---
-title: "Вахта Памяти «Терский Рубеж»"
-slug: 'vakhta-pamiati-terskii-rubezh'
+categories:
+- Архивные исследования
+coverImage: UfEXCG2sksIsMxeNlAdW0kI0HcWU-X9mkqm7IoG9eI_VkoG29bFnsJyY0o8q9B41NUM-8VLJKEibzAHr4S2daJtp.jpg
 date: 2025-08-28
-categories: 
-  - "главная-рубрика"
-coverImage: "UfEXCG2sksIsMxeNlAdW0kI0HcWU-X9mkqm7IoG9eI_VkoG29bFnsJyY0o8q9B41NUM-8VLJKEibzAHr4S2daJtp.jpg"
+slug: vakhta-pamiati-terskii-rubezh
+tags:
+- Центральный архив Министерства обороны РФ
+- Великая Отечественная война
+- Архивные исследования
+- Поисковое движение России
+- Чечня
+- Поисковики
+title: Вахта Памяти «Терский Рубеж»
 ---
 
 Команда проекта Вахта Памяти «Терский Рубеж» продолжает поисковую и архивно-исследовательскую работу в Центральном архиве МО РФ.

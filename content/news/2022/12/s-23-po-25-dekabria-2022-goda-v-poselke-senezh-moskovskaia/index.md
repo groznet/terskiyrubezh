@@ -1,10 +1,18 @@
 ---
-title: "С 23 по 25 декабря 2022 года в поселке Сенеж (Московская область) пройдёт семинар Комитета семей воинов Отечества"
-slug: 's-23-po-25-dekabria-2022-goda-v-poselke-senezh-moskovskaia'
+categories:
+- Помощь семьям
+coverImage: F3vcFUSFT1mdtbzbd4mc3VXmjMKQdRmiY0Xy5ndgTi1Z-4RHREUheeg3bJ24gU77mPSjK0sYeTBA-1.jpg
 date: 2022-12-23
-categories: 
-  - "главная-рубрика"
-coverImage: "F3vcFUSFT1mdtbzbd4mc3VXmjMKQdRmiY0Xy5ndgTi1Z-4RHREUheeg3bJ24gU77mPSjK0sYeTBA-1.jpg"
+slug: s-23-po-25-dekabria-2022-goda-v-poselke-senezh-moskovskaia
+tags:
+- Семьи воинов
+- Специальная военная операция
+- Военно-медицинские документы
+- Военно-исторические исследования
+- Волонтёрство
+- Образовательный центр
+title: С 23 по 25 декабря 2022 года в поселке Сенеж (Московская область) пройдёт семинар
+  Комитета семей воинов Отечества
 ---
 
 Мастерская управления «Сенеж» – это образовательный центр президентской платформы «Россия – страна возможностей».  

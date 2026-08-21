@@ -1,10 +1,17 @@
 ---
-title: "9 октября 2021 года в Подляском воеводстве Польши"
-slug: '9-oktiabria-2021-goda-v-podliaskom-voevodstve-polshi'
+categories:
+- Поисковая работа
+coverImage: 245395556_4126565064120907_885134895611669550_n.jpg
 date: 2021-10-14
-categories: 
-  - "главная-рубрика"
-coverImage: "245395556_4126565064120907_885134895611669550_n.jpg"
+slug: 9-oktiabria-2021-goda-v-podliaskom-voevodstve-polshi
+tags:
+- Польша
+- Белосток
+- Красная Армия
+- Великая Отечественная война
+- Военные захоронения
+- Военные находки
+title: 9 октября 2021 года в Подляском воеводстве Польши
 ---
 
 9 октября 2021 года в Подляском воеводстве Польши, под городом Белосток, состоялись работы по поиску останков солдат Красной Армии, павших в этом районе в июне 1941 года. Работы проводились членами ассоциации «Помост», действующей от имени Института национальной памяти Польши. В них участвовали и многочисленные польские добровольцы. Целью поисковых работ являлась проверка 4-х предполагаемых мест захоронения советских солдат, отмеченных ранее в протоколах. В первом из мест, была обнаружена постэксгумационная яма, в которой находилось небольшое количество мелких человеческих останков. В двух следующих, к сожалению, ничего не было. В четвёртом месте, у автомобильной трассы Белосток – Бобровники, т.н. «дороги смерти», на глубине менее 30 см (!) были выявлены останки воина РККА, погибшего, вероятнее всего, в результате взрыва авиационной бомбы или артиллерий-ского снаряда. В процессе эксгумации были найдены фрагменты снаряжения, подсумки, две ложки, кружка, пуговицы от униформы и пряжки – сообщил представитель МОО «Военная археология» Михал Дашута. Обнаруженные останки были с почестями захоронены на советском воинском участке городского кладбища в Белостоке.[#ПоисковикиРФ](https://www.facebook.com/hashtag/%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%B8%D0%BA%D0%B8%D1%80%D1%84?__eep__=6&__cft__[0]=AZXhmrVc4d_CcGkl2nwYVUtHl175suRfi2siLqqpGVKiBI1fqtnQu4KgS9aissEbhORqon27wlsylFDDURea1dQd715SKhX9Q6R48bg9RJ2G_r1qlAeRr62K2UOF5dAjOCY&__tn__=*NK-R)[#ПоискРФ](https://www.facebook.com/hashtag/%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D1%80%D1%84?__eep__=6&__cft__[0]=AZXhmrVc4d_CcGkl2nwYVUtHl175suRfi2siLqqpGVKiBI1fqtnQu4KgS9aissEbhORqon27wlsylFDDURea1dQd715SKhX9Q6R48bg9RJ2G_r1qlAeRr62K2UOF5dAjOCY&__tn__=*NK-R)[#ПоисковикиМО](https://www.facebook.com/hashtag/%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%B8%D0%BA%D0%B8%D0%BC%D0%BE?__eep__=6&__cft__[0]=AZXhmrVc4d_CcGkl2nwYVUtHl175suRfi2siLqqpGVKiBI1fqtnQu4KgS9aissEbhORqon27wlsylFDDURea1dQd715SKhX9Q6R48bg9RJ2G_r1qlAeRr62K2UOF5dAjOCY&__tn__=*NK-R)[#небородины](https://www.facebook.com/hashtag/%D0%BD%D0%B5%D0%B1%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D0%BD%D1%8B?__eep__=6&__cft__[0]=AZXhmrVc4d_CcGkl2nwYVUtHl175suRfi2siLqqpGVKiBI1fqtnQu4KgS9aissEbhORqon27wlsylFDDURea1dQd715SKhX9Q6R48bg9RJ2G_r1qlAeRr62K2UOF5dAjOCY&__tn__=*NK-R)[#ВВСРККА](https://www.facebook.com/hashtag/%D0%B2%D0%B2%D1%81%D1%80%D0%BA%D0%BA%D0%B0?__eep__=6&__cft__[0]=AZXhmrVc4d_CcGkl2nwYVUtHl175suRfi2siLqqpGVKiBI1fqtnQu4KgS9aissEbhORqon27wlsylFDDURea1dQd715SKhX9Q6R48bg9RJ2G_r1qlAeRr62K2UOF5dAjOCY&__tn__=*NK-R)[#СудьбаСолдата](https://www.facebook.com/hashtag/%D1%81%D1%83%D0%B4%D1%8C%D0%B1%D0%B0%D1%81%D0%BE%D0%BB%D0%B4%D0%B0%D1%82%D0%B0?__eep__=6&__cft__[0]=AZXhmrVc4d_CcGkl2nwYVUtHl175suRfi2siLqqpGVKiBI1fqtnQu4KgS9aissEbhORqon27wlsylFDDURea1dQd715SKhX9Q6R48bg9RJ2G_r1qlAeRr62K2UOF5dAjOCY&__tn__=*NK-R)[#ПоисковикиЧР](https://www.facebook.com/hashtag/%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%B8%D0%BA%D0%B8%D1%87%D1%80?__eep__=6&__cft__[0]=AZXhmrVc4d_CcGkl2nwYVUtHl175suRfi2siLqqpGVKiBI1fqtnQu4KgS9aissEbhORqon27wlsylFDDURea1dQd715SKhX9Q6R48bg9RJ2G_r1qlAeRr62K2UOF5dAjOCY&__tn__=*NK-R)[#поисковоедвижениемосквы](https://www.facebook.com/hashtag/%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%BE%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D1%8B?__eep__=6&__cft__[0]=AZXhmrVc4d_CcGkl2nwYVUtHl175suRfi2siLqqpGVKiBI1fqtnQu4KgS9aissEbhORqon27wlsylFDDURea1dQd715SKhX9Q6R48bg9RJ2G_r1qlAeRr62K2UOF5dAjOCY&__tn__=*NK-R)[#ТерскийРубеж](https://www.facebook.com/hashtag/%D1%82%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9%D1%80%D1%83%D0%B1%D0%B5%D0%B6?__eep__=6&__cft__[0]=AZXhmrVc4d_CcGkl2nwYVUtHl175suRfi2siLqqpGVKiBI1fqtnQu4KgS9aissEbhORqon27wlsylFDDURea1dQd715SKhX9Q6R48bg9RJ2G_r1qlAeRr62K2UOF5dAjOCY&__tn__=*NK-R)

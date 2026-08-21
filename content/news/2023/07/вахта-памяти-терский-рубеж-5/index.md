@@ -1,10 +1,18 @@
 ---
-title: "Вахта Памяти «Терский Рубеж»"
-slug: 'vakhta-pamiati-terskii-rubezh'
+categories:
+- Экспедиции
+coverImage: pjntatnN8WQ.jpg
 date: 2023-07-24
-categories: 
-  - "главная-рубрика"
-coverImage: "pjntatnN8WQ.jpg"
+slug: vakhta-pamiati-terskii-rubezh
+tags:
+- Чеченская Республика
+- Республика Ингушетия
+- Вахта Памяти
+- Северо-Кавказский фронт
+- Поисковое движение России
+- Поисковики
+- Великая Отечественная война
+title: Вахта Памяти «Терский Рубеж»
 ---
 
 Внимание, Друзья и Коллеги!

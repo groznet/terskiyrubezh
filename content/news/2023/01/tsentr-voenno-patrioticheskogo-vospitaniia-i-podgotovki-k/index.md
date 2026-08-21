@@ -1,10 +1,19 @@
 ---
-title: "Центр Военно-патриотического воспитания и подготовки молодежи к военной службе «Молодой Патриот»"
-slug: 'tsentr-voenno-patrioticheskogo-vospitaniia-i-podgotovki-k'
+categories:
+- Поисковая работа
+coverImage: 51plq0b6IkD7LfmJySu6N9nzHs37LS-AID9MI8Wd65YGfOckeWXsBMERNwyicmnWfz18wCgCZ5nJRh0R049pR3Mb.jpg
 date: 2023-01-01
-categories: 
-  - "главная-рубрика"
-coverImage: "51plq0b6IkD7LfmJySu6N9nzHs37LS-AID9MI8Wd65YGfOckeWXsBMERNwyicmnWfz18wCgCZ5nJRh0R049pR3Mb.jpg"
+slug: tsentr-voenno-patrioticheskogo-vospitaniia-i-podgotovki-k
+tags:
+- Ингушетия
+- Чечня
+- Терский хребет
+- Алханчуртская долина
+- Великая Отечественная война
+- Юнармия
+- Поисковики
+title: Центр Военно-патриотического воспитания и подготовки молодежи к военной службе
+  «Молодой Патриот»
 ---
 
 Центр Военно-патриотического воспитания и подготовки молодежи к военной службе «Молодой Патриот» Республики Ингушетия является одним из основных партнеров поддержанного Фондом президентских грантов проекта «Вахта Памяти «Терский Рубеж».

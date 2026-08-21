@@ -1,10 +1,18 @@
 ---
-title: "21 июня в Грозном на площади имени А. Ш. Кадырова прошли акция «Огненные картины войны» и церемония «Свеча памяти», приуроченные ко Дню памяти и скорби"
-slug: '21-iiunia-v-groznom-na-ploshchadi-imeni-a-sh-kadyrova-voiny'
+categories:
+- Историческая память
+coverImage: ogeASi2fpxgyPqHvldjDmydZ81tdidSSuPbts_wsqo00tEO4Q0AbVvA8Cqagb1tqbty1JAWu5GyKK5JBbDDmOxbs.jpg
 date: 2026-06-24
-categories: 
-  - "главная-рубрика"
-coverImage: "ogeASi2fpxgyPqHvldjDmydZ81tdidSSuPbts_wsqo00tEO4Q0AbVvA8Cqagb1tqbty1JAWu5GyKK5JBbDDmOxbs.jpg"
+slug: 21-iiunia-v-groznom-na-ploshchadi-imeni-a-sh-kadyrova-voiny
+tags:
+- Грозный
+- День памяти и скорби
+- Великая Отечественная война
+- Город воинской славы
+- память
+- фашизм
+title: 21 июня в Грозном на площади имени А. Ш. Кадырова прошли акция «Огненные картины
+  войны» и церемония «Свеча памяти», приуроченные ко Дню памяти и скорби
 ---
 
 Сотни людей собрались у Стелы «Город воинской славы», чтобы почтить память павших в борьбе с фашизмом. Огненное изображение из свечей воплотило два символа: нефтяной станок качалку и самолёт советской авиации — в знак вклада чеченского народа в Победу.

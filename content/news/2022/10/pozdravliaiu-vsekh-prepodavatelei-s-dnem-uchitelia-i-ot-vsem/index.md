@@ -1,10 +1,18 @@
 ---
-title: "Поздравляю всех преподавателей с Днём учителя и от всего сердца хочу всем пожелать профессиональных успехов и роста"
-slug: 'pozdravliaiu-vsekh-prepodavatelei-s-dnem-uchitelia-i-ot-vsem'
+categories:
+- Просветительская деятельность
+coverImage: 0HgOqVkAXIuI97g5AODNvuBhrI5Lpmj-ehjMZcLGJw6ySy9ZdItUdKZX8NiOBHw-okQ0hgtRGEsXSFOqkGWDn0iI.jpg
 date: 2022-10-05
-categories: 
-  - "главная-рубрика"
-coverImage: "0HgOqVkAXIuI97g5AODNvuBhrI5Lpmj-ehjMZcLGJw6ySy9ZdItUdKZX8NiOBHw-okQ0hgtRGEsXSFOqkGWDn0iI.jpg"
+slug: pozdravliaiu-vsekh-prepodavatelei-s-dnem-uchitelia-i-ot-vsem
+tags:
+- День учителя
+- Образование
+- Военно-патриотическое воспитание
+- Студенческий десант
+- Терский Рубеж
+- Поисковое движение
+title: Поздравляю всех преподавателей с Днём учителя и от всего сердца хочу всем пожелать
+  профессиональных успехов и роста
 ---
 
 Поздравляю всех преподавателей с Днём учителя и от всего сердца хочу всем пожелать профессиональных успехов и роста. Желаю терпения, послушных учеников, которые тянутся к знаниям. Желаю простого человеческого счастья, удачи и любви. Пусть вся Ваша жизнь будет складываться исключительно по Вашему сценарию. Ещё раз с профессиональным праздником Вас!  

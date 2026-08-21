@@ -1,10 +1,17 @@
 ---
-title: "Перекрестная сверка документов – исключает расхождения"
-slug: 'perekrestnaia-sverka-dokumentov-iskliuchaet-raskhozhdeniia'
+categories:
+- Архивные исследования
+coverImage: 9MpV403WaT8-1.jpg
 date: 2023-11-23
-categories: 
-  - "главная-рубрика"
-coverImage: "9MpV403WaT8-1.jpg"
+slug: perekrestnaia-sverka-dokumentov-iskliuchaet-raskhozhdeniia
+tags:
+- 255-й Отдельный Чечено-Ингушский кавалерийский полк
+- Кавказ
+- Великая Отечественная война
+- Красная Армия
+- Чечня
+- Архивные документы
+title: Перекрестная сверка документов – исключает расхождения
 ---
 
 Вахта Памяти «Терский Рубеж»

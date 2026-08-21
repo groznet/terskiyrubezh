@@ -1,10 +1,17 @@
 ---
-title: "Мой сегодняшний день состоял из двух очень важных и трогательных событий."
-slug: 'moi-segodniashnii-den-sostoial-iz-dvukh-ochen-vazhnykh-i'
+categories:
+- Поисковая работа
+coverImage: 251111804_4180115458765867_5903158540886824215_n.jpg
 date: 2021-10-31
-categories: 
-  - "главная-рубрика"
-coverImage: "251111804_4180115458765867_5903158540886824215_n.jpg"
+slug: moi-segodniashnii-den-sostoial-iz-dvukh-ochen-vazhnykh-i
+tags:
+- Великий Новгород
+- Демянский район
+- Вахта Памяти
+- Великая Отечественная война
+- Военные захоронения
+- Поисковики
+title: Мой сегодняшний день состоял из двух очень важных и трогательных событий.
 ---
 
 Мой сегодняшний день состоял из двух очень важных и трогательных событий. Все проходило в Демянском районе, достаточно далеко от Великого Новгорода, но район этот для меня знакомый: в 2017 году мы здесь проводили большую экспедицию “Северо-западный фронт”. Именно в этой экспедиции работали с ребятами из поискового отряда “Демянск” и познакомились с удивительным бессменным командиром этого отряда Анатолием Степановичем Павловым. Он все знает про Демянский район. И отряд особенный тем, что они работают только здесь, под их шефством находятся все захоронения, которые есть в районе. И вот сегодня мы хоронили останки бойцов, найденных в осеннюю Вахту Памяти. На это захоронение приехали родственники одного из защитников Отечества из далекой Чеченской республики, с ними был руководитель нашего регионального отделения. Когда приезжают родственники, это всегда особенное захоронение, потому что мы хороним бойцов и командиров, героев, а они хоронят близких, родных людей. Для нас, поисковиков, такие события всегда значимее, трогательнее.Второе важное событие сегодня – открытие часовни, посвященной Александру Невскому, 800-летие со дня рождения которого мы отмечали в этом году. Это символично, тем более в год 80-летия начала Великой Отечественной войны. Эти два важных события напоминают нам всем о том, что у нас есть долги перед людьми, которые сражались, воевали, отдали жизнь за нашу Родину. Часовня – особое место, где мы можем вспомнить и помянуть бойцов, чьи имена мы уже знаем, и тех, кого мы еще не подняли. Работы предстоит много. Насыщенный на дела и эмоции вышел день. Это моя первая региональная неделя. Она особенная тем, что началась немного раньше и будет складываться не только из добрых дел в регионе, в котором я избиралась, но еще и из поездки в Сербию на Международный форум “Память победителей”.[#вахтапамяти](https://www.facebook.com/hashtag/%D0%B2%D0%B0%D1%85%D1%82%D0%B0%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8?__eep__=6&__cft__[0]=AZW7EIjtLmsZeRH1CbSHiB3tz8xWhGBtRzumF9FdyTE55bkx0Cxk_nQOuuw28E1HiWLkvRepXX4TFIUhLlRalqs1f5JVDSir_s4NTbFTdxXFQpXOq-8b3dKt_8okbf1uqHc&__tn__=*NK-R)[#ПоисковикиРФ](https://www.facebook.com/hashtag/%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%B8%D0%BA%D0%B8%D1%80%D1%84?__eep__=6&__cft__[0]=AZW7EIjtLmsZeRH1CbSHiB3tz8xWhGBtRzumF9FdyTE55bkx0Cxk_nQOuuw28E1HiWLkvRepXX4TFIUhLlRalqs1f5JVDSir_s4NTbFTdxXFQpXOq-8b3dKt_8okbf1uqHc&__tn__=*NK-R)[#ОНФ](https://www.facebook.com/hashtag/%D0%BE%D0%BD%D1%84?__eep__=6&__cft__[0]=AZW7EIjtLmsZeRH1CbSHiB3tz8xWhGBtRzumF9FdyTE55bkx0Cxk_nQOuuw28E1HiWLkvRepXX4TFIUhLlRalqs1f5JVDSir_s4NTbFTdxXFQpXOq-8b3dKt_8okbf1uqHc&__tn__=*NK-R)[#великийновгород](https://www.facebook.com/hashtag/%D0%B2%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4?__eep__=6&__cft__[0]=AZW7EIjtLmsZeRH1CbSHiB3tz8xWhGBtRzumF9FdyTE55bkx0Cxk_nQOuuw28E1HiWLkvRepXX4TFIUhLlRalqs1f5JVDSir_s4NTbFTdxXFQpXOq-8b3dKt_8okbf1uqHc&__tn__=*NK-R)[#новгородскаяобласть](https://www.facebook.com/hashtag/%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D1%8F%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C?__eep__=6&__cft__[0]=AZW7EIjtLmsZeRH1CbSHiB3tz8xWhGBtRzumF9FdyTE55bkx0Cxk_nQOuuw28E1HiWLkvRepXX4TFIUhLlRalqs1f5JVDSir_s4NTbFTdxXFQpXOq-8b3dKt_8okbf1uqHc&__tn__=*NK-R)[#депутатцунаева](https://www.facebook.com/hashtag/%D0%B4%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D1%86%D1%83%D0%BD%D0%B0%D0%B5%D0%B2%D0%B0?__eep__=6&__cft__[0]=AZW7EIjtLmsZeRH1CbSHiB3tz8xWhGBtRzumF9FdyTE55bkx0Cxk_nQOuuw28E1HiWLkvRepXX4TFIUhLlRalqs1f5JVDSir_s4NTbFTdxXFQpXOq-8b3dKt_8okbf1uqHc&__tn__=*NK-R)[#госдума](https://www.facebook.com/hashtag/%D0%B3%D0%BE%D1%81%D0%B4%D1%83%D0%BC%D0%B0?__eep__=6&__cft__[0]=AZW7EIjtLmsZeRH1CbSHiB3tz8xWhGBtRzumF9FdyTE55bkx0Cxk_nQOuuw28E1HiWLkvRepXX4TFIUhLlRalqs1f5JVDSir_s4NTbFTdxXFQpXOq-8b3dKt_8okbf1uqHc&__tn__=*NK-R)

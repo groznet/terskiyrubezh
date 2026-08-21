@@ -1,10 +1,15 @@
 ---
-title: "15 марта 2017 г. - г.Бяла Подляска"
-slug: '15-marta-2017-g-g-biala-podliaska'
+categories:
+- Поисковая работа
+coverImage: DSCN5907.jpg
 date: 2017-03-15
-categories: 
-  - "главная-рубрика"
-coverImage: "DSCN5907.jpg"
+slug: 15-marta-2017-g-g-biala-podliaska
+tags:
+- поисковая работа
+- поисковики
+- поисковая экспедиция
+- Великая Отечественная война
+- Память
+- Терский Рубеж
+title: 15 марта 2017 г. - г.Бяла Подляска
 ---
-
-

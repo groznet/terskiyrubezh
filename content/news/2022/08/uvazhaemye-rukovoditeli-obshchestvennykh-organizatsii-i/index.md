@@ -1,10 +1,18 @@
 ---
-title: "Уважаемые руководители общественных организаций и поисковых объединений!"
-slug: 'uvazhaemye-rukovoditeli-obshchestvennykh-organizatsii-i'
+categories:
+- Экспедиции
+coverImage: vyHbqk8WcFsqvyoh7hnd-tPAg6yh9USYyJskuZlf_nHSHNz7M4vMIcB2zPlfm4cZLlN7SuPOIXkf_O6xIyLhOPyF.jpg
 date: 2022-08-30
-categories: 
-  - "главная-рубрика"
-coverImage: "vyHbqk8WcFsqvyoh7hnd-tPAg6yh9USYyJskuZlf_nHSHNz7M4vMIcB2zPlfm4cZLlN7SuPOIXkf_O6xIyLhOPyF.jpg"
+slug: uvazhaemye-rukovoditeli-obshchestvennykh-organizatsii-i
+tags:
+- Ингушетия
+- Малгобек
+- Поисковое движение
+- Военно-патриотическое воспитание
+- Поисковая работа
+- Фонд президентских грантов
+- Терский Рубеж
+title: Уважаемые руководители общественных организаций и поисковых объединений!
 ---
 
 Уважаемые руководители общественных организаций и поисковых объединений! Недавно мы информировали об организации и проведении, в рамках реализации проекта «Вахта Памяти «Терский Рубеж» поддержанного Фондом президентских грантов в период с 07.09.2022г. по 27.09.2022г. двух полевых экспедиций.[](https://poisk-chr.ru/wp-admin/edit.php?post_type=post)

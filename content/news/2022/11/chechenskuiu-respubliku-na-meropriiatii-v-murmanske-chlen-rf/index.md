@@ -1,10 +1,18 @@
 ---
-title: "Чеченскую Республику на мероприятии в Мурманске представляет член Общественной палаты РФ и ЧР - Руководитель РО ООД \"Поисковое движение России\" в ЧР Иса Сардалов"
-slug: 'chechenskuiu-respubliku-na-meropriiatii-v-murmanske-chlen-rf'
+categories:
+- Поисковая работа
+coverImage: N2AGzWSA-OxlwsoE3kNquJmj2EGV5MOUoE73YJH3ZHaX6_wX6My5HwVcMpajjbLPfIkSFfC5CcD33qPXyOokgr9I.jpg
 date: 2022-11-18
-categories: 
-  - "главная-рубрика"
-coverImage: "N2AGzWSA-OxlwsoE3kNquJmj2EGV5MOUoE73YJH3ZHaX6_wX6My5HwVcMpajjbLPfIkSFfC5CcD33qPXyOokgr9I.jpg"
+slug: chechenskuiu-respubliku-na-meropriiatii-v-murmanske-chlen-rf
+tags:
+- Вахта Памяти
+- Великая Отечественная война
+- Мурманск
+- Поисковое движение России
+- Мемориал Защитникам Советского Заполярья
+- Поисковики
+title: Чеченскую Республику на мероприятии в Мурманске представляет член Общественной
+  палаты РФ и ЧР - Руководитель РО ООД "Поисковое движение России" в ЧР Иса Сардалов
 ---
 
 Участники закрытия «Вахты Памяти» возложили цветы к Мемориалу «Защитникам Советского Заполярья в годы Великой Отечественной войны» («Алёша»)
@@ -20,5 +28,3 @@ coverImage: "N2AGzWSA-OxlwsoE3kNquJmj2EGV5MOUoE73YJH3ZHaX6_wX6My5HwVcMpajjbLPfIk
 Участники почтили память погибших при защите Отечества минутой молчания, а также возложили цветы и венки к Вечному огню.
 
 #ПоисковикиРФ
-
-

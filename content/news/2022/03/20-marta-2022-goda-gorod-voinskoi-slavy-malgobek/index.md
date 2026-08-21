@@ -1,10 +1,18 @@
 ---
-title: "20 марта 2022 года. Город воинской славы Малгобек."
-slug: '20-marta-2022-goda-gorod-voinskoi-slavy-malgobek'
+categories:
+- Экспедиции
+coverImage: 8psdYlfTWiFPAurAzIITrHp3OBTtvjDLNw-Tt5bt2Mh3dCZtpTVan_8TtJUWScg29w-FaCzgkU3vsH7ngt6ZYYGM.jpg
 date: 2022-03-20
-categories: 
-  - "главная-рубрика"
-coverImage: "8psdYlfTWiFPAurAzIITrHp3OBTtvjDLNw-Tt5bt2Mh3dCZtpTVan_8TtJUWScg29w-FaCzgkU3vsH7ngt6ZYYGM.jpg"
+slug: 20-marta-2022-goda-gorod-voinskoi-slavy-malgobek
+tags:
+- Малгобек
+- Чечня
+- Республика Ингушетия
+- Северо-Кавказский фронт
+- Вахта Памяти
+- Поисковики
+- Терский Рубеж
+title: 20 марта 2022 года. Город воинской славы Малгобек.
 ---
 
 20 марта 2022 года. Город воинской славы Малгобек.  

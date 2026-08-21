@@ -1,10 +1,18 @@
 ---
-title: "Дорога домой, в длиною 80-ть лет..."
-slug: 'doroga-domoi-v-dlinoiu-80-t-let'
+categories:
+- Поисковая работа
+coverImage: 4APafhsfAFfjRS8_46YhKojjXgBxhoZh1hUEtAWJCyyS-du3bBxMvXxLqgK8BfcWKbaq9v3vrgL8I6io1wjUX5aN.jpg
 date: 2022-10-13
-categories: 
-  - "главная-рубрика"
-coverImage: "4APafhsfAFfjRS8_46YhKojjXgBxhoZh1hUEtAWJCyyS-du3bBxMvXxLqgK8BfcWKbaq9v3vrgL8I6io1wjUX5aN.jpg"
+slug: doroga-domoi-v-dlinoiu-80-t-let
+tags:
+- Великая Отечественная война
+- Военно-мемориальное кладбище
+- Поисковики
+- Северная Осетия – Алания
+- Эльхотово
+- Малгобек
+- Вахта Памяти
+title: Дорога домой, в длиною 80-ть лет...
 ---
 
 Дорога домой, в длиною 80-ть лет...
@@ -26,5 +34,3 @@ coverImage: "4APafhsfAFfjRS8_46YhKojjXgBxhoZh1hUEtAWJCyyS-du3bBxMvXxLqgK8BfcWKba
 Вечная Память защитникам Отечества!
 
 #ПоисковикиРФ#ПоисковикиЧР#КомандаКРА#ПоискРФ#ПоискЧР#ПатриотыРоссии#Ингушетия#Фондпрезидентскихгрантов#ОбщественнаяпалатаРФ#ОбщественнаяпалатаЧР#ОфицерыРоссии#Регион95#ГГНТУ#ТерскийРубеж#Чечня#ЧГУ#ЧГПУ#ПатриотЧР#Аджимушкай#ПоисковоедвижениевЧеченскойРеспублике#Судьбасолдата#СтуденческийдесантЧГУ#Грозный#ПатриотыЧечни#Малгобек#маоонацсовет#ЮнармияРИ#Дагестан
-
-

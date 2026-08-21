@@ -1,10 +1,19 @@
 ---
-title: "В Архивной службе Республики Ингушетия обсудили вопросы организации комплексной работы"
-slug: 'v-arkhivnoi-sluzhbe-respubliki-ingushetiia-obsudili-voprosy'
+categories:
+- Архивные исследования
+coverImage: uEH7PHE0i2Jjyf9walAtOEERqC_mQNq_lJQuKTh2FMWuH2u6PokvIM6FkhN5J4V7XPtV23nm205HkANmQ_J-vd7A-1.jpg
 date: 2022-10-25
-categories: 
-  - "главная-рубрика"
-coverImage: "uEH7PHE0i2Jjyf9walAtOEERqC_mQNq_lJQuKTh2FMWuH2u6PokvIM6FkhN5J4V7XPtV23nm205HkANmQ_J-vd7A-1.jpg"
+slug: v-arkhivnoi-sluzhbe-respubliki-ingushetiia-obsudili-voprosy
+tags:
+- Великая Отечественная война
+- Архивная служба
+- Поисковое движение России
+- Чечня
+- Ингушетия
+- Грозный
+- Малгобек
+title: В Архивной службе Республики Ингушетия обсудили вопросы организации комплексной
+  работы
 ---
 
 В Архивной службе Республики Ингушетия обсудили вопросы организации комплексной работы по установлению судеб погибших и пропавших без вести в годы Великой Отечественной войны солдат и командиров Красной Армии в боях с немецко-фашистскими захватчиками на подступах к городам Грозный и Малгобек.  

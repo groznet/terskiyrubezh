@@ -1,10 +1,18 @@
 ---
-title: "Итоги работы «Поискового движения России» в 2022 году"
-slug: 'itogi-raboty-poiskovogo-dvizheniia-rossii-v-2022-godu'
+categories:
+- Поисковая работа
+coverImage: cFQ45r98OEUNAsCtxy32oHLFeMV7AL6r8YgdQ60YlcbVMF1yiyL7rYNbwQqCQcxZtulM3SAnZCUGF9VP_WOSI6d.jpg
 date: 2022-12-18
-categories: 
-  - "главная-рубрика"
-coverImage: "cFQ45r98OEUNAsCtxy32oHLFeMV7AL6r8YgdQ60YlcbVMF1yiyL7rYNbwQqCQcxZtulM3SAnZCUGF9VP_WOSI6d.jpg"
+slug: itogi-raboty-poiskovogo-dvizheniia-rossii-v-2022-godu
+tags:
+- Поисковое движение России
+- Великая Отечественная война
+- поисковая экспедиция
+- Военные захоронения
+- Военные находки
+- Военно-исторические исследования
+- Военно-мемориальная деятельность
+title: Итоги работы «Поискового движения России» в 2022 году
 ---
 
 ? Итоги работы «Поискового движения России» в 2022 году
@@ -20,6 +28,3 @@ coverImage: "cFQ45r98OEUNAsCtxy32oHLFeMV7AL6r8YgdQ60YlcbVMF1yiyL7rYNbwQqCQcxZtul
 Подробности в статье ??
 
 ПоисковикиРФ
-
-
-

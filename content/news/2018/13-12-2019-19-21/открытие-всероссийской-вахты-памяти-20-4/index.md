@@ -1,10 +1,15 @@
 ---
-title: "Открытие Всероссийской Вахты Памяти - 2018 - Москва"
-slug: 'otkrytie-vserossiiskoi-vakhty-pamiati-2018-moskva'
+categories:
+- Историческая память
+coverImage: 20190404_1655360.jpg
 date: 2018-01-21
-categories: 
-  - "главная-рубрика"
-coverImage: "20190404_1655360.jpg"
+slug: otkrytie-vserossiiskoi-vakhty-pamiati-2018-moskva
+tags:
+- Всероссийская вахта памяти
+- Память
+- Великая Отечественная война
+- Москва
+- мероприятие
+- Победа
+title: Открытие Всероссийской Вахты Памяти - 2018 - Москва
 ---
-
-

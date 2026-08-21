@@ -1,8 +1,14 @@
 ---
+categories:
+- Просветительская деятельность
+coverImage: VZdNfL_dJTAOrKrB3d2gcWQC5QiHJUu4q0E9TBur2jqg84sA-Fw0bACM1Tqvkxsg5iA4rdQOVb-UJWy5rlKJBf_4.jpg
 date: 2026-06-09
-categories: 
-  - "общие"
-coverImage: "VZdNfL_dJTAOrKrB3d2gcWQC5QiHJUu4q0E9TBur2jqg84sA-Fw0bACM1Tqvkxsg5iA4rdQOVb-UJWy5rlKJBf_4.jpg"
+tags:
+- Чечня
+- Рамзан Кадыров
+- Государственное и муниципальное управление
+- Образовательная программа
+- Госсектор
 ---
 
 Участники программы «Турпалхо — Герои 95» завершили основной этап обучения! 27 мая слушатели закончили образовательную программу, и теперь их ждет финальный этап — итоговая аттестация.

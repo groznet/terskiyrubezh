@@ -1,10 +1,17 @@
 ---
-title: "07.02.2021 г. Член Общественной палаты РФ, руководитель"
-slug: '07-02-2021-g-chlen-obshchestvennoi-palaty-rf-rukovoditel'
+categories:
+- Поисковая работа
+coverImage: 273476514_4527928370651239_1221248187294135172_n.jpg
 date: 2022-02-06
-categories: 
-  - "главная-рубрика"
-coverImage: "273476514_4527928370651239_1221248187294135172_n.jpg"
+slug: 07-02-2021-g-chlen-obshchestvennoi-palaty-rf-rukovoditel
+tags:
+- Чечня
+- Всероссийский проект «Судьба солдата»
+- Поисковое движение России
+- ВОВ
+- Пропавшие без вести
+- Общественная палата ЧР
+title: 07.02.2021 г. Член Общественной палаты РФ, руководитель
 ---
 
 [#Repost](https://www.facebook.com/hashtag/repost?__eep__=6&__cft__[0]=AZUuTdbtqmkEKrtx1hClAy0XTIlbL8lZ3V9EW-R5Lc1whsskz0qb4VNjsFiijv5vp4boX5CtbjhK66kfdlZfVKRqLQf4dpmikzSfi6belvDlxt15qIY58Wcyc7OPG2joq-w&__tn__=*NK-R)[@opchr\_95](https://www.instagram.com/_u/opchr_95?fbclid=IwAR1bBNTDNibHAogEULfmOrinKq5Qpv5gWAWAFlrq3YVav12wAjMOUwxq3t0)...07.02.2021 г. Член Общественной палаты РФ, руководитель РО ООД «Поисковое движение России» в ЧР Иса Сардалов провел прием граждан в рамках реализации Всероссийского проекта «Судьба солдата».Напомним, в Общественной палате ЧР в рамках Всероссийского проекта «Судьба солдата» открыта общественная приемная, куда жители республики обращаются с просьбой об оказании помощи в установлении судеб погибших и пропавших без вести родственников в боях с немецко-фашистскими захватчиками в ВОВ.Общественная палата Чеченской Республики является основным партнером Всероссийского проекта «Судьба солдата», реализуемого Региональным отделением Общероссийского общественного движения по увековечению памяти погибших при защите Отечества «Поисковое движение России» в Чеченской Республике.[#Чечня](https://www.facebook.com/hashtag/%D1%87%D0%B5%D1%87%D0%BD%D1%8F?__eep__=6&__cft__[0]=AZUuTdbtqmkEKrtx1hClAy0XTIlbL8lZ3V9EW-R5Lc1whsskz0qb4VNjsFiijv5vp4boX5CtbjhK66kfdlZfVKRqLQf4dpmikzSfi6belvDlxt15qIY58Wcyc7OPG2joq-w&__tn__=*NK-R)#ПервыйПрезидент#АхматХаджи#ГлаваЧР#КомандаКадырова#ПарламентЧР#Опрф#Опчр#ОбщественнаяпалатаЧР#общественнаяпалата [#ПоисковикиРФ](https://www.facebook.com/hashtag/%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%B8%D0%BA%D0%B8%D1%80%D1%84?__eep__=6&__cft__[0]=AZUuTdbtqmkEKrtx1hClAy0XTIlbL8lZ3V9EW-R5Lc1whsskz0qb4VNjsFiijv5vp4boX5CtbjhK66kfdlZfVKRqLQf4dpmikzSfi6belvDlxt15qIY58Wcyc7OPG2joq-w&__tn__=*NK-R)

@@ -1,10 +1,15 @@
 ---
-title: "Ассаламу алейкум!"
-slug: 'assalamu-aleikum'
+categories:
+- Новости движения
+coverImage: m4OMQF5fI2012DZhEgCjjGioMFi0XAhC7XXzJ7EPDKC3KrGztYELHRpNSVml26VQjm-aqHsfGdTZrmdpWeBx6y99.jpg
 date: 2026-04-22
-categories: 
-  - "главная-рубрика"
-coverImage: "m4OMQF5fI2012DZhEgCjjGioMFi0XAhC7XXzJ7EPDKC3KrGztYELHRpNSVml26VQjm-aqHsfGdTZrmdpWeBx6y99.jpg"
+slug: assalamu-aleikum
+tags:
+- Надтеречный муниципальный район
+- управленческий опыт
+- молодые специалисты
+- развитие региона
+title: Ассаламу алейкум!
 ---
 
 Программа «Турпалхо – Герои 95» продолжает процесс подготовки управленцев нового поколения. Сегодня знакомим вас с участником проекта — Султаном Садыковым.
