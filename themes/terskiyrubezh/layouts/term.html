@@ -1,58 +1,172 @@
 {{ define "main" }}
-<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
-    <!-- Term Header -->
-    <header class="border-b border-gray-200 pb-4 mb-8">
-        <div class="text-xs uppercase font-mono tracking-wider text-muted mb-1">
-            {{ .Data.Singular | title }}
-        </div>
-        <h1 class="font-heading text-2xl md:text-3xl font-bold text-primary uppercase tracking-wider">
-            {{ .Title }}
-        </h1>
-        <p class="text-xs font-mono text-muted mt-2">
-            Всего материалов: {{ len .Pages }}
-        </p>
-    </header>
+<main class="w-full md:w-3/4">
+    <div class="space-y-10">
 
-    <!-- Articles List -->
-    {{ $paginator := .Paginate .Pages 12 }}
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {{ range $paginator.Pages }}
-        <article class="bg-surface border border-gray-200 flex flex-col justify-between hover:border-accent hover:shadow-sm transition-all duration-150">
-            <div class="p-5">
-                <time datetime="{{ .Date.Format "2006-01-02" }}" class="text-xs font-mono text-muted block mb-2">
-                    {{ .Date.Format "02.01.2006" }}
-                </time>
-                <h2 class="font-heading font-bold text-lg text-text hover:text-accent transition-colors leading-snug mb-3">
-                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                </h2>
-                <p class="text-sm text-text/80 line-clamp-3 leading-relaxed">
-                    {{ .Summary | plainify }}
-                </p>
+        <!-- Page Header -->
+        <header class="space-y-3 border-b border-gray-200 pb-6">
+
+            <div class="flex items-center gap-2 text-sm text-gray-500 font-body">
+                {{ if eq .Kind "term" }}
+                    {{ if eq .Data.Plural "categories" }}
+                        <a href="{{ "/taxonomy/" | relURL }}" class="hover:text-primary transition-colors">
+                            Рубрики
+                        </a>
+                        <span>•</span>
+                        <span>Категория</span>
+                    {{ else if eq .Data.Plural "tags" }}
+                        <a href="{{ "/taxonomy/" | relURL }}" class="hover:text-primary transition-colors">
+                            Рубрики
+                        </a>
+                        <span>•</span>
+                        <span>Тег</span>
+                    {{ end }}
+                {{ end }}
             </div>
-            <div class="p-5 pt-0 mt-auto border-t border-gray-100 flex items-center justify-between">
-                <a href="{{ .RelPermalink }}" class="text-xs font-heading font-semibold text-primary hover:text-accent uppercase tracking-wider transition-colors">
-                    Читать далее &rarr;
-                </a>
-            </div>
-        </article>
-        {{ end }}
+
+            <h1 class="text-3xl sm:text-4xl font-bold font-heading text-gray-900 tracking-tight">
+                {{ .Title }}
+            </h1>
+
+            <p class="text-gray-600">
+                {{ len .Pages }}
+                {{ if eq (len .Pages) 1 }}
+                    материал
+                {{ else if and (ge (len .Pages) 2) (le (len .Pages) 4) }}
+                    материала
+                {{ else }}
+                    материалов
+                {{ end }}
+            </p>
+
+        </header>
+
+
+        <!-- Posts -->
+        <section class="space-y-6">
+
+            {{ if .Pages }}
+
+                <div class="grid grid-cols-1 gap-6">
+
+                    {{ range .Pages.ByDate.Reverse }}
+
+                        {{ $gallery := dict }}
+
+                        {{ with .Resources.Get "gallery.json" }}
+                            {{ $gallery = .Content | transform.Unmarshal }}
+                        {{ end }}
+
+                        {{ $featuredImage := "" }}
+
+                        {{ with index $gallery "featured_image" }}
+                            {{ $featuredImage = . }}
+                        {{ end }}
+
+                        {{ if not $featuredImage }}
+                            {{ with .Params.featuredImage }}
+                                {{ $featuredImage = . }}
+                            {{ end }}
+                        {{ end }}
+
+                        <article class="flex flex-col sm:flex-row gap-5 border-b border-gray-200 pb-6">
+
+                            <!-- Image -->
+                            <div class="bg-gray-200 border border-gray-300 overflow-hidden shrink-0 w-full sm:w-48 aspect-[16/10] relative">
+
+                                <a href="{{ .RelPermalink }}" class="block w-full h-full">
+
+                                    {{ if $featuredImage }}
+
+                                        <img
+                                            src="{{ $featuredImage }}"
+                                            alt="{{ .Title }}"
+                                            class="w-full h-full object-cover object-center block">
+
+                                    {{ end }}
+
+                                </a>
+
+                            </div>
+
+
+                            <!-- Details -->
+                            <div class="space-y-2 flex-1">
+
+                                <div class="flex flex-wrap items-center gap-x-2 text-xs text-gray-500 font-body">
+
+                                    <time
+                                        datetime="{{ .Date.Format "2006-01-02" }}"
+                                        class="font-mono">
+                                        {{ .Date.Format "02.01.2006" }}
+                                    </time>
+
+                                    {{ with .Params.categories }}
+
+                                        <span>•</span>
+
+                                        <span class="text-primary font-medium">
+                                            {{ index . 0 }}
+                                        </span>
+
+                                    {{ end }}
+
+                                </div>
+
+
+                                <h2 class="text-lg font-bold font-heading text-gray-900 line-clamp-2">
+
+                                    <a
+                                        href="{{ .RelPermalink }}"
+                                        class="hover:text-primary transition-colors">
+                                        {{ .Title }}
+                                    </a>
+
+                                </h2>
+
+
+                                <p class="text-gray-700 text-sm leading-relaxed line-clamp-2">
+                                    {{ or .Description .Plain | truncate 140 }}
+                                </p>
+
+
+                                {{ with .Params.tags }}
+
+                                    <div class="flex flex-wrap gap-1.5 pt-1">
+
+                                        {{ range first 4 . }}
+
+                                            <span class="text-xs text-gray-500">
+                                                #{{ . }}
+                                            </span>
+
+                                        {{ end }}
+
+                                    </div>
+
+                                {{ end }}
+
+                            </div>
+
+                        </article>
+
+                    {{ end }}
+
+                </div>
+
+            {{ else }}
+
+                <div class="border border-gray-200 p-8 text-center">
+
+                    <p class="text-gray-600">
+                        Материалов пока нет.
+                    </p>
+
+                </div>
+
+            {{ end }}
+
+        </section>
+
     </div>
-
-    <!-- Pagination -->
-    {{ if gt $paginator.TotalPages 1 }}
-    <nav class="flex justify-center items-center gap-2 mt-10 text-sm font-mono">
-        {{ if $paginator.HasPrev }}
-        <a href="{{ $paginator.Prev.URL }}" class="px-3 py-1.5 bg-surface border border-gray-300 hover:border-accent hover:text-accent transition-colors">&larr;</a>
-        {{ end }}
-
-        <span class="px-3 py-1.5 text-muted">
-            {{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}
-        </span>
-
-        {{ if $paginator.HasNext }}
-        <a href="{{ $paginator.Next.URL }}" class="px-3 py-1.5 bg-surface border border-gray-300 hover:border-accent hover:text-accent transition-colors">&rarr;</a>
-        {{ end }}
-    </nav>
-    {{ end }}
-</div>
+</main>
 {{ end }}

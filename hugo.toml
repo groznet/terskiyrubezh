@@ -107,8 +107,8 @@ buildExpired = false
     weight = 3
 
   [[menu.main]]
-    name = "Архив"
-    url = "/archive"
+    name = "Темы"
+    url = "/topics"
     weight = 4
 
   [[menu.main]]
