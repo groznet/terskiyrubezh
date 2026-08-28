@@ -5,8 +5,17 @@
 {{ $featuredImage := "" }}
 {{ $images := slice }}
 
-{{ with .Resources.Get "gallery.json" }}
-  {{ $gallery = .Content | transform.Unmarshal }}
+{{/* 1. Retrieve gallery.json (Bundle Resource or Direct File System) */}}
+{{ if .Resources.Get "gallery.json" }}
+  {{ $gallery = (.Resources.Get "gallery.json").Content | transform.Unmarshal }}
+{{ else if .File }}
+  {{ $galleryPath := printf "%sgallery.json" .File.Dir }}
+  {{ if fileExists $galleryPath }}
+    {{ $gallery = unmarshal (readFile $galleryPath) }}
+  {{ end }}
+{{ end }}
+
+{{ if $gallery }}
   {{ $remoteBaseUrl = index $gallery "remote_base_url" | default "" }}
   {{ $featuredImage = index $gallery "featured_image" | default "" }}
   {{ with index $gallery "images" }}
@@ -14,10 +23,24 @@
   {{ end }}
 {{ end }}
 
+{{/* Standardize remote Base URL trailing slash */}}
+{{ if and $remoteBaseUrl (not (hasSuffix $remoteBaseUrl "/")) }}
+  {{ $remoteBaseUrl = printf "%s/" $remoteBaseUrl }}
+{{ end }}
+
 {{/* Fallback for featured image if gallery.json is missing or doesn't have it */}}
 {{ if not $featuredImage }}
   {{ with .Params.featuredImage }}
     {{ $featuredImage = . }}
+  {{ else }}
+    {{ with .Params.image }}
+      {{ $featuredImage = . | relURL }}
+    {{ else }}
+      {{ $firstLocal := index (.Resources.ByType "image") 0 }}
+      {{ with $firstLocal }}
+        {{ $featuredImage = .RelPermalink }}
+      {{ end }}
+    {{ end }}
   {{ end }}
 {{ end }}
 
@@ -46,7 +69,7 @@
                 <span class="text-gray-300">•</span>
 
                 <a href="{{ .Parent.RelPermalink }}" class="text-primary hover:underline transition-colors font-medium">
-                    {{ .Parent.Title | default "Новости" }}
+                    Новости
                 </a>
 
                 <span class="text-gray-300">•</span>
@@ -62,7 +85,7 @@
             </h1>
 
             <!-- Meta info bar -->
-            <div class="flex flex-wrap items-center gap-3 text-xs sm:text-sm text-gray-500 font-body border-b border-gray-100 pb-4">
+            <div class="flex flex-wrap items-center gap-3 text-xs sm:text-sm text-gray-500 font-body border-b border-gray-100 ">
                 {{ with $category }}
                 <span class="inline-block bg-gray-100 text-gray-800 font-semibold px-2.5 py-0.5 rounded-sm uppercase tracking-wider text-[11px]">
                     {{ . }}
@@ -107,7 +130,7 @@
             {{ .Content }}
         </div>
 
-        <!-- Image Gallery -->
+        <!-- Image Gallery (JSON Remote) -->
         {{ if gt (len $images) 0 }}
         <section class="pt-4 border-t border-gray-200 space-y-4">
             <h2 class="text-xl font-bold font-heading text-gray-900 tracking-tight">
@@ -116,8 +139,11 @@
 
             <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
                 {{ range $index, $imageFilename := $images }}
-                    {{/* Construct absolute image URL using remote_base_url */}}
-                    {{ $fullImageUrl := printf "%s%s" $remoteBaseUrl $imageFilename }}
+                    {{/* Safely construct remote image URL */}}
+                    {{ $fullImageUrl := $imageFilename }}
+                    {{ if $remoteBaseUrl }}
+                        {{ $fullImageUrl = printf "%s%s" $remoteBaseUrl $imageFilename }}
+                    {{ end }}
                     
                     <a href="{{ $fullImageUrl }}" 
                        target="_blank" 
@@ -139,6 +165,39 @@
                 {{ end }}
             </div>
         </section>
+        {{ else }}
+        {{/* Image Gallery (Local Bundle Fallback) */}}
+        {{ $localImages := .Resources.ByType "image" }}
+        {{ if gt (len $localImages) 1 }}
+        <section class="pt-4 border-t border-gray-200 space-y-4">
+            <h2 class="text-xl font-bold font-heading text-gray-900 tracking-tight">
+                Галерея
+            </h2>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                {{ range $index, $localImg := $localImages }}
+                    {{ if ne $localImg.RelPermalink $featuredImage }}
+                    <a href="{{ $localImg.RelPermalink }}" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="group relative overflow-hidden aspect-square border border-gray-200 bg-gray-100 block">
+                        
+                        <img src="{{ $localImg.RelPermalink }}" 
+                             alt="{{ $.Title }} - фото {{ add $index 1 }}" 
+                             loading="lazy" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+
+                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"></path>
+                            </svg>
+                        </div>
+                    </a>
+                    {{ end }}
+                {{ end }}
+            </div>
+        </section>
+        {{ end }}
         {{ end }}
 
         <!-- Article Tags -->
