@@ -80,7 +80,7 @@
             </nav>
 
             <!-- Title -->
-            <h1 class="text-2xl sm:text-4xl font-bold font-heading text-gray-900 tracking-tight leading-tight">
+            <h1 class="text-xl sm:text-2xl font-bold font-heading text-gray-900 tracking-tight leading-tight">
                 {{ .Title }}
             </h1>
 
@@ -113,15 +113,8 @@
 
         <!-- Featured Image -->
         {{ with $featuredImage }}
-        <figure class="space-y-2">
-            <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="block overflow-hidden aspect-[16/9] w-full border border-gray-100 group">
-                <img src="{{ . }}" alt="{{ $.Title }}" class="w-full h-full object-cover block group-hover:scale-105 transition-transform duration-300">
-            </a>
-            {{ with $.Params.imageCaption }}
-            <figcaption class="text-xs text-gray-500 text-center font-body italic">
-                {{ . }}
-            </figcaption>
-            {{ end }}
+        <figure class="aspect-[16/9] w-full border border-gray-100 overflow-hidden">
+            <img src="{{ . }}" alt="{{ $.Title }}" class="w-full h-full object-cover block">
         </figure>
         {{ end }}
 
@@ -130,74 +123,34 @@
             {{ .Content }}
         </div>
 
-        <!-- Image Gallery (JSON Remote) -->
+        <!-- Image Gallery (JSON Remote & Local Fallback) -->
+        {{ $galleryImages := slice }}
+
         {{ if gt (len $images) 0 }}
-        <section class="pt-4 border-t border-gray-200 space-y-4">
-            <h2 class="text-xl font-bold font-heading text-gray-900 tracking-tight">
-                Галерея
-            </h2>
-
-            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-                {{ range $index, $imageFilename := $images }}
-                    {{/* Safely construct remote image URL */}}
-                    {{ $fullImageUrl := $imageFilename }}
-                    {{ if $remoteBaseUrl }}
-                        {{ $fullImageUrl = printf "%s%s" $remoteBaseUrl $imageFilename }}
-                    {{ end }}
-                    
-                    <a href="{{ $fullImageUrl }}" 
-                       target="_blank" 
-                       rel="noopener noreferrer" 
-                       class="group relative overflow-hidden aspect-square border border-gray-200 bg-gray-100 block">
-                        
-                        <img src="{{ $fullImageUrl }}" 
-                             alt="{{ $.Title }} - фото {{ add $index 1 }}" 
-                             loading="lazy" 
-                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-
-                        <!-- Hover overlay with expansion icon -->
-                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"></path>
-                            </svg>
-                        </div>
-                    </a>
-                {{ end }}
-            </div>
-        </section>
-        {{ else }}
-        {{/* Image Gallery (Local Bundle Fallback) */}}
-        {{ $localImages := .Resources.ByType "image" }}
-        {{ if gt (len $localImages) 1 }}
-        <section class="pt-4 border-t border-gray-200 space-y-4">
-            <h2 class="text-xl font-bold font-heading text-gray-900 tracking-tight">
-                Галерея
-            </h2>
-
-            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-                {{ range $index, $localImg := $localImages }}
-                    {{ if ne $localImg.RelPermalink $featuredImage }}
-                    <a href="{{ $localImg.RelPermalink }}" 
-                       target="_blank" 
-                       rel="noopener noreferrer" 
-                       class="group relative overflow-hidden aspect-square border border-gray-200 bg-gray-100 block">
-                        
-                        <img src="{{ $localImg.RelPermalink }}" 
-                             alt="{{ $.Title }} - фото {{ add $index 1 }}" 
-                             loading="lazy" 
-                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-
-                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"></path>
-                            </svg>
-                        </div>
-                    </a>
-                    {{ end }}
-                {{ end }}
-            </div>
-        </section>
+        {{ range $images }}
+            {{ $url := . }}
+            {{ if $remoteBaseUrl }}{{ $url = printf "%s%s" $remoteBaseUrl . }}{{ end }}
+            {{ $galleryImages = $galleryImages | append $url }}
         {{ end }}
+        {{ else }}
+        {{ range (.Resources.ByType "image") }}
+            {{ if ne .RelPermalink $featuredImage }}
+            {{ $galleryImages = $galleryImages | append .RelPermalink }}
+            {{ end }}
+        {{ end }}
+        {{ end }}
+
+        {{ if gt (len $galleryImages) 0 }}
+        <section class="pt-4 border-t border-gray-200 space-y-4">
+            <h2 class="text-xl font-bold font-heading text-gray-900 tracking-tight">Галерея</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                {{ range $index, $src := $galleryImages }}
+                <a href="{{ $src }}" class="aspect-square border border-gray-200 bg-gray-100 block overflow-hidden">
+                    <img src="{{ $src }}" alt="{{ $.Title }} - фото {{ add $index 1 }}" loading="lazy" class="w-full h-full object-cover block">
+                </a>
+                {{ end }}
+            </div>
+        </section>
         {{ end }}
 
         <!-- Article Tags -->
