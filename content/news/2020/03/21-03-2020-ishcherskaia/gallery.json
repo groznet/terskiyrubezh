@@ -1,5 +1,18 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/03/21-03-2020-ishcherskaia/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2020/03/21-03-2020-ishcherskaia/20200321_121058.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/03/21-03-2020-ishcherskaia/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2020/03/21-03-2020-ishcherskaia/images/20200321_121115.jpg",
+    "images": [
+        "20200321_121129.jpg",
+        "20200321_122847.jpg",
+        "20200321_122850.jpg",
+        "20200321_122906.jpg",
+        "20200321_123759.jpg",
+        "20200321_123918.jpg",
+        "20200321_141154.jpg",
+        "20200321_141202.jpg",
+        "20200321_141207.jpg",
+        "20200321_141250.jpg",
+        "20200321_141254.jpg",
+        "DSCN8772.jpg"
+    ]
 }

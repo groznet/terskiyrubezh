@@ -1,5 +1,10 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/12/chechenskie-poiskoviki-vstretilis-so-shkolnikami/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2020/12/chechenskie-poiskoviki-vstretilis-so-shkolnikami/IMG-20201209-WA0015.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/12/chechenskie-poiskoviki-vstretilis-so-shkolnikami/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2020/12/chechenskie-poiskoviki-vstretilis-so-shkolnikami/images/IMG-20201209-WA0016.jpg",
+    "images": [
+        "IMG-20201209-WA0017.jpg",
+        "IMG-20201209-WA0018.jpg",
+        "IMG_20201209_222131_775.jpg",
+        "IMG_20201209_222150_004.jpg"
+    ]
 }

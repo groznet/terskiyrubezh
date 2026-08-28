@@ -1,5 +1,8 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/07/pervaia-polevaia-ekspeditsiia-v-tekushchem-godu/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2020/07/pervaia-polevaia-ekspeditsiia-v-tekushchem-godu/1-4.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/07/pervaia-polevaia-ekspeditsiia-v-tekushchem-godu/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2020/07/pervaia-polevaia-ekspeditsiia-v-tekushchem-godu/images/3-1.jpg",
+    "images": [
+        "20200720_094721.jpg",
+        "IMG-20200721-WA0005.jpg"
+    ]
 }

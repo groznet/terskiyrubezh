@@ -1,5 +1,11 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/v-sentiabre-oktiabre-2020-goda-chechenskie-provedut-tri/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2020/08/v-sentiabre-oktiabre-2020-goda-chechenskie-provedut-tri/20200816_141643.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/v-sentiabre-oktiabre-2020-goda-chechenskie-provedut-tri/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2020/08/v-sentiabre-oktiabre-2020-goda-chechenskie-provedut-tri/images/DSCN7950.jpg",
+    "images": [
+        "IMG-20200819-WA0079.jpg",
+        "IMG-20200819-WA0094.jpg",
+        "IMG_20200820_072032_277.jpg",
+        "IMG_20200820_072101_824.jpg",
+        "IMG_20200820_072125_620.jpg"
+    ]
 }

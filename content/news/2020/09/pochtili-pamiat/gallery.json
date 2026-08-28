@@ -1,5 +1,13 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/09/pochtili-pamiat/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2020/09/pochtili-pamiat/ALF08914.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/09/pochtili-pamiat/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2020/09/pochtili-pamiat/images/ALF08918.jpg",
+    "images": [
+        "ALF08944.jpg",
+        "ALF08948.jpg",
+        "ALF09032.jpg",
+        "ALF09085.jpg",
+        "ALF09107.jpg",
+        "ALF09187.jpg",
+        "ALF09226.jpg"
+    ]
 }

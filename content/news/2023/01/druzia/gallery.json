@@ -1,5 +1,15 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2023/01/druzia/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2023/01/druzia/0StXtIF0AbQ.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2023/01/druzia/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2023/01/druzia/images/5Q7YlYid7k-1.jpg",
+    "images": [
+        "5Q7YlYid7k.jpg",
+        "7CDAp3WuHBc.jpg",
+        "BiEXITsj9BU.jpg",
+        "ET6yjI8SL-E.jpg",
+        "gG3Ka0tJLME.jpg",
+        "o4o5Br_6APE.jpg",
+        "qBdIOko79Ec.jpg",
+        "uoFVt_Vqf2Q.jpg",
+        "x68YYAgZ5tI.jpg"
+    ]
 }

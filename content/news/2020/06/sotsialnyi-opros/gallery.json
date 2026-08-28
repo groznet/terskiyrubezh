@@ -1,5 +1,8 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/06/sotsialnyi-opros/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2020/06/sotsialnyi-opros/20200617_152331.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/06/sotsialnyi-opros/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2020/06/sotsialnyi-opros/images/20200617_152349-1.jpg",
+    "images": [
+        "20200617_152349.jpg",
+        "20200617_152420.jpg"
+    ]
 }

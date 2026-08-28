@@ -1,5 +1,9 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/chechenskie-poiskoviki-v-tesnom-kontakte-s-obshchestvennoi/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2020/08/chechenskie-poiskoviki-v-tesnom-kontakte-s-obshchestvennoi/IMG_0704.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/chechenskie-poiskoviki-v-tesnom-kontakte-s-obshchestvennoi/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2020/08/chechenskie-poiskoviki-v-tesnom-kontakte-s-obshchestvennoi/images/IMG_0706.jpg",
+    "images": [
+        "IMG_0709.jpg",
+        "IMG_0712.jpg",
+        "IMG_0715.jpg"
+    ]
 }

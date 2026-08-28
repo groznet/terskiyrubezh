@@ -1,5 +1,13 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/11/poiskoviki-priniali-uchastie-v-otkrytii-rekonstruirovannogo/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2020/11/poiskoviki-priniali-uchastie-v-otkrytii-rekonstruirovannogo/1.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/11/poiskoviki-priniali-uchastie-v-otkrytii-rekonstruirovannogo/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2020/11/poiskoviki-priniali-uchastie-v-otkrytii-rekonstruirovannogo/images/ALF00604.jpg",
+    "images": [
+        "ALF00606.jpg",
+        "ALF00610.jpg",
+        "ALF00612.jpg",
+        "ALF00644.jpg",
+        "ALF00665.jpg",
+        "ALF00671.jpg",
+        "ALF00760.jpg"
+    ]
 }

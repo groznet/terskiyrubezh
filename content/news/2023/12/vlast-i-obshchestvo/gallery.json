@@ -1,5 +1,7 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2023/12/vlast-i-obshchestvo/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2023/12/vlast-i-obshchestvo/Ll2TbYtqUvk.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2023/12/vlast-i-obshchestvo/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2023/12/vlast-i-obshchestvo/images/MfV10rmbhqg.jpg",
+    "images": [
+        "rjOErEp6To.jpg"
+    ]
 }

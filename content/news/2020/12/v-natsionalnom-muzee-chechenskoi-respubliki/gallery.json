@@ -1,5 +1,9 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/12/v-natsionalnom-muzee-chechenskoi-respubliki/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2020/12/v-natsionalnom-muzee-chechenskoi-respubliki/IMG_20201222_144852.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/12/v-natsionalnom-muzee-chechenskoi-respubliki/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2020/12/v-natsionalnom-muzee-chechenskoi-respubliki/images/IMG_20201222_144857.jpg",
+    "images": [
+        "IMG_20201222_144909.jpg",
+        "IMG_20201222_144952.jpg",
+        "IMG_20201222_145012.jpg"
+    ]
 }

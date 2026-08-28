@@ -1,5 +1,9 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/06/vy-nasha-gordost/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2020/06/vy-nasha-gordost/1-7.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/06/vy-nasha-gordost/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2020/06/vy-nasha-gordost/images/IMG-20200623-WA0098.jpg",
+    "images": [
+        "IMG-20200623-WA0107.jpg",
+        "IMG-20200623-WA0108.jpg",
+        "IMG-20200623-WA0112.jpg"
+    ]
 }

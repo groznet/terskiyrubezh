@@ -1,5 +1,14 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/09/v-gorode-voinskoi-slavy-malgobek-startovala-mezhregionalnaia/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2020/09/v-gorode-voinskoi-slavy-malgobek-startovala-mezhregionalnaia/1.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/09/v-gorode-voinskoi-slavy-malgobek-startovala-mezhregionalnaia/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2020/09/v-gorode-voinskoi-slavy-malgobek-startovala-mezhregionalnaia/images/ALF08368.jpg",
+    "images": [
+        "ALF08373.jpg",
+        "ALF08376.jpg",
+        "ALF08393.jpg",
+        "ALF08397.jpg",
+        "ALF08403.jpg",
+        "ALF08432.jpg",
+        "ALF08512.jpg",
+        "ALF08546.jpg"
+    ]
 }

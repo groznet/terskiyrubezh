@@ -1,5 +1,14 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/poiskovo-razvedyvatelnye-raboty-prodolzhaiutsia/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2020/08/poiskovo-razvedyvatelnye-raboty-prodolzhaiutsia/DSCN7960.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/poiskovo-razvedyvatelnye-raboty-prodolzhaiutsia/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2020/08/poiskovo-razvedyvatelnye-raboty-prodolzhaiutsia/images/DSCN7977.jpg",
+    "images": [
+        "DSCN7981.jpg",
+        "DSCN7991.jpg",
+        "DSCN7996.jpg",
+        "DSCN7997.jpg",
+        "DSCN7998.jpg",
+        "DSCN8012.jpg",
+        "IMG-20200819-WA0037.jpg",
+        "IMG_20200819_105302.jpg"
+    ]
 }

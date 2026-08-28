@@ -1,5 +1,9 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/06/kak-prokhodit-obshcherossiiskomu-golosovaniiu-po-popravkam-k/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2020/06/kak-prokhodit-obshcherossiiskomu-golosovaniiu-po-popravkam-k/20200625_133717.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/06/kak-prokhodit-obshcherossiiskomu-golosovaniiu-po-popravkam-k/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2020/06/kak-prokhodit-obshcherossiiskomu-golosovaniiu-po-popravkam-k/images/20200625_133845.jpg",
+    "images": [
+        "20200625_133931.jpg",
+        "20200625_133941.jpg",
+        "20200625_134041.jpg"
+    ]
 }

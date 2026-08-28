@@ -1,5 +1,8 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2023/10/ushedshie-bessmertie/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2023/10/ushedshie-bessmertie/ixYh1S0N0To.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2023/10/ushedshie-bessmertie/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2023/10/ushedshie-bessmertie/images/mRnb4lu94w8.jpg",
+    "images": [
+        "tRIzXRUxNjk.jpg",
+        "uNFh0DBLRyI.jpg"
+    ]
 }

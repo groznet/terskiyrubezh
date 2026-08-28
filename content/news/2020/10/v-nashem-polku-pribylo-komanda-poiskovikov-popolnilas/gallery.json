@@ -1,5 +1,14 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/10/v-nashem-polku-pribylo-komanda-poiskovikov-popolnilas/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2020/10/v-nashem-polku-pribylo-komanda-poiskovikov-popolnilas/1.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/10/v-nashem-polku-pribylo-komanda-poiskovikov-popolnilas/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2020/10/v-nashem-polku-pribylo-komanda-poiskovikov-popolnilas/images/IMG-20201001-WA0121.jpg",
+    "images": [
+        "IMG-20201001-WA0128.jpg",
+        "IMG-20201001-WA0138.jpg",
+        "IMG-20201001-WA0140.jpg",
+        "IMG-20201001-WA0151.jpg",
+        "IMG-20201001-WA0162.jpg",
+        "IMG-20201001-WA0165.jpg",
+        "IMG-20201001-WA0174.jpg",
+        "IMG-20201001-WA0205.jpg"
+    ]
 }

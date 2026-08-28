@@ -1,5 +1,9 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/06/aktsiia-my-vmeste/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2020/06/aktsiia-my-vmeste/IMG-20200611-WA0083.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/06/aktsiia-my-vmeste/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2020/06/aktsiia-my-vmeste/images/IMG-20200611-WA0084.jpg",
+    "images": [
+        "IMG-20200611-WA0141.jpg",
+        "IMG-20200611-WA0173.jpg",
+        "IMG-20200611-WA0179.jpg"
+    ]
 }

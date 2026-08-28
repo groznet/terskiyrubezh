@@ -1,5 +1,13 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/04/22-04-2020g/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2020/04/22-04-2020g/93956771_1097741303957891_6999883071331762176_o.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/04/22-04-2020g/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2020/04/22-04-2020g/images/93995801_1097741317291223_5412542645689909248_o.jpg",
+    "images": [
+        "IMG-20200422-WA0053.jpg",
+        "IMG-20200422-WA0074.jpg",
+        "IMG-20200422-WA0075.jpg",
+        "IMG-20200422-WA0082.jpg",
+        "IMG-20200422-WA0083.jpg",
+        "IMG-20200422-WA0086.jpg",
+        "IMG-20200422-WA0089.jpg"
+    ]
 }

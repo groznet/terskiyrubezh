@@ -1,5 +1,13 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/04/groznyi-gorod-voinskoi-slavy/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2021/04/groznyi-gorod-voinskoi-slavy/IMG-20210407-WA0079.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2021/04/groznyi-gorod-voinskoi-slavy/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2021/04/groznyi-gorod-voinskoi-slavy/images/IMG-20210407-WA0084.jpg",
+    "images": [
+        "IMG_0289.jpg",
+        "IMG_0324.jpg",
+        "IMG_0333.jpg",
+        "IMG_0374.jpg",
+        "IMG_0388.jpg",
+        "IMG_0393.jpg",
+        "IMG_0399.jpg"
+    ]
 }

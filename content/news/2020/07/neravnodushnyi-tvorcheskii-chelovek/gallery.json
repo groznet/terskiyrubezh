@@ -1,5 +1,11 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/07/neravnodushnyi-tvorcheskii-chelovek/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2020/07/neravnodushnyi-tvorcheskii-chelovek/20200714_153650_001.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/07/neravnodushnyi-tvorcheskii-chelovek/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2020/07/neravnodushnyi-tvorcheskii-chelovek/images/20200714_153809.jpg",
+    "images": [
+        "20200714_153820.jpg",
+        "IMG-20200714-WA0049.jpg",
+        "IMG-20200714-WA0050.jpg",
+        "IMG-20200714-WA0052.jpg",
+        "IMG_20200716_003252_351.jpg"
+    ]
 }

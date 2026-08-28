@@ -1,5 +1,10 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/07/voenno-arkheologicheskaia-ekspeditsiia-adzhimushkai-2020/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2020/07/voenno-arkheologicheskaia-ekspeditsiia-adzhimushkai-2020/1-7.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/07/voenno-arkheologicheskaia-ekspeditsiia-adzhimushkai-2020/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2020/07/voenno-arkheologicheskaia-ekspeditsiia-adzhimushkai-2020/images/2-4.jpg",
+    "images": [
+        "3-4.jpg",
+        "20200722_093910.jpg",
+        "20200722_094410.jpg",
+        "20200722_095314.jpg"
+    ]
 }

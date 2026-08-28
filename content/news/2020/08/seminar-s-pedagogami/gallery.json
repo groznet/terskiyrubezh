@@ -1,5 +1,8 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/seminar-s-pedagogami/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2020/08/seminar-s-pedagogami/IMG_20200814_111029.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2020/08/seminar-s-pedagogami/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2020/08/seminar-s-pedagogami/images/IMG_20200814_114226.jpg",
+    "images": [
+        "IMG_20200814_114249.jpg",
+        "IMG_20200814_114331.jpg"
+    ]
 }

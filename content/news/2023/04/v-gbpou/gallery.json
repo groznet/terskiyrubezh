@@ -1,5 +1,8 @@
 {
-    "remote_base_url": "https://files.groznet.com/poiskchr/news/2023/04/v-gbpou/",
-    "featured_image": "https://files.groznet.com/poiskchr/news/2023/04/v-gbpou/8OqB1Cx5eSc.jpg",
-    "images": []
+    "remote_base_url": "https://files.groznet.com/poiskchr/news/2023/04/v-gbpou/images/",
+    "featured_image": "https://files.groznet.com/poiskchr/news/2023/04/v-gbpou/images/CCYOHyWQHvw.jpg",
+    "images": [
+        "K1JaqvV2mEs.jpg",
+        "v3KIn2Pl4ek.jpg"
+    ]
 }
