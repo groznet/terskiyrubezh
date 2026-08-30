@@ -96,22 +96,29 @@
                 : 'flex flex-col sm:flex-row gap-5'">
 
                     <!-- Image -->
-                    <div class="overflow-hidden aspect-[16/9] shrink-0" :class="view === 'list'
+                    <div class="overflow-hidden aspect-[16/9] shrink-0 rounded-md" :class="view === 'list'
                     ? 'w-full sm:w-56'
                     : 'w-full'">
                         <img :src="post.image" :alt="post.imageAlt" class="w-full h-full object-cover block" loading="lazy">
                     </div>
 
                     <!-- Content -->
-                    <div class="space-y-3 min-w-0" :class="view === 'list'
+                    <div class="space-y-2 min-w-0" :class="view === 'list'
                     ? 'flex-1'
                     : ''">
+
 
                         <!-- Title -->
                         <h2 class="text-xl font-bold font-heading text-gray-900 line-clamp-2">
                             <a :href="post.url" class="hover:text-primary transition-colors" x-text="post.title"></a>
                         </h2>
 
+                        <!-- Meta (Date & Author) -->
+                        <div class="text-xs font-medium text-gray-500 flex items-center gap-2 tracking-wide">
+                            <span class="text-gray-900 font-semibold">Муса Дунаев</span>
+                            <span class="text-gray-300">•</span>
+                            <time :datetime="post.date" x-text="post.date"></time>
+                        </div>
                         <!-- Excerpt -->
                         <p class="text-gray-700 text-sm leading-relaxed line-clamp-3" x-text="post.excerpt"></p>
 
