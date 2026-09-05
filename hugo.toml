@@ -45,7 +45,7 @@ buildExpired = false
   siteDescription = "Официальный сайт Чеченской региональной общественной организации Поисковый отряд «Терский Рубеж»"
   author = "Команда Терский Рубеж"
   copyright = "© 2026"
-  cdn = "https://files.groznet.com/poiskchr"
+  cdn = "https://ci21392.tw1.ru/poiskchr"
 
   defaultImage = "/assets/images/post-placeholder.jpg"
   dateFormat = "02.01.2006"      # Russian date format
