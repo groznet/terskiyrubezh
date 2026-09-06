@@ -6,7 +6,7 @@ import re
 # SITE CONFIGURATION
 # ==========================================
 SITE_SLUG = "poiskchr"
-MEDIA_SERVER_BASE = "https://ci21392.tw1.ru"
+MEDIA_SERVER_BASE = "https://files.groznet.com"
 CONTENT_SECTION = "news"
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
