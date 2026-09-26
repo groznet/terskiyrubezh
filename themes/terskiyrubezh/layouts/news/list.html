@@ -118,6 +118,10 @@
                             <span class="text-gray-900 font-semibold">Иса Сардалов</span>
                             <span class="text-gray-300">•</span>
                             <time :datetime="post.date" x-text="post.date"></time>
+                            <span class="text-gray-300">•</span>
+                            <!-- Add icon -->
+                            <svg class="w-4 h-4" viewBox="0 0 16 16" fill="none" aria-hidden="true"></svg>
+                            <span id="views" data-path="{{ .RelPermalink }}">—</span> views
                         </div>
                         <!-- Excerpt -->
                         <p class="text-gray-700 text-sm leading-relaxed line-clamp-3" x-text="post.excerpt"></p>

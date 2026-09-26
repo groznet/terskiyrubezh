@@ -83,5 +83,26 @@
                 });
             });
         </script>
+
+        <script>
+        // Fetch and display view count
+        (async () => {
+        const el = document.getElementById("views");
+        if (!el) return;
+
+        const path = el.dataset.path;
+        const seen = sessionStorage.getItem("v:" + path);
+        const api = "https://views.yourname.workers.dev/?path=" + encodeURIComponent(path);
+
+        try {
+            const res = await fetch(seen ? api + "&peek=1" : api);
+            const data = await res.json();
+            el.textContent = data.count;
+            sessionStorage.setItem("v:" + path, "1");
+        } catch {
+            el.textContent = "";
+        }
+        })();
+        </script>        
     </body>
 </html>
