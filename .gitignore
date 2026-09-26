@@ -26,4 +26,5 @@ Thumbs.db
 /content/**/*.avi
 
 # Ignore any content images folders
-/content/**/images/
+/content/**/images/._*
+.DS_Store
