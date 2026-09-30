@@ -28,3 +28,6 @@ Thumbs.db
 # Ignore any content images folders
 /content/**/images/._*
 .DS_Store
+
+# macOS AppleDouble files
+._*
