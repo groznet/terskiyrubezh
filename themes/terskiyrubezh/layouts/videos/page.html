@@ -23,27 +23,20 @@
 
                 {{ range $videos }}
 
-                    <article class="space-y-3">
-
-                        <!-- Video -->
-                        <div class="w-full aspect-video bg-gray-200 border border-gray-300 overflow-hidden">
-                            <video
-                                class="w-full h-full block bg-black"
-                                controls
-                                preload="metadata"
-                                playsinline
-                                title="{{ .title }}">
-                                <source src="{{ replace .permanent_url " " "%20" }}" type="video/mp4">
-                                <a href="{{ replace .permanent_url " " "%20" }}">{{ .title }}</a>
-                            </video>
-                        </div>
-
-                        <!-- Title -->
-                        <h2 class="text-lg font-bold font-heading text-gray-900 leading-snug">
-                            {{ .title }}
-                        </h2>
-
-                    </article>
+                    <div class="video-card relative w-full aspect-video bg-black rounded-lg overflow-hidden cursor-pointer">
+                        <video
+                            class="w-full h-full block bg-black"
+                            preload="metadata"
+                            playsinline
+                            title="{{ .title }}">
+                            <source src="{{ replace .permanent_url " " "%20" }}" type="video/mp4">
+                        </video>
+                        <span class="video-play absolute inset-0 flex items-center justify-center pointer-events-none">
+                            <span class="flex items-center justify-center w-16 h-16 rounded-full bg-black/60">
+                                <svg viewBox="0 0 24 24" class="w-8 h-8 ml-1 text-white" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                            </span>
+                        </span>
+                    </div>
 
                 {{ end }}
 
@@ -52,4 +45,17 @@
         </article>
     </main>
 
-{{ end }}
+    <script>
+        document.querySelectorAll('.video-card').forEach(function (card) {
+            var v = card.querySelector('video');
+            var btn = card.querySelector('.video-play');
+            card.addEventListener('click', function () {
+                if (v.paused) { document.querySelectorAll('.video-card video').forEach(function (o) { if (o !== v) o.pause(); }); v.play(); } else { v.pause(); }
+            });
+            v.addEventListener('play', function () { btn.style.display = 'none'; });
+            v.addEventListener('pause', function () { btn.style.display = ''; });
+            v.addEventListener('ended', function () { btn.style.display = ''; });
+        });
+    </script>
+
+{{ end }}
