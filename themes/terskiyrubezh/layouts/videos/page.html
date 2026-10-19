@@ -36,6 +36,9 @@
                                 <svg viewBox="0 0 24 24" class="w-8 h-8 ml-1 text-white" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                             </span>
                         </span>
+                        <button type="button" class="video-fs absolute bottom-2 right-2 flex items-center justify-center w-8 h-8 rounded bg-black/60 text-white" aria-label="На весь экран">
+                            <svg viewBox="0 0 24 24" class="w-5 h-5" fill="currentColor"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg>
+                        </button>
                     </div>
 
                 {{ end }}
@@ -52,6 +55,13 @@
             card.addEventListener('click', function () {
                 if (v.paused) { document.querySelectorAll('.video-card video').forEach(function (o) { if (o !== v) o.pause(); }); v.play(); } else { v.pause(); }
             });
+            card.querySelector('.video-fs').addEventListener('click', function (e) {
+                e.stopPropagation();
+                if (v.requestFullscreen) v.requestFullscreen();
+                else if (v.webkitEnterFullscreen) v.webkitEnterFullscreen();
+                else if (v.webkitRequestFullscreen) v.webkitRequestFullscreen();
+            });
+            document.addEventListener('fullscreenchange', function () { v.controls = document.fullscreenElement === v; });
             v.addEventListener('play', function () { btn.style.display = 'none'; });
             v.addEventListener('pause', function () { btn.style.display = ''; });
             v.addEventListener('ended', function () { btn.style.display = ''; });
