@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-    {{ $videos := site.Data.videos }}
+    {{ $videos := index site.Data "videos-updated" }}
 
     <main class="w-full md:w-3/4">
         <article class="space-y-6">
@@ -8,7 +8,7 @@
             <!-- Header Section -->
             <header class="space-y-3">
                 <h1 class="text-2xl sm:text-3xl font-bold font-heading text-gray-900 tracking-tight">
-                    Видео
+                    Видеоматериалы
                 </h1>
 
                 <div class="flex items-center gap-x-2 text-sm text-gray-600 font-body">
@@ -27,15 +27,15 @@
 
                         <!-- Video -->
                         <div class="w-full aspect-video bg-gray-200 border border-gray-300 overflow-hidden">
-                            <iframe
-                                src="https://www.youtube.com/embed/{{ .url }}"
-                                title="{{ .title }}"
-                                class="w-full h-full block"
-                                loading="lazy"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen>
-                            </iframe>
+                            <video
+                                class="w-full h-full block bg-black"
+                                controls
+                                preload="metadata"
+                                playsinline
+                                title="{{ .title }}">
+                                <source src="{{ replace .permanent_url " " "%20" }}" type="video/mp4">
+                                <a href="{{ replace .permanent_url " " "%20" }}">{{ .title }}</a>
+                            </video>
                         </div>
 
                         <!-- Title -->
@@ -52,4 +52,4 @@
         </article>
     </main>
 
-{{ end }}
+{{ end }}
