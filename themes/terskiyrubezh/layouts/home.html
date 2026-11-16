@@ -22,13 +22,13 @@
 
                     {{ $gallery := dict }}
 
-                    {{ with .Resources.Get "gallery.json" }}
+                    {{ with .Resources.Get "media.json" }}
                         {{ $gallery = .Content | transform.Unmarshal }}
                     {{ end }}
 
                     {{ $featuredImage := "" }}
 
-                    {{ with index $gallery "featured_image" }}
+                    {{ with index $gallery "featured" }}
                         {{ $featuredImage = . }}
                     {{ end }}
 

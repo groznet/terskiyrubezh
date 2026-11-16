@@ -1,23 +1,23 @@
 {{ define "main" }}
-{{/* Read and parse gallery.json */}}
+{{/* Read and parse media.json */}}
 {{ $gallery := dict }}
 {{ $remoteBaseUrl := "" }}
 {{ $featuredImage := "" }}
 {{ $images := slice }}
 
-{{/* 1. Retrieve gallery.json (Bundle Resource or Direct File System) */}}
-{{ if .Resources.Get "gallery.json" }}
-  {{ $gallery = (.Resources.Get "gallery.json").Content | transform.Unmarshal }}
+{{/* 1. Retrieve media.json (Bundle Resource or Direct File System) */}}
+{{ if .Resources.Get "media.json" }}
+  {{ $gallery = (.Resources.Get "media.json").Content | transform.Unmarshal }}
 {{ else if .File }}
-  {{ $galleryPath := printf "%sgallery.json" .File.Dir }}
+  {{ $galleryPath := printf "%smedia.json" .File.Dir }}
   {{ if fileExists $galleryPath }}
     {{ $gallery = unmarshal (readFile $galleryPath) }}
   {{ end }}
 {{ end }}
 
 {{ if $gallery }}
-  {{ $remoteBaseUrl = index $gallery "remote_base_url" | default "" }}
-  {{ $featuredImage = index $gallery "featured_image" | default "" }}
+  {{ $remoteBaseUrl = index $gallery "base_url" | default "" }}
+  {{ $featuredImage = index $gallery "featured" | default "" }}
   {{ with index $gallery "images" }}
     {{ $images = . }}
   {{ end }}
@@ -28,7 +28,7 @@
   {{ $remoteBaseUrl = printf "%s/" $remoteBaseUrl }}
 {{ end }}
 
-{{/* Fallback for featured image if gallery.json is missing or doesn't have it */}}
+{{/* Fallback for featured image if media.json is missing or doesn't have it */}}
 {{ if not $featuredImage }}
   {{ with .Params.featuredImage }}
     {{ $featuredImage = . }}
@@ -129,7 +129,7 @@
         {{ if gt (len $images) 0 }}
         {{ range $images }}
             {{ $url := . }}
-            {{ if $remoteBaseUrl }}{{ $url = printf "%s%s" $remoteBaseUrl . }}{{ end }}
+            {{ if and $remoteBaseUrl (not (hasPrefix $url "http")) }}{{ $url = printf "%s%s" $remoteBaseUrl . }}{{ end }}
             {{ $galleryImages = $galleryImages | append $url }}
         {{ end }}
         {{ else }}

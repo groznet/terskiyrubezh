@@ -3,11 +3,11 @@
 {{ $posts := slice }} 
 {{ range .RegularPagesRecursive.ByDate.Reverse }} 
   {{ $gallery := dict }} 
-  {{ with .Resources.Get "gallery.json" }} 
+  {{ with .Resources.Get "media.json" }} 
     {{ $gallery = .Content | transform.Unmarshal }} 
   {{ end }} 
   {{ $featuredImage := "" }} 
-  {{ with index $gallery "featured_image" }} 
+  {{ with index $gallery "featured" }} 
     {{ $featuredImage = . }} 
   {{ end }} 
   {{/* Fallback in case featured_image is missing */}} 
