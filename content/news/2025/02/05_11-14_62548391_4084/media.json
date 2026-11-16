@@ -1,0 +1,12 @@
+{
+  "base_url": "https://files.groznet.com/poiskchr/news/2025/02/05_11-14_62548391_4084",
+  "featured": "https://files.groznet.com/poiskchr/news/2025/02/05_11-14_62548391_4084/videos/video-01-thumb.jpg",
+  "images": [],
+  "videos": [
+    {
+      "src": "https://files.groznet.com/poiskchr/news/2025/02/05_11-14_62548391_4084/videos/video-1.mp4",
+      "poster": "https://files.groznet.com/poiskchr/news/2025/02/05_11-14_62548391_4084/videos/video-01-thumb.jpg",
+      "name": "video-1.mp4"
+    }
+  ]
+}
